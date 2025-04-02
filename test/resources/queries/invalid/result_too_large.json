@@ -1,0 +1,20 @@
+{
+	"title": "Query results > 5000",
+	"input": {
+		"WHERE": {
+			"GT": {
+				"sections_year": 1899
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_dept",
+				"sections_avg",
+				"sections_year"
+			],
+			"ORDER": "sections_year"
+		}
+	},
+	"errorExpected": true,
+	"expected": "ResultTooLargeError"
+}

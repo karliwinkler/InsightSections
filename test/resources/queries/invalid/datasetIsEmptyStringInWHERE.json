@@ -1,0 +1,17 @@
+{
+	"title": "dataset is empty string in WHERE",
+	"input": {
+		"WHERE": {
+			"IS": {
+				"_dept": "ad*"
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_id"
+			]
+		}
+	},
+	"errorExpected": true,
+	"expected": "InsightError"
+}

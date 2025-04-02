@@ -1,0 +1,17 @@
+{
+	"title": "invalid dataset in COLUMNS",
+	"input": {
+		"WHERE": {
+			"IS": {
+				"sections_dept": "ad*"
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"Ssections_id"
+			]
+		}
+	},
+	"errorExpected": true,
+	"expected": "InsightError"
+}

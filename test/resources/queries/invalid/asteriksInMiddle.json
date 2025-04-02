@@ -1,0 +1,21 @@
+{
+	"title": "asteriks in middle",
+	"input": {
+		"WHERE": {
+			"IS": {
+				"sections_dept": "m*a"
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_title",
+				"sections_instructor",
+				"sections_dept",
+				"sections_year"
+			],
+			"ORDER": "sections_year"
+		}
+	},
+	"errorExpected": true,
+	"expected": "InsightError"
+}

@@ -1,0 +1,17 @@
+{
+	"title": "invalid field in COLUMNS",
+	"input": {
+		"WHERE": {
+			"IS": {
+				"sections_dept": "ad*"
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_id_"
+			]
+		}
+	},
+	"errorExpected": true,
+	"expected": "InsightError"
+}

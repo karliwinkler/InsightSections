@@ -1,0 +1,36 @@
+{
+	"title": "string key for numeric token",
+	"input": {
+		"WHERE": {
+			"GT": {
+				"rooms_seats": 50
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"rooms_address",
+				"maxSeats"
+			],
+			"ORDER": {
+				"dir": "DOWN",
+				"keys": [
+					"maxSeats"
+				]
+			}
+		},
+		"TRANSFORMATIONS": {
+			"GROUP": [
+				"rooms_address"
+			],
+			"APPLY": [
+				{
+					"maxSeats": {
+						"MAX": "rooms_number"
+					}
+				}
+			]
+		}
+	},
+	"errorExpected": true,
+	"expected": "InsightError"
+}
