@@ -1,0 +1,334 @@
+{
+	"title": "dept asteriks containing",
+	"input": {
+		"WHERE": {
+			"IS": {
+				"sections_dept": "*ab*"
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_title",
+				"sections_instructor",
+				"sections_dept",
+				"sections_year"
+			],
+			"ORDER": "sections_year"
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_title": "app stat mgmt",
+			"sections_instructor": "",
+			"sections_dept": "babs",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "app stat mgmt",
+			"sections_instructor": "",
+			"sections_dept": "babs",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "app stat mgmt",
+			"sections_instructor": "",
+			"sections_dept": "babs",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "app stat mgmt",
+			"sections_instructor": "",
+			"sections_dept": "babs",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "app stat mgmt",
+			"sections_instructor": "",
+			"sections_dept": "babs",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "app stat mgmt",
+			"sections_instructor": "",
+			"sections_dept": "babs",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "app stat mgmt",
+			"sections_instructor": "",
+			"sections_dept": "babs",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "app stat mgmt",
+			"sections_instructor": "",
+			"sections_dept": "babs",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "app stat mgmt",
+			"sections_instructor": "",
+			"sections_dept": "babs",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "app stat mgmt",
+			"sections_instructor": "",
+			"sections_dept": "babs",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "data anly&utiliz",
+			"sections_instructor": "",
+			"sections_dept": "babs",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "data anly&utiliz",
+			"sections_instructor": "",
+			"sections_dept": "babs",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "data anly&utiliz",
+			"sections_instructor": "",
+			"sections_dept": "babs",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "data anly&utiliz",
+			"sections_instructor": "",
+			"sections_dept": "babs",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "forecasting mgmt",
+			"sections_instructor": "",
+			"sections_dept": "babs",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "forecasting mgmt",
+			"sections_instructor": "",
+			"sections_dept": "babs",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "forecasting mgmt",
+			"sections_instructor": "",
+			"sections_dept": "babs",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "forecasting mgmt",
+			"sections_instructor": "",
+			"sections_dept": "babs",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "forecasting mgmt",
+			"sections_instructor": "",
+			"sections_dept": "babs",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "forecasting mgmt",
+			"sections_instructor": "",
+			"sections_dept": "babs",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "forecasting mgmt",
+			"sections_instructor": "",
+			"sections_dept": "babs",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "forecasting mgmt",
+			"sections_instructor": "",
+			"sections_dept": "babs",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "forecasting mgmt",
+			"sections_instructor": "",
+			"sections_dept": "babs",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "forecasting mgmt",
+			"sections_instructor": "puterman, martin l",
+			"sections_dept": "babs",
+			"sections_year": 2007
+		},
+		{
+			"sections_title": "app stat mgmt",
+			"sections_instructor": "",
+			"sections_dept": "babs",
+			"sections_year": 2008
+		},
+		{
+			"sections_title": "forecasting mgmt",
+			"sections_instructor": "",
+			"sections_dept": "babs",
+			"sections_year": 2008
+		},
+		{
+			"sections_title": "app stat mgmt",
+			"sections_instructor": "griffin, dale",
+			"sections_dept": "babs",
+			"sections_year": 2009
+		},
+		{
+			"sections_title": "forecasting mgmt",
+			"sections_instructor": "puterman, martin l",
+			"sections_dept": "babs",
+			"sections_year": 2009
+		},
+		{
+			"sections_title": "app stat mgmt",
+			"sections_instructor": "bornn, luke",
+			"sections_dept": "babs",
+			"sections_year": 2010
+		},
+		{
+			"sections_title": "forecasting mgmt",
+			"sections_instructor": "puterman, martin l",
+			"sections_dept": "babs",
+			"sections_year": 2010
+		},
+		{
+			"sections_title": "app stat mgmt",
+			"sections_instructor": "bornn, luke",
+			"sections_dept": "babs",
+			"sections_year": 2011
+		},
+		{
+			"sections_title": "forecasting mgmt",
+			"sections_instructor": "fry, mike",
+			"sections_dept": "babs",
+			"sections_year": 2011
+		},
+		{
+			"sections_title": "app stat mgmt",
+			"sections_instructor": "zhang, zhe",
+			"sections_dept": "babs",
+			"sections_year": 2012
+		},
+		{
+			"sections_title": "forecasting mgmt",
+			"sections_instructor": "tba",
+			"sections_dept": "babs",
+			"sections_year": 2012
+		},
+		{
+			"sections_title": "app stat mgmt",
+			"sections_instructor": "berkowitz, jonathan",
+			"sections_dept": "babs",
+			"sections_year": 2013
+		},
+		{
+			"sections_title": "data anly&utiliz",
+			"sections_instructor": "berkowitz, jonathan",
+			"sections_dept": "babs",
+			"sections_year": 2013
+		},
+		{
+			"sections_title": "data anly&utiliz",
+			"sections_instructor": "berkowitz, jonathan",
+			"sections_dept": "babs",
+			"sections_year": 2013
+		},
+		{
+			"sections_title": "forecasting mgmt",
+			"sections_instructor": "puterman, martin l",
+			"sections_dept": "babs",
+			"sections_year": 2013
+		},
+		{
+			"sections_title": "app stat mgmt",
+			"sections_instructor": "ding, yichuan",
+			"sections_dept": "babs",
+			"sections_year": 2014
+		},
+		{
+			"sections_title": "app stat mgmt",
+			"sections_instructor": "berkowitz, jonathan",
+			"sections_dept": "babs",
+			"sections_year": 2014
+		},
+		{
+			"sections_title": "data anly&utiliz",
+			"sections_instructor": "berkowitz, jonathan",
+			"sections_dept": "babs",
+			"sections_year": 2014
+		},
+		{
+			"sections_title": "data anly&utiliz",
+			"sections_instructor": "berkowitz, jonathan",
+			"sections_dept": "babs",
+			"sections_year": 2014
+		},
+		{
+			"sections_title": "data anly&utiliz",
+			"sections_instructor": "berkowitz, jonathan",
+			"sections_dept": "babs",
+			"sections_year": 2014
+		},
+		{
+			"sections_title": "forecasting mgmt",
+			"sections_instructor": "saure valenzuela, antoine",
+			"sections_dept": "babs",
+			"sections_year": 2014
+		},
+		{
+			"sections_title": "app stat mgmt",
+			"sections_instructor": "berkowitz, jonathan",
+			"sections_dept": "babs",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "data anly&utiliz",
+			"sections_instructor": "werker, gregory",
+			"sections_dept": "babs",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "data anly&utiliz",
+			"sections_instructor": "werker, gregory",
+			"sections_dept": "babs",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "data anly&utiliz",
+			"sections_instructor": "werker, gregory",
+			"sections_dept": "babs",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "forecasting mgmt",
+			"sections_instructor": "saure valenzuela, antoine mich",
+			"sections_dept": "babs",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "app stat mgmt",
+			"sections_instructor": "berkowitz, jonathan",
+			"sections_dept": "babs",
+			"sections_year": 2016
+		},
+		{
+			"sections_title": "data anly&utiliz",
+			"sections_instructor": "werker, gregory",
+			"sections_dept": "babs",
+			"sections_year": 2016
+		},
+		{
+			"sections_title": "data anly&utiliz",
+			"sections_instructor": "werker, gregory",
+			"sections_dept": "babs",
+			"sections_year": 2016
+		}
+	]
+}

@@ -1,0 +1,26 @@
+{
+	"title": "Wildcard at start (end with inputstring)",
+	"input": {
+		"WHERE": {
+			"IS": {
+				"sections_dept": "*e"
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": ["basics_dept"],
+			"ORDER": "basics_avg"
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"basics_dept":"mine"
+		},
+		{
+			"basics_dept":"adhe"
+		},
+		{
+			"basics_dept":"mine"
+		}
+	]
+}

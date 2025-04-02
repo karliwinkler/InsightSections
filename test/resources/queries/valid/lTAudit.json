@@ -1,0 +1,21 @@
+{
+	"title": "LT audit",
+	"input": {
+		"WHERE": {
+			"LT": {
+				"sections_audit": 0
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_year",
+				"sections_avg",
+				"sections_pass",
+				"sections_fail",
+				"sections_audit"
+			]
+		}
+	},
+	"errorExpected": false,
+	"expected": []
+}

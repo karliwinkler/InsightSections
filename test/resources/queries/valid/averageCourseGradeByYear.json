@@ -1,0 +1,90 @@
+{
+	"title": "Average course grade by year",
+	"input": {
+		"WHERE": {
+			"AND": [
+				{
+					"IS": {
+						"sections_dept": "cpsc"
+					}
+				},
+				{
+					"IS": {
+						"sections_id": "310"
+					}
+				}
+			]
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_year",
+				"yearAvg"
+			],
+			"ORDER": {
+				"dir": "UP",
+				"keys": [
+					"sections_year"
+				]
+			}
+		},
+		"TRANSFORMATIONS": {
+			"GROUP": [
+				"sections_year"
+			],
+			"APPLY": [
+				{
+					"yearAvg": {
+						"AVG": "sections_avg"
+					}
+				}
+			]
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_year": 1900,
+			"yearAvg": 78.67
+		},
+		{
+			"sections_year": 2007,
+			"yearAvg": 75.08
+		},
+		{
+			"sections_year": 2008,
+			"yearAvg": 78.84
+		},
+		{
+			"sections_year": 2009,
+			"yearAvg": 76.49
+		},
+		{
+			"sections_year": 2010,
+			"yearAvg": 79.26
+		},
+		{
+			"sections_year": 2011,
+			"yearAvg": 77.05
+		},
+		{
+			"sections_year": 2012,
+			"yearAvg": 76.94
+		},
+		{
+			"sections_year": 2013,
+			"yearAvg": 77.61
+		},
+		{
+			"sections_year": 2014,
+			"yearAvg": 79.39
+		},
+		{
+			"sections_year": 2015,
+			"yearAvg": 79.16
+		},
+		{
+			"sections_year": 2016,
+			"yearAvg": 81.17
+		}
+	]
+}

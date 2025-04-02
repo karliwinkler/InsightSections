@@ -1,0 +1,441 @@
+{
+	"title": "Sections Q tests MIN",
+	"input": {
+		"WHERE": {
+			"GT": {
+				"sections_avg": 90
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_dept",
+				"minAvg"
+			],
+			"ORDER": {
+				"dir": "DOWN",
+				"keys": [
+					"minAvg"
+				]
+			}
+		},
+		"TRANSFORMATIONS": {
+			"GROUP": [
+				"sections_dept"
+			],
+			"APPLY": [
+				{
+					"minAvg": {
+						"MIN": "sections_avg"
+					}
+				}
+			]
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_dept": "fipr",
+			"minAvg": 96.4
+		},
+		{
+			"sections_dept": "aanb",
+			"minAvg": 94.44
+		},
+		{
+			"sections_dept": "ccst",
+			"minAvg": 93.67
+		},
+		{
+			"sections_dept": "gpp",
+			"minAvg": 93.04
+		},
+		{
+			"sections_dept": "hist",
+			"minAvg": 93
+		},
+		{
+			"sections_dept": "itst",
+			"minAvg": 92.75
+		},
+		{
+			"sections_dept": "comm",
+			"minAvg": 92.45
+		},
+		{
+			"sections_dept": "germ",
+			"minAvg": 92.25
+		},
+		{
+			"sections_dept": "ling",
+			"minAvg": 92.25
+		},
+		{
+			"sections_dept": "larc",
+			"minAvg": 92.07
+		},
+		{
+			"sections_dept": "phrm",
+			"minAvg": 92.06
+		},
+		{
+			"sections_dept": "atsc",
+			"minAvg": 92
+		},
+		{
+			"sections_dept": "apbi",
+			"minAvg": 91.86
+		},
+		{
+			"sections_dept": "elec",
+			"minAvg": 91.83
+		},
+		{
+			"sections_dept": "anat",
+			"minAvg": 91.67
+		},
+		{
+			"sections_dept": "span",
+			"minAvg": 91.6
+		},
+		{
+			"sections_dept": "biof",
+			"minAvg": 91.5
+		},
+		{
+			"sections_dept": "ital",
+			"minAvg": 91.5
+		},
+		{
+			"sections_dept": "babs",
+			"minAvg": 91.38
+		},
+		{
+			"sections_dept": "hunu",
+			"minAvg": 91.33
+		},
+		{
+			"sections_dept": "astr",
+			"minAvg": 91.25
+		},
+		{
+			"sections_dept": "hinu",
+			"minAvg": 91
+		},
+		{
+			"sections_dept": "anth",
+			"minAvg": 90.92
+		},
+		{
+			"sections_dept": "bmeg",
+			"minAvg": 90.9
+		},
+		{
+			"sections_dept": "lfs",
+			"minAvg": 90.83
+		},
+		{
+			"sections_dept": "crwr",
+			"minAvg": 90.8
+		},
+		{
+			"sections_dept": "libr",
+			"minAvg": 90.75
+		},
+		{
+			"sections_dept": "name",
+			"minAvg": 90.75
+		},
+		{
+			"sections_dept": "bota",
+			"minAvg": 90.71
+		},
+		{
+			"sections_dept": "soil",
+			"minAvg": 90.71
+		},
+		{
+			"sections_dept": "food",
+			"minAvg": 90.68
+		},
+		{
+			"sections_dept": "nrsc",
+			"minAvg": 90.67
+		},
+		{
+			"sections_dept": "midw",
+			"minAvg": 90.62
+		},
+		{
+			"sections_dept": "medi",
+			"minAvg": 90.6
+		},
+		{
+			"sections_dept": "onco",
+			"minAvg": 90.58
+		},
+		{
+			"sections_dept": "chil",
+			"minAvg": 90.5
+		},
+		{
+			"sections_dept": "rhsc",
+			"minAvg": 90.5
+		},
+		{
+			"sections_dept": "cohr",
+			"minAvg": 90.46
+		},
+		{
+			"sections_dept": "fnh",
+			"minAvg": 90.45
+		},
+		{
+			"sections_dept": "fopr",
+			"minAvg": 90.44
+		},
+		{
+			"sections_dept": "isci",
+			"minAvg": 90.44
+		},
+		{
+			"sections_dept": "chem",
+			"minAvg": 90.43
+		},
+		{
+			"sections_dept": "eced",
+			"minAvg": 90.43
+		},
+		{
+			"sections_dept": "ceen",
+			"minAvg": 90.4
+		},
+		{
+			"sections_dept": "rsot",
+			"minAvg": 90.39
+		},
+		{
+			"sections_dept": "arth",
+			"minAvg": 90.33
+		},
+		{
+			"sections_dept": "micb",
+			"minAvg": 90.33
+		},
+		{
+			"sections_dept": "obst",
+			"minAvg": 90.33
+		},
+		{
+			"sections_dept": "phil",
+			"minAvg": 90.33
+		},
+		{
+			"sections_dept": "gsat",
+			"minAvg": 90.29
+		},
+		{
+			"sections_dept": "hgse",
+			"minAvg": 90.29
+		},
+		{
+			"sections_dept": "sans",
+			"minAvg": 90.29
+		},
+		{
+			"sections_dept": "stat",
+			"minAvg": 90.29
+		},
+		{
+			"sections_dept": "arst",
+			"minAvg": 90.27
+		},
+		{
+			"sections_dept": "cell",
+			"minAvg": 90.25
+		},
+		{
+			"sections_dept": "dent",
+			"minAvg": 90.25
+		},
+		{
+			"sections_dept": "math",
+			"minAvg": 90.24
+		},
+		{
+			"sections_dept": "bams",
+			"minAvg": 90.23
+		},
+		{
+			"sections_dept": "chbe",
+			"minAvg": 90.21
+		},
+		{
+			"sections_dept": "apsc",
+			"minAvg": 90.2
+		},
+		{
+			"sections_dept": "fish",
+			"minAvg": 90.2
+		},
+		{
+			"sections_dept": "phys",
+			"minAvg": 90.2
+		},
+		{
+			"sections_dept": "zool",
+			"minAvg": 90.2
+		},
+		{
+			"sections_dept": "libe",
+			"minAvg": 90.19
+		},
+		{
+			"sections_dept": "biol",
+			"minAvg": 90.17
+		},
+		{
+			"sections_dept": "mech",
+			"minAvg": 90.17
+		},
+		{
+			"sections_dept": "russ",
+			"minAvg": 90.17
+		},
+		{
+			"sections_dept": "mtrl",
+			"minAvg": 90.14
+		},
+		{
+			"sections_dept": "thtr",
+			"minAvg": 90.14
+		},
+		{
+			"sections_dept": "frst",
+			"minAvg": 90.13
+		},
+		{
+			"sections_dept": "mine",
+			"minAvg": 90.13
+		},
+		{
+			"sections_dept": "surg",
+			"minAvg": 90.13
+		},
+		{
+			"sections_dept": "audi",
+			"minAvg": 90.11
+		},
+		{
+			"sections_dept": "cpsc",
+			"minAvg": 90.11
+		},
+		{
+			"sections_dept": "path",
+			"minAvg": 90.11
+		},
+		{
+			"sections_dept": "spph",
+			"minAvg": 90.11
+		},
+		{
+			"sections_dept": "bioc",
+			"minAvg": 90.1
+		},
+		{
+			"sections_dept": "cons",
+			"minAvg": 90.1
+		},
+		{
+			"sections_dept": "lled",
+			"minAvg": 90.1
+		},
+		{
+			"sections_dept": "medg",
+			"minAvg": 90.1
+		},
+		{
+			"sections_dept": "eosc",
+			"minAvg": 90.08
+		},
+		{
+			"sections_dept": "musc",
+			"minAvg": 90.08
+		},
+		{
+			"sections_dept": "plan",
+			"minAvg": 90.08
+		},
+		{
+			"sections_dept": "econ",
+			"minAvg": 90.07
+		},
+		{
+			"sections_dept": "educ",
+			"minAvg": 90.07
+		},
+		{
+			"sections_dept": "eece",
+			"minAvg": 90.07
+		},
+		{
+			"sections_dept": "pcth",
+			"minAvg": 90.07
+		},
+		{
+			"sections_dept": "civl",
+			"minAvg": 90.06
+		},
+		{
+			"sections_dept": "edcp",
+			"minAvg": 90.06
+		},
+		{
+			"sections_dept": "edst",
+			"minAvg": 90.06
+		},
+		{
+			"sections_dept": "nurs",
+			"minAvg": 90.06
+		},
+		{
+			"sections_dept": "psyc",
+			"minAvg": 90.06
+		},
+		{
+			"sections_dept": "sowk",
+			"minAvg": 90.06
+		},
+		{
+			"sections_dept": "kin",
+			"minAvg": 90.05
+		},
+		{
+			"sections_dept": "dhyg",
+			"minAvg": 90.03
+		},
+		{
+			"sections_dept": "epse",
+			"minAvg": 90.03
+		},
+		{
+			"sections_dept": "etec",
+			"minAvg": 90.03
+		},
+		{
+			"sections_dept": "phth",
+			"minAvg": 90.03
+		},
+		{
+			"sections_dept": "adhe",
+			"minAvg": 90.02
+		},
+		{
+			"sections_dept": "cnps",
+			"minAvg": 90.02
+		},
+		{
+			"sections_dept": "phar",
+			"minAvg": 90.02
+		}
+	]
+}

@@ -1,0 +1,21 @@
+{
+	"title": "LT year",
+	"input": {
+		"WHERE": {
+			"LT": {
+				"sections_year": 1900
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_year",
+				"sections_avg",
+				"sections_pass",
+				"sections_fail",
+				"sections_audit"
+			]
+		}
+	},
+	"errorExpected": false,
+	"expected": []
+}

@@ -1,0 +1,29 @@
+{
+	"title": "Wildcard at both ends (contains inputstring)",
+	"input": {
+		"WHERE": {
+			"IS": {
+				"sections_dept": "*pc*"
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": ["basics_dept"],
+			"ORDER": "basics_avg"
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"basics_dept":"psyc"
+		},
+		{
+			"basics_dept":"psyc"
+		},
+		{
+			"basics_dept":"cpsc"
+		},
+		{
+			"basics_dept":"cpsc"
+		}
+	]
+}

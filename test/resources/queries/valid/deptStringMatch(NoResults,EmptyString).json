@@ -1,0 +1,21 @@
+{
+	"title": "dept string match (no results, empty string)",
+	"input": {
+		"WHERE": {
+			"IS": {
+				"sections_dept": ""
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_id",
+				"sections_title",
+				"sections_instructor",
+				"sections_dept",
+				"sections_avg"
+			]
+		}
+	},
+	"errorExpected": false,
+	"expected": []
+}

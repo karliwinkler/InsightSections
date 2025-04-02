@@ -1,0 +1,148 @@
+{
+	"title": "title asterisks at start 2",
+	"input": {
+		"WHERE": {
+			"IS": {
+				"sections_title": "*bal"
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_title",
+				"sections_instructor",
+				"sections_dept",
+				"sections_year"
+			],
+			"ORDER": "sections_year"
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_title": "intgr pd global",
+			"sections_instructor": "",
+			"sections_dept": "ba",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "intgr pd global",
+			"sections_instructor": "",
+			"sections_dept": "ba",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "intgr pd global",
+			"sections_instructor": "",
+			"sections_dept": "ba",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "biogeog global",
+			"sections_instructor": "",
+			"sections_dept": "geob",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "biogeog global",
+			"sections_instructor": "",
+			"sections_dept": "geob",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "biogeog global",
+			"sections_instructor": "",
+			"sections_dept": "geob",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "biogeog global",
+			"sections_instructor": "",
+			"sections_dept": "geob",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "biogeog global",
+			"sections_instructor": "",
+			"sections_dept": "geob",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "biogeog global",
+			"sections_instructor": "",
+			"sections_dept": "geob",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "biogeog global",
+			"sections_instructor": "",
+			"sections_dept": "geob",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "biogeog global",
+			"sections_instructor": "henry, gregory h",
+			"sections_dept": "geob",
+			"sections_year": 2009
+		},
+		{
+			"sections_title": "biogeog global",
+			"sections_instructor": "henry, gregory h",
+			"sections_dept": "geob",
+			"sections_year": 2010
+		},
+		{
+			"sections_title": "biogeog global",
+			"sections_instructor": "henry, gregory h",
+			"sections_dept": "geob",
+			"sections_year": 2011
+		},
+		{
+			"sections_title": "biogeog global",
+			"sections_instructor": "henry, gregory h",
+			"sections_dept": "geob",
+			"sections_year": 2012
+		},
+		{
+			"sections_title": "intgr pd global",
+			"sections_instructor": "",
+			"sections_dept": "ba",
+			"sections_year": 2013
+		},
+		{
+			"sections_title": "intgr pd global",
+			"sections_instructor": "",
+			"sections_dept": "ba",
+			"sections_year": 2013
+		},
+		{
+			"sections_title": "biogeog global",
+			"sections_instructor": "henry, gregory h",
+			"sections_dept": "geob",
+			"sections_year": 2013
+		},
+		{
+			"sections_title": "intgr pd global",
+			"sections_instructor": "",
+			"sections_dept": "ba",
+			"sections_year": 2014
+		},
+		{
+			"sections_title": "biogeog global",
+			"sections_instructor": "henry, gregory h",
+			"sections_dept": "geob",
+			"sections_year": 2014
+		},
+		{
+			"sections_title": "intgr pd global",
+			"sections_instructor": "",
+			"sections_dept": "ba",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "biogeog global",
+			"sections_instructor": "frei, esther",
+			"sections_dept": "geob",
+			"sections_year": 2015
+		}
+	]
+}

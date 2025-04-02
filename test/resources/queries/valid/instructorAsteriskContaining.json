@@ -1,0 +1,43 @@
+{
+	"title": "instructor asterisk containing",
+	"input": {
+		"WHERE": {
+			"IS": {
+				"sections_instructor": "*kate*"
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_id",
+				"sections_title",
+				"sections_instructor",
+				"sections_dept",
+				"sections_avg"
+			]
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_id": "581",
+			"sections_title": "pc & s-a issues",
+			"sections_instructor": "chase, kate",
+			"sections_dept": "audi",
+			"sections_avg": 86.75
+		},
+		{
+			"sections_id": "220",
+			"sections_title": "math proof",
+			"sections_instructor": "yurasovskaya, ekaterina",
+			"sections_dept": "math",
+			"sections_avg": 64.45
+		},
+		{
+			"sections_id": "317",
+			"sections_title": "calculus iv",
+			"sections_instructor": "stange, kate",
+			"sections_dept": "math",
+			"sections_avg": 70
+		}
+	]
+}

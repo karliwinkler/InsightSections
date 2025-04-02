@@ -1,0 +1,111 @@
+{
+	"title": "all tokens",
+	"input": {
+		"WHERE": {
+			"GT": {
+				"rooms_seats": 50
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"rooms_type",
+				"maxSeats",
+				"minSeats",
+				"avgSeats",
+				"uniqueFurniture"
+			],
+			"ORDER": {
+				"dir": "DOWN",
+				"keys": [
+					"avgSeats"
+				]
+			}
+		},
+		"TRANSFORMATIONS": {
+			"GROUP": [
+				"rooms_type"
+			],
+			"APPLY": [
+				{
+					"maxSeats": {
+						"MAX": "rooms_seats"
+					}
+				},
+				{
+					"minSeats": {
+						"MIN": "rooms_seats"
+					}
+				},
+				{
+					"avgSeats": {
+						"AVG": "rooms_seats"
+					}
+				},
+				{
+					"uniqueFurniture": {
+						"COUNT": "rooms_furniture"
+					}
+				}
+			]
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"rooms_type": "TBD",
+			"maxSeats": 299,
+			"minSeats": 299,
+			"avgSeats": 299,
+			"uniqueFurniture": 1
+		},
+		{
+			"rooms_type": "Tiered Large Group",
+			"maxSeats": 503,
+			"minSeats": 58,
+			"avgSeats": 163.49,
+			"uniqueFurniture": 5
+		},
+		{
+			"rooms_type": "Open Design General Purpose",
+			"maxSeats": 442,
+			"minSeats": 51,
+			"avgSeats": 80.7,
+			"uniqueFurniture": 4
+		},
+		{
+			"rooms_type": "Case Style",
+			"maxSeats": 108,
+			"minSeats": 54,
+			"avgSeats": 73.69,
+			"uniqueFurniture": 3
+		},
+		{
+			"rooms_type": "Active Learning",
+			"maxSeats": 72,
+			"minSeats": 72,
+			"avgSeats": 72,
+			"uniqueFurniture": 1
+		},
+		{
+			"rooms_type": "Studio Lab",
+			"maxSeats": 72,
+			"minSeats": 72,
+			"avgSeats": 72,
+			"uniqueFurniture": 1
+		},
+		{
+			"rooms_type": "",
+			"maxSeats": 60,
+			"minSeats": 60,
+			"avgSeats": 60,
+			"uniqueFurniture": 1
+		},
+		{
+			"rooms_type": "Small Group",
+			"maxSeats": 60,
+			"minSeats": 60,
+			"avgSeats": 60,
+			"uniqueFurniture": 1
+		}
+	]
+}

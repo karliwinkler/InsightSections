@@ -1,0 +1,78 @@
+{
+	"title": "instructor string match",
+	"input": {
+		"WHERE": {
+			"IS": {
+				"sections_instructor": "carter, john"
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_id",
+				"sections_title",
+				"sections_instructor",
+				"sections_dept",
+				"sections_year"
+			]
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_id": "584",
+			"sections_title": "prgm devl cnsl",
+			"sections_instructor": "carter, john",
+			"sections_dept": "cnps",
+			"sections_year": 2011
+		},
+		{
+			"sections_id": "584",
+			"sections_title": "prgm devl cnsl",
+			"sections_instructor": "carter, john",
+			"sections_dept": "cnps",
+			"sections_year": 2010
+		},
+		{
+			"sections_id": "584",
+			"sections_title": "prgm devl cnsl",
+			"sections_instructor": "carter, john",
+			"sections_dept": "cnps",
+			"sections_year": 2012
+		},
+		{
+			"sections_id": "584",
+			"sections_title": "prgm devl cnsl",
+			"sections_instructor": "carter, john",
+			"sections_dept": "cnps",
+			"sections_year": 2013
+		},
+		{
+			"sections_id": "584",
+			"sections_title": "prgm devl cnsl",
+			"sections_instructor": "carter, john",
+			"sections_dept": "cnps",
+			"sections_year": 2011
+		},
+		{
+			"sections_id": "584",
+			"sections_title": "prgm devl cnsl",
+			"sections_instructor": "carter, john",
+			"sections_dept": "cnps",
+			"sections_year": 2009
+		},
+		{
+			"sections_id": "584",
+			"sections_title": "prgm devl cnsl",
+			"sections_instructor": "carter, john",
+			"sections_dept": "cnps",
+			"sections_year": 2010
+		},
+		{
+			"sections_id": "500",
+			"sections_title": "res mthd in educ",
+			"sections_instructor": "carter, john",
+			"sections_dept": "educ",
+			"sections_year": 2010
+		}
+	]
+}

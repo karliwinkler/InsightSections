@@ -1,0 +1,1738 @@
+{
+	"title": "instructor asteriks at end",
+	"input": {
+		"WHERE": {
+			"IS": {
+				"sections_instructor": "al*"
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_title",
+				"sections_instructor",
+				"sections_dept",
+				"sections_year"
+			],
+			"ORDER": "sections_year"
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_title": "corrosion engrng",
+			"sections_instructor": "alfantazi, akram;kish, joseph",
+			"sections_dept": "mtrl",
+			"sections_year": 2007
+		},
+		{
+			"sections_title": "transport phen i",
+			"sections_instructor": "al-darbi, muhannad",
+			"sections_dept": "mtrl",
+			"sections_year": 2007
+		},
+		{
+			"sections_title": "mch tool str&vib",
+			"sections_instructor": "altintas, yusuf",
+			"sections_dept": "mech",
+			"sections_year": 2007
+		},
+		{
+			"sections_title": "co ctrl mec sys",
+			"sections_instructor": "altintas, yusuf",
+			"sections_dept": "mech",
+			"sections_year": 2007
+		},
+		{
+			"sections_title": "wtrshed hydro",
+			"sections_instructor": "alila, younes",
+			"sections_dept": "frst",
+			"sections_year": 2007
+		},
+		{
+			"sections_title": "anl mthd frst hy",
+			"sections_instructor": "alila, younes",
+			"sections_dept": "fopr",
+			"sections_year": 2007
+		},
+		{
+			"sections_title": "num tec oc,at&er",
+			"sections_instructor": "allen, susan elizabeth;austin, philip",
+			"sections_dept": "eosc",
+			"sections_year": 2007
+		},
+		{
+			"sections_title": "model comptn",
+			"sections_instructor": "allen, meghan",
+			"sections_dept": "cpsc",
+			"sections_year": 2007
+		},
+		{
+			"sections_title": "model comptn",
+			"sections_instructor": "allen, meghan",
+			"sections_dept": "cpsc",
+			"sections_year": 2007
+		},
+		{
+			"sections_title": "cll&dev bio lit",
+			"sections_instructor": "allan, douglas;bamji, shernaz;loewen, christopher",
+			"sections_dept": "cell",
+			"sections_year": 2007
+		},
+		{
+			"sections_title": "evolutionary gen",
+			"sections_instructor": "ally, dilara;whitton, jeannette",
+			"sections_dept": "biol",
+			"sections_year": 2007
+		},
+		{
+			"sections_title": "num tch oc,at&er",
+			"sections_instructor": "allen, susan elizabeth;austin, philip",
+			"sections_dept": "atsc",
+			"sections_year": 2007
+		},
+		{
+			"sections_title": "dynamic metrlogy",
+			"sections_instructor": "allen, susan elizabeth;balmforth, neil",
+			"sections_dept": "atsc",
+			"sections_year": 2007
+		},
+		{
+			"sections_title": "fin reporting",
+			"sections_instructor": "alisharan, steve",
+			"sections_dept": "spha",
+			"sections_year": 2009
+		},
+		{
+			"sections_title": "medieval lit",
+			"sections_instructor": "alvarez-moreno, raul",
+			"sections_dept": "span",
+			"sections_year": 2009
+		},
+		{
+			"sections_title": "pen lit to 1700",
+			"sections_instructor": "alvarez-moreno, raul",
+			"sections_dept": "span",
+			"sections_year": 2009
+		},
+		{
+			"sections_title": "beginner span ii",
+			"sections_instructor": "alvarez, alejandro;manchon, enrique",
+			"sections_dept": "span",
+			"sections_year": 2009
+		},
+		{
+			"sections_title": "beginner span i",
+			"sections_instructor": "alvarez, alejandro;manchon, enrique;spacciante, stephanie",
+			"sections_dept": "span",
+			"sections_year": 2009
+		},
+		{
+			"sections_title": "beginner span i",
+			"sections_instructor": "alaiz-losada, susana",
+			"sections_dept": "span",
+			"sections_year": 2009
+		},
+		{
+			"sections_title": "intro med phys",
+			"sections_instructor": "aldrich, john;celler, anna;duzenli, cheryl;mackay, alexander;tchvialeva, lioudmila;xiang, qing-san",
+			"sections_dept": "phys",
+			"sections_year": 2009
+		},
+		{
+			"sections_title": "eng project ii",
+			"sections_instructor": "alfantazi, akram;asselin, edouard;dixon, david;ko, frank",
+			"sections_dept": "mtrl",
+			"sections_year": 2009
+		},
+		{
+			"sections_title": "transport phen i",
+			"sections_instructor": "alfantazi, akram",
+			"sections_dept": "mtrl",
+			"sections_year": 2009
+		},
+		{
+			"sections_title": "cardiology",
+			"sections_instructor": "allard, michael",
+			"sections_dept": "medi",
+			"sections_year": 2009
+		},
+		{
+			"sections_title": "mch tool str&vib",
+			"sections_instructor": "altintas, yusuf",
+			"sections_dept": "mech",
+			"sections_year": 2009
+		},
+		{
+			"sections_title": "el-mh sy dsgn pr",
+			"sections_instructor": "altintas, yusuf",
+			"sections_dept": "mech",
+			"sections_year": 2009
+		},
+		{
+			"sections_title": "co ctrl mec sys",
+			"sections_instructor": "altintas, yusuf",
+			"sections_dept": "mech",
+			"sections_year": 2009
+		},
+		{
+			"sections_title": "df calc app lf s",
+			"sections_instructor": "allard, jun",
+			"sections_dept": "math",
+			"sections_year": 2009
+		},
+		{
+			"sections_title": "anl mthd frst hy",
+			"sections_instructor": "alila, younes",
+			"sections_dept": "fopr",
+			"sections_year": 2009
+		},
+		{
+			"sections_title": "found ed tech",
+			"sections_instructor": "alam, matiul",
+			"sections_dept": "etec",
+			"sections_year": 2009
+		},
+		{
+			"sections_title": "num tec oc,at&er",
+			"sections_instructor": "allen, susan elizabeth;austin, philip",
+			"sections_dept": "eosc",
+			"sections_year": 2009
+		},
+		{
+			"sections_title": "climate&ecosystm",
+			"sections_instructor": "allen, susan elizabeth;francois, roger;maldonado-pareja, maria",
+			"sections_dept": "eosc",
+			"sections_year": 2009
+		},
+		{
+			"sections_title": "circltn & plnktn",
+			"sections_instructor": "allen, susan elizabeth;francois, roger;maldonado-pareja, maria;orians, kristin",
+			"sections_dept": "eosc",
+			"sections_year": 2009
+		},
+		{
+			"sections_title": "student seminar",
+			"sections_instructor": "allen, meghan",
+			"sections_dept": "cpsc",
+			"sections_year": 2009
+		},
+		{
+			"sections_title": "intr sftwr eng",
+			"sections_instructor": "allen, meghan",
+			"sections_dept": "cpsc",
+			"sections_year": 2009
+		},
+		{
+			"sections_title": "intr sftwr eng",
+			"sections_instructor": "allen, meghan",
+			"sections_dept": "cpsc",
+			"sections_year": 2009
+		},
+		{
+			"sections_title": "intr sftwr eng",
+			"sections_instructor": "allen, meghan",
+			"sections_dept": "cpsc",
+			"sections_year": 2009
+		},
+		{
+			"sections_title": "model comptn",
+			"sections_instructor": "allen, meghan",
+			"sections_dept": "cpsc",
+			"sections_year": 2009
+		},
+		{
+			"sections_title": "cll&dev bio lit",
+			"sections_instructor": "allan, douglas;bamji, shernaz;loewen, christopher",
+			"sections_dept": "cell",
+			"sections_year": 2009
+		},
+		{
+			"sections_title": "financial rept'g",
+			"sections_instructor": "alisharan, steve",
+			"sections_dept": "baac",
+			"sections_year": 2009
+		},
+		{
+			"sections_title": "technical commun",
+			"sections_instructor": "altow, deborah;schoen, michael",
+			"sections_dept": "apsc",
+			"sections_year": 2009
+		},
+		{
+			"sections_title": "gross anat limbs",
+			"sections_instructor": "alimohammadi, majid",
+			"sections_dept": "anat",
+			"sections_year": 2009
+		},
+		{
+			"sections_title": "pen lit to 1700",
+			"sections_instructor": "alvarez-moreno, raul",
+			"sections_dept": "span",
+			"sections_year": 2010
+		},
+		{
+			"sections_title": "beginner span ii",
+			"sections_instructor": "alvarez-moreno, raul",
+			"sections_dept": "span",
+			"sections_year": 2010
+		},
+		{
+			"sections_title": "beginner span ii",
+			"sections_instructor": "alvarez-jaimes, javier;manchon, enrique",
+			"sections_dept": "span",
+			"sections_year": 2010
+		},
+		{
+			"sections_title": "beginner span i",
+			"sections_instructor": "alvarez, alejandro;manchon, enrique",
+			"sections_dept": "span",
+			"sections_year": 2010
+		},
+		{
+			"sections_title": "beginner span i",
+			"sections_instructor": "albarran-caselles, olga;manchon, enrique",
+			"sections_dept": "span",
+			"sections_year": 2010
+		},
+		{
+			"sections_title": "beginner span i",
+			"sections_instructor": "alvarez-jaimes, javier;manchon, enrique",
+			"sections_dept": "span",
+			"sections_year": 2010
+		},
+		{
+			"sections_title": "cog/beh interven",
+			"sections_instructor": "alden, lynn",
+			"sections_dept": "psyc",
+			"sections_year": 2010
+		},
+		{
+			"sections_title": "intr comp poltcs",
+			"sections_instructor": "allen, nathan",
+			"sections_dept": "poli",
+			"sections_year": 2010
+		},
+		{
+			"sections_title": "eng project i",
+			"sections_instructor": "alfantazi, akram;asselin, edouard;dreisinger, david;ko, frank;sinclair, chadwick",
+			"sections_dept": "mtrl",
+			"sections_year": 2010
+		},
+		{
+			"sections_title": "transport phen i",
+			"sections_instructor": "alfantazi, akram",
+			"sections_dept": "mtrl",
+			"sections_year": 2010
+		},
+		{
+			"sections_title": "cardiology",
+			"sections_instructor": "allard, michael",
+			"sections_dept": "medi",
+			"sections_year": 2010
+		},
+		{
+			"sections_title": "mch tool str&vib",
+			"sections_instructor": "altintas, yusuf",
+			"sections_dept": "mech",
+			"sections_year": 2010
+		},
+		{
+			"sections_title": "co ctrl mec sys",
+			"sections_instructor": "altintas, yusuf",
+			"sections_dept": "mech",
+			"sections_year": 2010
+		},
+		{
+			"sections_title": "env & society",
+			"sections_instructor": "ali, khawaja faran",
+			"sections_dept": "geog",
+			"sections_year": 2010
+		},
+		{
+			"sections_title": "envir & resource",
+			"sections_instructor": "ali, khawaja faran",
+			"sections_dept": "geog",
+			"sections_year": 2010
+		},
+		{
+			"sections_title": "chng env: wt&lnd",
+			"sections_instructor": "ali, khawaja faran",
+			"sections_dept": "geob",
+			"sections_year": 2010
+		},
+		{
+			"sections_title": "stat mth hydrlgy",
+			"sections_instructor": "alila, younes",
+			"sections_dept": "frst",
+			"sections_year": 2010
+		},
+		{
+			"sections_title": "wtrshed hydro",
+			"sections_instructor": "alila, younes",
+			"sections_dept": "frst",
+			"sections_year": 2010
+		},
+		{
+			"sections_title": "anl mthd frst hy",
+			"sections_instructor": "alila, younes",
+			"sections_dept": "fopr",
+			"sections_year": 2010
+		},
+		{
+			"sections_title": "adv food microbi",
+			"sections_instructor": "allen, kevin",
+			"sections_dept": "food",
+			"sections_year": 2010
+		},
+		{
+			"sections_title": "found ed tech",
+			"sections_instructor": "alam, matiul",
+			"sections_dept": "etec",
+			"sections_year": 2010
+		},
+		{
+			"sections_title": "found ed tech",
+			"sections_instructor": "alam, matiul",
+			"sections_dept": "etec",
+			"sections_year": 2010
+		},
+		{
+			"sections_title": "climate&ecosystm",
+			"sections_instructor": "allen, susan elizabeth;francois, roger;lane, erin",
+			"sections_dept": "eosc",
+			"sections_year": 2010
+		},
+		{
+			"sections_title": "circltn & plnktn",
+			"sections_instructor": "allen, susan elizabeth;lane, erin;orians, kristin",
+			"sections_dept": "eosc",
+			"sections_year": 2010
+		},
+		{
+			"sections_title": "intr sftwr eng",
+			"sections_instructor": "allen, meghan",
+			"sections_dept": "cpsc",
+			"sections_year": 2010
+		},
+		{
+			"sections_title": "intr sftwr eng",
+			"sections_instructor": "allen, meghan",
+			"sections_dept": "cpsc",
+			"sections_year": 2010
+		},
+		{
+			"sections_title": "sftwr constructn",
+			"sections_instructor": "allen, meghan",
+			"sections_dept": "cpsc",
+			"sections_year": 2010
+		},
+		{
+			"sections_title": "model comptn",
+			"sections_instructor": "allen, meghan",
+			"sections_dept": "cpsc",
+			"sections_year": 2010
+		},
+		{
+			"sections_title": "appl thermody ii",
+			"sections_instructor": "al-darbi, muhannad",
+			"sections_dept": "chbe",
+			"sections_year": 2010
+		},
+		{
+			"sections_title": "unit operatns ii",
+			"sections_instructor": "al-darbi, muhannad",
+			"sections_dept": "chbe",
+			"sections_year": 2010
+		},
+		{
+			"sections_title": "chem & bio thrmo",
+			"sections_instructor": "al-darbi, muhannad",
+			"sections_dept": "chbe",
+			"sections_year": 2010
+		},
+		{
+			"sections_title": "cll&dev bio lit",
+			"sections_instructor": "allan, douglas;bamji, shernaz;loewen, christopher",
+			"sections_dept": "cell",
+			"sections_year": 2010
+		},
+		{
+			"sections_title": "technical commun",
+			"sections_instructor": "altow, deborah",
+			"sections_dept": "apsc",
+			"sections_year": 2010
+		},
+		{
+			"sections_title": "gross anat limbs",
+			"sections_instructor": "alimohammadi, majid",
+			"sections_dept": "anat",
+			"sections_year": 2010
+		},
+		{
+			"sections_title": "pen lit to 1700",
+			"sections_instructor": "alvarez-moreno, raul",
+			"sections_dept": "span",
+			"sections_year": 2011
+		},
+		{
+			"sections_title": "beginner span ii",
+			"sections_instructor": "alvarez-jaimes, javier;manchon, enrique",
+			"sections_dept": "span",
+			"sections_year": 2011
+		},
+		{
+			"sections_title": "beginner span ii",
+			"sections_instructor": "albarran-caselles, olga;manchon, enrique",
+			"sections_dept": "span",
+			"sections_year": 2011
+		},
+		{
+			"sections_title": "beginner span ii",
+			"sections_instructor": "alaiz-losada, susana",
+			"sections_dept": "span",
+			"sections_year": 2011
+		},
+		{
+			"sections_title": "beginner span i",
+			"sections_instructor": "albarran-caselles, olga;manchon, enrique",
+			"sections_dept": "span",
+			"sections_year": 2011
+		},
+		{
+			"sections_title": "beginner span i",
+			"sections_instructor": "alvarez-jaimes, javier;manchon, enrique",
+			"sections_dept": "span",
+			"sections_year": 2011
+		},
+		{
+			"sections_title": "beginner span i",
+			"sections_instructor": "alvarez, alejandro;manchon, enrique",
+			"sections_dept": "span",
+			"sections_year": 2011
+		},
+		{
+			"sections_title": "beginner span i",
+			"sections_instructor": "alvarez, alejandro;manchon, enrique",
+			"sections_dept": "span",
+			"sections_year": 2011
+		},
+		{
+			"sections_title": "interviewing skl",
+			"sections_instructor": "allison, kelly",
+			"sections_dept": "sowk",
+			"sections_year": 2011
+		},
+		{
+			"sections_title": "cog/beh interven",
+			"sections_instructor": "alden, lynn",
+			"sections_dept": "psyc",
+			"sections_year": 2011
+		},
+		{
+			"sections_title": "intro med phys",
+			"sections_instructor": "aldrich, john;celler, anna;duzenli, cheryl;mackay, alexander;tchvialeva, lioudmila;xiang, qing-san",
+			"sections_dept": "phys",
+			"sections_year": 2011
+		},
+		{
+			"sections_title": "transport phen i",
+			"sections_instructor": "alfantazi, akram;mohammadi, farzad",
+			"sections_dept": "mtrl",
+			"sections_year": 2011
+		},
+		{
+			"sections_title": "mch tool str&vib",
+			"sections_instructor": "altintas, yusuf",
+			"sections_dept": "mech",
+			"sections_year": 2011
+		},
+		{
+			"sections_title": "env & society",
+			"sections_instructor": "ali, khawaja faran",
+			"sections_dept": "geog",
+			"sections_year": 2011
+		},
+		{
+			"sections_title": "envir & resource",
+			"sections_instructor": "ali, khawaja faran",
+			"sections_dept": "geog",
+			"sections_year": 2011
+		},
+		{
+			"sections_title": "chng env: wt&lnd",
+			"sections_instructor": "ali, khawaja faran",
+			"sections_dept": "geob",
+			"sections_year": 2011
+		},
+		{
+			"sections_title": "wtrshed hydro",
+			"sections_instructor": "alila, younes",
+			"sections_dept": "frst",
+			"sections_year": 2011
+		},
+		{
+			"sections_title": "anl mthd frst hy",
+			"sections_instructor": "alila, younes",
+			"sections_dept": "fopr",
+			"sections_year": 2011
+		},
+		{
+			"sections_title": "adv food microbi",
+			"sections_instructor": "allen, kevin",
+			"sections_dept": "food",
+			"sections_year": 2011
+		},
+		{
+			"sections_title": "found ed tech",
+			"sections_instructor": "alam, matiul",
+			"sections_dept": "etec",
+			"sections_year": 2011
+		},
+		{
+			"sections_title": "dynamic ocgy",
+			"sections_instructor": "allen, susan elizabeth",
+			"sections_dept": "eosc",
+			"sections_year": 2011
+		},
+		{
+			"sections_title": "num tec oc,at&er",
+			"sections_instructor": "allen, susan elizabeth;austin, philip",
+			"sections_dept": "eosc",
+			"sections_year": 2011
+		},
+		{
+			"sections_title": "climate&ecosystm",
+			"sections_instructor": "allen, susan elizabeth;francois, roger;maldonado-pareja, maria",
+			"sections_dept": "eosc",
+			"sections_year": 2011
+		},
+		{
+			"sections_title": "circltn & plnktn",
+			"sections_instructor": "allen, susan elizabeth;maldonado-pareja, maria;orians, kristin",
+			"sections_dept": "eosc",
+			"sections_year": 2011
+		},
+		{
+			"sections_title": "major seminr lit",
+			"sections_instructor": "al-kassim, dina",
+			"sections_dept": "engl",
+			"sections_year": 2011
+		},
+		{
+			"sections_title": "world lit engl",
+			"sections_instructor": "al-kassim, dina",
+			"sections_dept": "engl",
+			"sections_year": 2011
+		},
+		{
+			"sections_title": "cll&dev bio lit",
+			"sections_instructor": "allan, douglas;bamji, shernaz;loewen, christopher",
+			"sections_dept": "cell",
+			"sections_year": 2011
+		},
+		{
+			"sections_title": "intro to physio",
+			"sections_instructor": "altshuler, douglas",
+			"sections_dept": "biol",
+			"sections_year": 2011
+		},
+		{
+			"sections_title": "financial rept'g",
+			"sections_instructor": "alisharan, steve",
+			"sections_dept": "baac",
+			"sections_year": 2011
+		},
+		{
+			"sections_title": "num tch oc,at&er",
+			"sections_instructor": "allen, susan elizabeth;austin, philip",
+			"sections_dept": "atsc",
+			"sections_year": 2011
+		},
+		{
+			"sections_title": "aud&non-txt arch",
+			"sections_instructor": "alexander-gooding, sharon",
+			"sections_dept": "arst",
+			"sections_year": 2011
+		},
+		{
+			"sections_title": "info tech&archvs",
+			"sections_instructor": "alexander-gooding, sharon",
+			"sections_dept": "arst",
+			"sections_year": 2011
+		},
+		{
+			"sections_title": "gross anat limbs",
+			"sections_instructor": "alimohammadi, majid",
+			"sections_dept": "anat",
+			"sections_year": 2011
+		},
+		{
+			"sections_title": "pen lit to 1700",
+			"sections_instructor": "alvarez-moreno, raul",
+			"sections_dept": "span",
+			"sections_year": 2012
+		},
+		{
+			"sections_title": "intermed span ii",
+			"sections_instructor": "alaiz-losada, susana",
+			"sections_dept": "span",
+			"sections_year": 2012
+		},
+		{
+			"sections_title": "intermed span ii",
+			"sections_instructor": "albarran-caselles, olga;spacciante, stephanie",
+			"sections_dept": "span",
+			"sections_year": 2012
+		},
+		{
+			"sections_title": "beginner span ii",
+			"sections_instructor": "albarran-caselles, olga;manchon, enrique",
+			"sections_dept": "span",
+			"sections_year": 2012
+		},
+		{
+			"sections_title": "beginner span ii",
+			"sections_instructor": "alvarez-jaimes, javier;manchon, enrique",
+			"sections_dept": "span",
+			"sections_year": 2012
+		},
+		{
+			"sections_title": "beginner span ii",
+			"sections_instructor": "albarran-caselles, olga;manchon, enrique",
+			"sections_dept": "span",
+			"sections_year": 2012
+		},
+		{
+			"sections_title": "beginner span i",
+			"sections_instructor": "alvarez-jaimes, javier;manchon, enrique",
+			"sections_dept": "span",
+			"sections_year": 2012
+		},
+		{
+			"sections_title": "beginner span i",
+			"sections_instructor": "alvarez-jaimes, javier;manchon, enrique",
+			"sections_dept": "span",
+			"sections_year": 2012
+		},
+		{
+			"sections_title": "beginner span i",
+			"sections_instructor": "alvarez-jaimes, javier;manchon, enrique",
+			"sections_dept": "span",
+			"sections_year": 2012
+		},
+		{
+			"sections_title": "soc anl sowk",
+			"sections_instructor": "allen, helen;o'neill, brian;stainton, timothy;stern, louise;tester, frank",
+			"sections_dept": "sowk",
+			"sections_year": 2012
+		},
+		{
+			"sections_title": "interviewing skl",
+			"sections_instructor": "allison, kelly",
+			"sections_dept": "sowk",
+			"sections_year": 2012
+		},
+		{
+			"sections_title": "intr comp poltcs",
+			"sections_instructor": "allen, nathan",
+			"sections_dept": "poli",
+			"sections_year": 2012
+		},
+		{
+			"sections_title": "intro med phys",
+			"sections_instructor": "aldrich, john;celler, anna;duzenli, cheryl;mackay, alexander;tchvialeva, lioudmila;xiang, qing-san",
+			"sections_dept": "phys",
+			"sections_year": 2012
+		},
+		{
+			"sections_title": "eng project i",
+			"sections_instructor": "alfantazi, akram;asselin, edouard;dreisinger, david;fernlund, goran;ko, frank",
+			"sections_dept": "mtrl",
+			"sections_year": 2012
+		},
+		{
+			"sections_title": "env degrad mtrls",
+			"sections_instructor": "alfantazi, akram",
+			"sections_dept": "mtrl",
+			"sections_year": 2012
+		},
+		{
+			"sections_title": "transport phen i",
+			"sections_instructor": "alfantazi, akram",
+			"sections_dept": "mtrl",
+			"sections_year": 2012
+		},
+		{
+			"sections_title": "cardiovas path",
+			"sections_instructor": "allard, michael",
+			"sections_dept": "medi",
+			"sections_year": 2012
+		},
+		{
+			"sections_title": "co ctrl mec sys",
+			"sections_instructor": "altintas, yusuf",
+			"sections_dept": "mech",
+			"sections_year": 2012
+		},
+		{
+			"sections_title": "intr biometrics",
+			"sections_instructor": "alila, younes",
+			"sections_dept": "frst",
+			"sections_year": 2012
+		},
+		{
+			"sections_title": "adv food microbi",
+			"sections_instructor": "allen, kevin",
+			"sections_dept": "food",
+			"sections_year": 2012
+		},
+		{
+			"sections_title": "found ed tech",
+			"sections_instructor": "alam, matiul",
+			"sections_dept": "etec",
+			"sections_year": 2012
+		},
+		{
+			"sections_title": "found ed tech",
+			"sections_instructor": "alam, matiul",
+			"sections_dept": "etec",
+			"sections_year": 2012
+		},
+		{
+			"sections_title": "found ed tech",
+			"sections_instructor": "alam, matiul",
+			"sections_dept": "etec",
+			"sections_year": 2012
+		},
+		{
+			"sections_title": "found ed tech",
+			"sections_instructor": "alam, matiul",
+			"sections_dept": "etec",
+			"sections_year": 2012
+		},
+		{
+			"sections_title": "climate&ecosystm",
+			"sections_instructor": "allen, susan elizabeth;francois, roger;maldonado-pareja, maria",
+			"sections_dept": "eosc",
+			"sections_year": 2012
+		},
+		{
+			"sections_title": "circltn & plnktn",
+			"sections_instructor": "allen, susan elizabeth;maldonado-pareja, maria;orians, kristin",
+			"sections_dept": "eosc",
+			"sections_year": 2012
+		},
+		{
+			"sections_title": "major seminr lit",
+			"sections_instructor": "al-kassim, dina",
+			"sections_dept": "engl",
+			"sections_year": 2012
+		},
+		{
+			"sections_title": "intr sftwr eng",
+			"sections_instructor": "allen, meghan",
+			"sections_dept": "cpsc",
+			"sections_year": 2012
+		},
+		{
+			"sections_title": "intr sftwr eng",
+			"sections_instructor": "allen, meghan",
+			"sections_dept": "cpsc",
+			"sections_year": 2012
+		},
+		{
+			"sections_title": "intr sftwr eng",
+			"sections_instructor": "allen, meghan",
+			"sections_dept": "cpsc",
+			"sections_year": 2012
+		},
+		{
+			"sections_title": "sftwr constructn",
+			"sections_instructor": "allen, meghan",
+			"sections_dept": "cpsc",
+			"sections_year": 2012
+		},
+		{
+			"sections_title": "sftwr constructn",
+			"sections_instructor": "allen, meghan",
+			"sections_dept": "cpsc",
+			"sections_year": 2012
+		},
+		{
+			"sections_title": "sftwr constructn",
+			"sections_instructor": "allen, meghan",
+			"sections_dept": "cpsc",
+			"sections_year": 2012
+		},
+		{
+			"sections_title": "buyer behavr",
+			"sections_instructor": "allard, thomas",
+			"sections_dept": "comm",
+			"sections_year": 2012
+		},
+		{
+			"sections_title": "analytical chem",
+			"sections_instructor": "algar, walter;rodriguez nunez, jose",
+			"sections_dept": "chem",
+			"sections_year": 2012
+		},
+		{
+			"sections_title": "cll&dev bio lit",
+			"sections_instructor": "allan, douglas;bamji, shernaz;loewen, christopher",
+			"sections_dept": "cell",
+			"sections_year": 2012
+		},
+		{
+			"sections_title": "intro to physio",
+			"sections_instructor": "altshuler, douglas",
+			"sections_dept": "biol",
+			"sections_year": 2012
+		},
+		{
+			"sections_title": "financial rept'g",
+			"sections_instructor": "alisharan, steve",
+			"sections_dept": "baac",
+			"sections_year": 2012
+		},
+		{
+			"sections_title": "technical commun",
+			"sections_instructor": "altow, deborah",
+			"sections_dept": "apsc",
+			"sections_year": 2012
+		},
+		{
+			"sections_title": "technical commun",
+			"sections_instructor": "altow, deborah",
+			"sections_dept": "apsc",
+			"sections_year": 2012
+		},
+		{
+			"sections_title": "gross anat limbs",
+			"sections_instructor": "alimohammadi, majid",
+			"sections_dept": "anat",
+			"sections_year": 2012
+		},
+		{
+			"sections_title": "medieval lit",
+			"sections_instructor": "alvarez-moreno, raul",
+			"sections_dept": "span",
+			"sections_year": 2013
+		},
+		{
+			"sections_title": "pen lit to 1700",
+			"sections_instructor": "alvarez-moreno, raul",
+			"sections_dept": "span",
+			"sections_year": 2013
+		},
+		{
+			"sections_title": "intermed span ii",
+			"sections_instructor": "alaiz-losada, susana",
+			"sections_dept": "span",
+			"sections_year": 2013
+		},
+		{
+			"sections_title": "intermed span i",
+			"sections_instructor": "albarran-caselles, olga;spacciante, stephanie",
+			"sections_dept": "span",
+			"sections_year": 2013
+		},
+		{
+			"sections_title": "beginner span ii",
+			"sections_instructor": "alvarez-jaimes, javier;manchon, enrique",
+			"sections_dept": "span",
+			"sections_year": 2013
+		},
+		{
+			"sections_title": "interviewing skl",
+			"sections_instructor": "allison, kelly",
+			"sections_dept": "sowk",
+			"sections_year": 2013
+		},
+		{
+			"sections_title": "cog/beh interven",
+			"sections_instructor": "alden, lynn",
+			"sections_dept": "psyc",
+			"sections_year": 2013
+		},
+		{
+			"sections_title": "mcr evl dfrm mtl",
+			"sections_instructor": "alshwawreh, nidal",
+			"sections_dept": "mtrl",
+			"sections_year": 2013
+		},
+		{
+			"sections_title": "microstrtr eng",
+			"sections_instructor": "alshwawreh, nidal",
+			"sections_dept": "mtrl",
+			"sections_year": 2013
+		},
+		{
+			"sections_title": "env degrad mtrls",
+			"sections_instructor": "alfantazi, akram",
+			"sections_dept": "mtrl",
+			"sections_year": 2013
+		},
+		{
+			"sections_title": "phse transformtn",
+			"sections_instructor": "alshwawreh, nidal",
+			"sections_dept": "mtrl",
+			"sections_year": 2013
+		},
+		{
+			"sections_title": "cardiovas path",
+			"sections_instructor": "allard, michael",
+			"sections_dept": "medi",
+			"sections_year": 2013
+		},
+		{
+			"sections_title": "mch tool str&vib",
+			"sections_instructor": "altintas, yusuf",
+			"sections_dept": "mech",
+			"sections_year": 2013
+		},
+		{
+			"sections_title": "multi-axis mach",
+			"sections_instructor": "altintas, yusuf",
+			"sections_dept": "mech",
+			"sections_year": 2013
+		},
+		{
+			"sections_title": "co ctrl mec sys",
+			"sections_instructor": "altintas, yusuf",
+			"sections_dept": "mech",
+			"sections_year": 2013
+		},
+		{
+			"sections_title": "linear systems",
+			"sections_instructor": "alba, kamran;wetton, brian thomas",
+			"sections_dept": "math",
+			"sections_year": 2013
+		},
+		{
+			"sections_title": "adv food microbi",
+			"sections_instructor": "allen, kevin",
+			"sections_dept": "food",
+			"sections_year": 2013
+		},
+		{
+			"sections_title": "found ed tech",
+			"sections_instructor": "alam, matiul",
+			"sections_dept": "etec",
+			"sections_year": 2013
+		},
+		{
+			"sections_title": "found ed tech",
+			"sections_instructor": "alam, matiul",
+			"sections_dept": "etec",
+			"sections_year": 2013
+		},
+		{
+			"sections_title": "major seminr lit",
+			"sections_instructor": "al-kassim, dina",
+			"sections_dept": "engl",
+			"sections_year": 2013
+		},
+		{
+			"sections_title": "world lit engl",
+			"sections_instructor": "al-kassim, dina",
+			"sections_dept": "engl",
+			"sections_year": 2013
+		},
+		{
+			"sections_title": "env des 3",
+			"sections_instructor": "alissa, reem;neumann, oliver",
+			"sections_dept": "ends",
+			"sections_year": 2013
+		},
+		{
+			"sections_title": "intr sftwr eng",
+			"sections_instructor": "allen, meghan",
+			"sections_dept": "cpsc",
+			"sections_year": 2013
+		},
+		{
+			"sections_title": "sftwr constructn",
+			"sections_instructor": "allen, meghan",
+			"sections_dept": "cpsc",
+			"sections_year": 2013
+		},
+		{
+			"sections_title": "sftwr constructn",
+			"sections_instructor": "allen, meghan",
+			"sections_dept": "cpsc",
+			"sections_year": 2013
+		},
+		{
+			"sections_title": "comptn, progrmng",
+			"sections_instructor": "allen, meghan",
+			"sections_dept": "cpsc",
+			"sections_year": 2013
+		},
+		{
+			"sections_title": "comptn, progrmng",
+			"sections_instructor": "allen, meghan",
+			"sections_dept": "cpsc",
+			"sections_year": 2013
+		},
+		{
+			"sections_title": "analytical chem",
+			"sections_instructor": "algar, walter",
+			"sections_dept": "chem",
+			"sections_year": 2013
+		},
+		{
+			"sections_title": "cll&dev bio lit",
+			"sections_instructor": "allan, douglas;bamji, shernaz;loewen, christopher",
+			"sections_dept": "cell",
+			"sections_year": 2013
+		},
+		{
+			"sections_title": "adv lab physiol",
+			"sections_instructor": "allan, douglas",
+			"sections_dept": "caps",
+			"sections_year": 2013
+		},
+		{
+			"sections_title": "intr grs hum ant",
+			"sections_instructor": "alimohammadi, majid",
+			"sections_dept": "caps",
+			"sections_year": 2013
+		},
+		{
+			"sections_title": "intr mcr hum ant",
+			"sections_instructor": "alimohammadi, majid",
+			"sections_dept": "caps",
+			"sections_year": 2013
+		},
+		{
+			"sections_title": "neurobi sens&mot",
+			"sections_instructor": "altshuler, douglas;gordon, michael",
+			"sections_dept": "biol",
+			"sections_year": 2013
+		},
+		{
+			"sections_title": "intro to physio",
+			"sections_instructor": "altshuler, douglas",
+			"sections_dept": "biol",
+			"sections_year": 2013
+		},
+		{
+			"sections_title": "fndtns  accnting",
+			"sections_instructor": "alisharan, steve",
+			"sections_dept": "baac",
+			"sections_year": 2013
+		},
+		{
+			"sections_title": "fndtns  accnting",
+			"sections_instructor": "alisharan, steve",
+			"sections_dept": "baac",
+			"sections_year": 2013
+		},
+		{
+			"sections_title": "fndtns  accnting",
+			"sections_instructor": "alisharan, steve",
+			"sections_dept": "baac",
+			"sections_year": 2013
+		},
+		{
+			"sections_title": "financial rept'g",
+			"sections_instructor": "alisharan, steve",
+			"sections_dept": "baac",
+			"sections_year": 2013
+		},
+		{
+			"sections_title": "arch design 1b",
+			"sections_instructor": "alissa, reem",
+			"sections_dept": "arch",
+			"sections_year": 2013
+		},
+		{
+			"sections_title": "technical commun",
+			"sections_instructor": "altow, deborah",
+			"sections_dept": "apsc",
+			"sections_year": 2013
+		},
+		{
+			"sections_title": "technical commun",
+			"sections_instructor": "altow, deborah;berndt, annette;jaeger, carol patricia",
+			"sections_dept": "apsc",
+			"sections_year": 2013
+		},
+		{
+			"sections_title": "gross anat limbs",
+			"sections_instructor": "alimohammadi, majid",
+			"sections_dept": "anat",
+			"sections_year": 2013
+		},
+		{
+			"sections_title": "hist&theor desig",
+			"sections_instructor": "alissa, reem",
+			"sections_dept": "udes",
+			"sections_year": 2014
+		},
+		{
+			"sections_title": "pen lit to 1700",
+			"sections_instructor": "alvarez-moreno, raul",
+			"sections_dept": "span",
+			"sections_year": 2014
+		},
+		{
+			"sections_title": "convers span i",
+			"sections_instructor": "alvarez-moreno, raul",
+			"sections_dept": "span",
+			"sections_year": 2014
+		},
+		{
+			"sections_title": "sowk practice",
+			"sections_instructor": "allison, kelly;charles, grant;clark, natalie",
+			"sections_dept": "sowk",
+			"sections_year": 2014
+		},
+		{
+			"sections_title": "interviewing skl",
+			"sections_instructor": "allison, kelly",
+			"sections_dept": "sowk",
+			"sections_year": 2014
+		},
+		{
+			"sections_title": "scie seminar",
+			"sections_instructor": "allen, meghan",
+			"sections_dept": "scie",
+			"sections_year": 2014
+		},
+		{
+			"sections_title": "cog/beh interven",
+			"sections_instructor": "alden, lynn",
+			"sections_dept": "psyc",
+			"sections_year": 2014
+		},
+		{
+			"sections_title": "micr infectn ctl",
+			"sections_instructor": "al rawahi, ghada;roberts, frederick;stefanovic, aleksandra",
+			"sections_dept": "path",
+			"sections_year": 2014
+		},
+		{
+			"sections_title": "mch tool str&vib",
+			"sections_instructor": "altintas, yusuf",
+			"sections_dept": "mech",
+			"sections_year": 2014
+		},
+		{
+			"sections_title": "multi-axis mach",
+			"sections_instructor": "altintas, yusuf",
+			"sections_dept": "mech",
+			"sections_year": 2014
+		},
+		{
+			"sections_title": "co ctrl mec sys",
+			"sections_instructor": "altintas, yusuf",
+			"sections_dept": "mech",
+			"sections_year": 2014
+		},
+		{
+			"sections_title": "gndr sex crt rce",
+			"sections_instructor": "al-kassim, dina",
+			"sections_dept": "grsj",
+			"sections_year": 2014
+		},
+		{
+			"sections_title": "wtrshed hydro",
+			"sections_instructor": "alila, younes",
+			"sections_dept": "frst",
+			"sections_year": 2014
+		},
+		{
+			"sections_title": "intr biometrics",
+			"sections_instructor": "alila, younes",
+			"sections_dept": "frst",
+			"sections_year": 2014
+		},
+		{
+			"sections_title": "anl mthd frst hy",
+			"sections_instructor": "alila, younes",
+			"sections_dept": "fopr",
+			"sections_year": 2014
+		},
+		{
+			"sections_title": "found ed tech",
+			"sections_instructor": "alam, matiul",
+			"sections_dept": "etec",
+			"sections_year": 2014
+		},
+		{
+			"sections_title": "found ed tech",
+			"sections_instructor": "alam, matiul",
+			"sections_dept": "etec",
+			"sections_year": 2014
+		},
+		{
+			"sections_title": "adv geo fld dyn",
+			"sections_instructor": "allen, susan elizabeth",
+			"sections_dept": "eosc",
+			"sections_year": 2014
+		},
+		{
+			"sections_title": "world lit in eng",
+			"sections_instructor": "al-kassim, dina",
+			"sections_dept": "engl",
+			"sections_year": 2014
+		},
+		{
+			"sections_title": "comptn, progrmng",
+			"sections_instructor": "allen, meghan",
+			"sections_dept": "cpsc",
+			"sections_year": 2014
+		},
+		{
+			"sections_title": "comptn, progrmng",
+			"sections_instructor": "allen, meghan",
+			"sections_dept": "cpsc",
+			"sections_year": 2014
+		},
+		{
+			"sections_title": "int'l bus mngt",
+			"sections_instructor": "alviarez, vanessa",
+			"sections_dept": "comm",
+			"sections_year": 2014
+		},
+		{
+			"sections_title": "int'l bus mngt",
+			"sections_instructor": "alviarez, vanessa",
+			"sections_dept": "comm",
+			"sections_year": 2014
+		},
+		{
+			"sections_title": "int'l bus mngt",
+			"sections_instructor": "alviarez, vanessa",
+			"sections_dept": "comm",
+			"sections_year": 2014
+		},
+		{
+			"sections_title": "analytical chem",
+			"sections_instructor": "algar, walter",
+			"sections_dept": "chem",
+			"sections_year": 2014
+		},
+		{
+			"sections_title": "cll&dev bio lit",
+			"sections_instructor": "allan, douglas;bamji, shernaz;loewen, christopher",
+			"sections_dept": "cell",
+			"sections_year": 2014
+		},
+		{
+			"sections_title": "adv neurophyl",
+			"sections_instructor": "allan, douglas;baimbridge, kenneth;haas, kurt;kehl, steven",
+			"sections_dept": "caps",
+			"sections_year": 2014
+		},
+		{
+			"sections_title": "intr grs hum ant",
+			"sections_instructor": "alimohammadi, majid",
+			"sections_dept": "caps",
+			"sections_year": 2014
+		},
+		{
+			"sections_title": "intr mcr hum ant",
+			"sections_instructor": "alimohammadi, majid",
+			"sections_dept": "caps",
+			"sections_year": 2014
+		},
+		{
+			"sections_title": "neurobi sens&mot",
+			"sections_instructor": "altshuler, douglas;gordon, michael",
+			"sections_dept": "biol",
+			"sections_year": 2014
+		},
+		{
+			"sections_title": "fndtns  accnting",
+			"sections_instructor": "alisharan, steve",
+			"sections_dept": "baac",
+			"sections_year": 2014
+		},
+		{
+			"sections_title": "fndtns  accnting",
+			"sections_instructor": "alisharan, steve",
+			"sections_dept": "baac",
+			"sections_year": 2014
+		},
+		{
+			"sections_title": "fndtns  accnting",
+			"sections_instructor": "alisharan, steve",
+			"sections_dept": "baac",
+			"sections_year": 2014
+		},
+		{
+			"sections_title": "fndtns  accnting",
+			"sections_instructor": "alisharan, steve",
+			"sections_dept": "baac",
+			"sections_year": 2014
+		},
+		{
+			"sections_title": "fndtns  accnting",
+			"sections_instructor": "alisharan, steve",
+			"sections_dept": "baac",
+			"sections_year": 2014
+		},
+		{
+			"sections_title": "financial rept'g",
+			"sections_instructor": "alisharan, steve",
+			"sections_dept": "baac",
+			"sections_year": 2014
+		},
+		{
+			"sections_title": "technical commun",
+			"sections_instructor": "altow, deborah",
+			"sections_dept": "apsc",
+			"sections_year": 2014
+		},
+		{
+			"sections_title": "gross anat limbs",
+			"sections_instructor": "alimohammadi, majid",
+			"sections_dept": "anat",
+			"sections_year": 2014
+		},
+		{
+			"sections_title": "vant col project",
+			"sections_instructor": "allen, meghan",
+			"sections_dept": "vant",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "medieval lit",
+			"sections_instructor": "alvarez-moreno, raul",
+			"sections_dept": "span",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "pen lit to 1700",
+			"sections_instructor": "alvarez-moreno, raul",
+			"sections_dept": "span",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "sowk practice",
+			"sections_instructor": "allison, kelly;chaparro-pacheco, ricardo;clark, natalie",
+			"sections_dept": "sowk",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "interviewing skl",
+			"sections_instructor": "allison, kelly",
+			"sections_dept": "sowk",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "scie seminar",
+			"sections_instructor": "allen, meghan",
+			"sections_dept": "scie",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "cog/beh interven",
+			"sections_instructor": "alden, lynn",
+			"sections_dept": "psyc",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "found of phrm",
+			"sections_instructor": "albon, simon;cairns, brian;chen, tim;collier, abby;de vera, mary;ensom, mary;frankel, adam;hafeli, urs;li, shyh-dar;lynd, larry;rodrigues, brian;seet, tony;seto, katherine;wong, judy",
+			"sections_dept": "phrm",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "micr infectn ctl",
+			"sections_instructor": "al rawahi, ghada;roberts, frederick;stefanovic, aleksandra",
+			"sections_dept": "path",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "mch tool str&vib",
+			"sections_instructor": "altintas, yusuf",
+			"sections_dept": "mech",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "multi-axis mach",
+			"sections_instructor": "altintas, yusuf",
+			"sections_dept": "mech",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "co ctrl mec sys",
+			"sections_instructor": "altintas, yusuf",
+			"sections_dept": "mech",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "mech materials",
+			"sections_instructor": "alemi ardakani, mohammad",
+			"sections_dept": "mech",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "client-ctrd serv",
+			"sections_instructor": "aldridge, kevin",
+			"sections_dept": "libr",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "intersectnl issu",
+			"sections_instructor": "al-kassim, dina",
+			"sections_dept": "grsj",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "stat mth hydrlgy",
+			"sections_instructor": "alila, younes",
+			"sections_dept": "frst",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "wtrshed hydro",
+			"sections_instructor": "alila, younes",
+			"sections_dept": "frst",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "intr biometrics",
+			"sections_instructor": "alila, younes",
+			"sections_dept": "frst",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "anl mthd frst hy",
+			"sections_instructor": "alila, younes",
+			"sections_dept": "fopr",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "found ed tech",
+			"sections_instructor": "alam, matiul",
+			"sections_dept": "etec",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "found ed tech",
+			"sections_instructor": "alam, matiul",
+			"sections_dept": "etec",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "num tec oc,at&er",
+			"sections_instructor": "allen, susan elizabeth;austin, philip",
+			"sections_dept": "eosc",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "intr minrl depst",
+			"sections_instructor": "allan, murray",
+			"sections_dept": "eosc",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "world lit in eng",
+			"sections_instructor": "al-kassim, dina",
+			"sections_dept": "engl",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "comptn, progrmng",
+			"sections_instructor": "allen, meghan",
+			"sections_dept": "cpsc",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "int'l bus mngt",
+			"sections_instructor": "alviarez, vanessa",
+			"sections_dept": "comm",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "int'l bus mngt",
+			"sections_instructor": "alviarez, vanessa",
+			"sections_dept": "comm",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "int'l bus mngt",
+			"sections_instructor": "alviarez, vanessa",
+			"sections_dept": "comm",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "new venture des",
+			"sections_instructor": "altman, jonas;cubbon, paul;hodgson, antony;kruchten, philippe;simonite, james",
+			"sections_dept": "comm",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "int mgmt info sy",
+			"sections_instructor": "aleem, muhammad usman",
+			"sections_dept": "comm",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "int mgmt info sy",
+			"sections_instructor": "aleem, muhammad usman",
+			"sections_dept": "comm",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "int mgmt info sy",
+			"sections_instructor": "aleem, muhammad usman",
+			"sections_dept": "comm",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "int mgmt info sy",
+			"sections_instructor": "aleem, muhammad usman",
+			"sections_dept": "comm",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "intro chem anlys",
+			"sections_instructor": "algar, walter",
+			"sections_dept": "chem",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "cll&dev bio lit",
+			"sections_instructor": "allan, douglas;bamji, shernaz;loewen, christopher",
+			"sections_dept": "cell",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "adv lab physiol",
+			"sections_instructor": "allan, douglas;baimbridge, kenneth;clee, susanne michelle;haas, kurt;hammond, geoffrey lewis;johnson, james;kieffer, tim;loewen, christopher;luciani, dan;mason, barry;osborne, salma;tanentzapf, guy",
+			"sections_dept": "caps",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "adv neurophyl",
+			"sections_instructor": "allan, douglas;baimbridge, kenneth;haas, kurt;kehl, steven",
+			"sections_dept": "caps",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "intr grs hum ant",
+			"sections_instructor": "alimohammadi, majid",
+			"sections_dept": "caps",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "info systems",
+			"sections_instructor": "aleem, muhammad usman",
+			"sections_dept": "busi",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "neurobi sens&mot",
+			"sections_instructor": "altshuler, douglas;gordon, michael",
+			"sections_dept": "biol",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "phys sns nrv msc",
+			"sections_instructor": "altshuler, douglas",
+			"sections_dept": "biol",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "fndtns  accnting",
+			"sections_instructor": "alisharan, steve",
+			"sections_dept": "baac",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "fndmntl accnting",
+			"sections_instructor": "alisharan, steve",
+			"sections_dept": "baac",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "fndmntl accnting",
+			"sections_instructor": "alisharan, steve",
+			"sections_dept": "baac",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "fndmntl accnting",
+			"sections_instructor": "alisharan, steve",
+			"sections_dept": "baac",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "financial rept'g",
+			"sections_instructor": "alisharan, steve",
+			"sections_dept": "baac",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "financial rept'g",
+			"sections_instructor": "alisharan, steve",
+			"sections_dept": "baac",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "num tch oc,at&er",
+			"sections_instructor": "allen, susan elizabeth;austin, philip",
+			"sections_dept": "atsc",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "new ven design",
+			"sections_instructor": "altman, jonas;cubbon, paul;hodgson, antony;kruchten, philippe;simonite, james",
+			"sections_dept": "apsc",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "gross anat limbs",
+			"sections_instructor": "alimohammadi, majid",
+			"sections_dept": "anat",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "landscp tech ii",
+			"sections_instructor": "alborg, michele",
+			"sections_dept": "larc",
+			"sections_year": 2016
+		},
+		{
+			"sections_title": "la dsn std v",
+			"sections_instructor": "alborg, michele",
+			"sections_dept": "larc",
+			"sections_year": 2016
+		},
+		{
+			"sections_title": "la dsn std iv",
+			"sections_instructor": "alborg, michele",
+			"sections_dept": "larc",
+			"sections_year": 2016
+		},
+		{
+			"sections_title": "wtrshed hydro",
+			"sections_instructor": "alila, younes",
+			"sections_dept": "frst",
+			"sections_year": 2016
+		},
+		{
+			"sections_title": "anl mthd frst hy",
+			"sections_instructor": "alila, younes",
+			"sections_dept": "fopr",
+			"sections_year": 2016
+		},
+		{
+			"sections_title": "tpc corp finance",
+			"sections_instructor": "alimov, azizjon",
+			"sections_dept": "bafi",
+			"sections_year": 2016
+		},
+		{
+			"sections_title": "gross anat limbs",
+			"sections_instructor": "alimohammadi, majid",
+			"sections_dept": "anat",
+			"sections_year": 2016
+		}
+	]
+}

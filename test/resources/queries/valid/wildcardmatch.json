@@ -1,0 +1,20 @@
+{
+	"title": "No wildcards (match inputstring)",
+	"input": {
+		"WHERE": {
+			"IS": {
+				"sections_dept": "aanb"
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": ["basics_dept"],
+			"ORDER": "basics_avg"
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+		"basics_dept":"aanb"
+		}
+	]
+}

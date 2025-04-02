@@ -1,0 +1,73 @@
+{
+	"title": "AVGdecimalresult",
+	"input": {
+		"WHERE": {},
+		"OPTIONS": {
+			"COLUMNS": [
+				"rooms_furniture",
+				"avgSeats"
+			],
+			"ORDER": {
+				"dir": "UP",
+				"keys": [
+					"avgSeats"
+				]
+			}
+		},
+		"TRANSFORMATIONS": {
+			"GROUP": [
+				"rooms_furniture"
+			],
+			"APPLY": [
+				{
+					"avgSeats": {
+						"AVG": "rooms_seats"
+					}
+				}
+			]
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"rooms_furniture": "Classroom-Moveable Tables & Chairs",
+			"avgSeats": 17.45
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tablets",
+			"avgSeats": 34.45
+		},
+		{
+			"rooms_furniture": "Classroom-Movable Tables & Chairs",
+			"avgSeats": 39.27
+		},
+		{
+			"rooms_furniture": "Classroom-Hybrid Furniture",
+			"avgSeats": 47.63
+		},
+		{
+			"rooms_furniture": "Classroom-Learn Lab",
+			"avgSeats": 50
+		},
+		{
+			"rooms_furniture": "Classroom-Fixed Tables/Moveable Chairs",
+			"avgSeats": 70.67
+		},
+		{
+			"rooms_furniture": "Classroom-Moveable Tablets",
+			"avgSeats": 90
+		},
+		{
+			"rooms_furniture": "Classroom-Fixed Tables/Movable Chairs",
+			"avgSeats": 91.63
+		},
+		{
+			"rooms_furniture": "Classroom-Fixed Tables/Fixed Chairs",
+			"avgSeats": 157.2
+		},
+		{
+			"rooms_furniture": "Classroom-Fixed Tablets",
+			"avgSeats": 191.88
+		}
+	]
+}

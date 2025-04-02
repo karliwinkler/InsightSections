@@ -1,0 +1,1617 @@
+{
+	"title": "year AND audit",
+	"input": {
+		"WHERE": {
+			"AND": [
+				{
+					"EQ": {
+						"sections_year": 2011
+					}
+				},
+				{
+					"GT": {
+						"sections_audit": 0
+					}
+				}
+			]
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_year",
+				"sections_audit"
+			],
+			"ORDER": "sections_year"
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 2
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 2
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 2
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 2
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 5
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 2
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 2
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 2
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 2
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 2
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 3
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 6
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 2
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 2
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 7
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 5
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 7
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 3
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 5
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 7
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 3
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 9
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 4
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 4
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 11
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 3
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 7
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 5
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 2
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 2
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 2
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 2
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 3
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 2
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 3
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 2
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 3
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 2
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 5
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 2
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 3
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 2
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 4
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 2
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 2
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 5
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 2
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 2
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 2
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 2
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 2
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 2
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 2
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 2
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 2
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 2
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 2
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 2
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 3
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 2
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 2
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 2
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 2
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 2
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 4
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 2
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 2
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 3
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 2
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 2
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 2
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 2
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 2
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 2
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 2
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 5
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 2
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 3
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 2
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 2
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 2
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 2
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 2
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 3
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 2
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 4
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 2
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 2
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 2
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 3
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 3
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 2
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 2
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 2
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 2
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 2
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 2
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 2
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 4
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 3
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 2
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 2
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 2
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 2
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 4
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 2
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 2
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 2
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 2
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 3
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 3
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 2
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 2
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 2
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 3
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 2
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 5
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 2
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 2
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 3
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 2
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 2
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		},
+		{
+			"sections_year": 2011,
+			"sections_audit": 1
+		}
+	]
+}

@@ -1,0 +1,582 @@
+{
+	"title": "title asterisk containing",
+	"input": {
+		"WHERE": {
+			"IS": {
+				"sections_title": "*omp e*"
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_id",
+				"sections_title",
+				"sections_instructor",
+				"sections_dept",
+				"sections_year"
+			]
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_id": "160",
+			"sections_title": "comp eng design",
+			"sections_instructor": "agharebparast, farshid",
+			"sections_dept": "apsc",
+			"sections_year": 2013
+		},
+		{
+			"sections_id": "160",
+			"sections_title": "comp eng design",
+			"sections_instructor": "",
+			"sections_dept": "apsc",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "160",
+			"sections_title": "comp eng design",
+			"sections_instructor": "davies, paul;gelbart, michael",
+			"sections_dept": "apsc",
+			"sections_year": 2015
+		},
+		{
+			"sections_id": "160",
+			"sections_title": "comp eng design",
+			"sections_instructor": "davies, paul;khosravi, hassan",
+			"sections_dept": "apsc",
+			"sections_year": 2015
+		},
+		{
+			"sections_id": "160",
+			"sections_title": "comp eng design",
+			"sections_instructor": "khosravi, hassan;miller, gregor",
+			"sections_dept": "apsc",
+			"sections_year": 2015
+		},
+		{
+			"sections_id": "160",
+			"sections_title": "comp eng design",
+			"sections_instructor": "khosravi, hassan;miller, gregor",
+			"sections_dept": "apsc",
+			"sections_year": 2015
+		},
+		{
+			"sections_id": "160",
+			"sections_title": "comp eng design",
+			"sections_instructor": "berg, celina;miller, gregor",
+			"sections_dept": "apsc",
+			"sections_year": 2015
+		},
+		{
+			"sections_id": "160",
+			"sections_title": "comp eng design",
+			"sections_instructor": "",
+			"sections_dept": "apsc",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "160",
+			"sections_title": "comp eng design",
+			"sections_instructor": "agharebparast, farshid",
+			"sections_dept": "apsc",
+			"sections_year": 2010
+		},
+		{
+			"sections_id": "160",
+			"sections_title": "comp eng design",
+			"sections_instructor": "",
+			"sections_dept": "apsc",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "160",
+			"sections_title": "comp eng design",
+			"sections_instructor": "agharebparast, farshid;voll, kimberly",
+			"sections_dept": "apsc",
+			"sections_year": 2011
+		},
+		{
+			"sections_id": "160",
+			"sections_title": "comp eng design",
+			"sections_instructor": "agharebparast, farshid;voll, kimberly",
+			"sections_dept": "apsc",
+			"sections_year": 2011
+		},
+		{
+			"sections_id": "160",
+			"sections_title": "comp eng design",
+			"sections_instructor": "carter, paul martin;karim, faizal;knorr, edwin max",
+			"sections_dept": "apsc",
+			"sections_year": 2011
+		},
+		{
+			"sections_id": "160",
+			"sections_title": "comp eng design",
+			"sections_instructor": "carter, paul martin;karim, faizal;knorr, edwin max",
+			"sections_dept": "apsc",
+			"sections_year": 2011
+		},
+		{
+			"sections_id": "160",
+			"sections_title": "comp eng design",
+			"sections_instructor": "",
+			"sections_dept": "apsc",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "160",
+			"sections_title": "comp eng design",
+			"sections_instructor": "agharebparast, farshid;carter, paul martin",
+			"sections_dept": "apsc",
+			"sections_year": 2012
+		},
+		{
+			"sections_id": "160",
+			"sections_title": "comp eng design",
+			"sections_instructor": "agharebparast, farshid;carter, paul martin",
+			"sections_dept": "apsc",
+			"sections_year": 2012
+		},
+		{
+			"sections_id": "160",
+			"sections_title": "comp eng design",
+			"sections_instructor": "agharebparast, farshid;eiselt, kurt",
+			"sections_dept": "apsc",
+			"sections_year": 2012
+		},
+		{
+			"sections_id": "160",
+			"sections_title": "comp eng design",
+			"sections_instructor": "agharebparast, farshid;friedlander, michael",
+			"sections_dept": "apsc",
+			"sections_year": 2012
+		},
+		{
+			"sections_id": "160",
+			"sections_title": "comp eng design",
+			"sections_instructor": "",
+			"sections_dept": "apsc",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "160",
+			"sections_title": "comp eng design",
+			"sections_instructor": "",
+			"sections_dept": "apsc",
+			"sections_year": 2008
+		},
+		{
+			"sections_id": "160",
+			"sections_title": "comp eng design",
+			"sections_instructor": "",
+			"sections_dept": "apsc",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "160",
+			"sections_title": "comp eng design",
+			"sections_instructor": "blazek, zeljko;knorr, edwin max",
+			"sections_dept": "apsc",
+			"sections_year": 2007
+		},
+		{
+			"sections_id": "160",
+			"sections_title": "comp eng design",
+			"sections_instructor": "blazek, zeljko;knorr, edwin max",
+			"sections_dept": "apsc",
+			"sections_year": 2007
+		},
+		{
+			"sections_id": "160",
+			"sections_title": "comp eng design",
+			"sections_instructor": "blazek, zeljko;carter, paul martin",
+			"sections_dept": "apsc",
+			"sections_year": 2007
+		},
+		{
+			"sections_id": "160",
+			"sections_title": "comp eng design",
+			"sections_instructor": "blazek, zeljko;carter, paul martin",
+			"sections_dept": "apsc",
+			"sections_year": 2007
+		},
+		{
+			"sections_id": "160",
+			"sections_title": "comp eng design",
+			"sections_instructor": "",
+			"sections_dept": "apsc",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "160",
+			"sections_title": "comp eng design",
+			"sections_instructor": "agharebparast, farshid;carter, paul martin",
+			"sections_dept": "apsc",
+			"sections_year": 2010
+		},
+		{
+			"sections_id": "160",
+			"sections_title": "comp eng design",
+			"sections_instructor": "agharebparast, farshid;knorr, edwin max",
+			"sections_dept": "apsc",
+			"sections_year": 2010
+		},
+		{
+			"sections_id": "160",
+			"sections_title": "comp eng design",
+			"sections_instructor": "grant, david n;knorr, edwin max",
+			"sections_dept": "apsc",
+			"sections_year": 2010
+		},
+		{
+			"sections_id": "160",
+			"sections_title": "comp eng design",
+			"sections_instructor": "grant, david n;knorr, edwin max",
+			"sections_dept": "apsc",
+			"sections_year": 2010
+		},
+		{
+			"sections_id": "160",
+			"sections_title": "comp eng design",
+			"sections_instructor": "",
+			"sections_dept": "apsc",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "160",
+			"sections_title": "comp eng design",
+			"sections_instructor": "agharebparast, farshid",
+			"sections_dept": "apsc",
+			"sections_year": 2012
+		},
+		{
+			"sections_id": "160",
+			"sections_title": "comp eng design",
+			"sections_instructor": "",
+			"sections_dept": "apsc",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "160",
+			"sections_title": "comp eng design",
+			"sections_instructor": "agharebparast, farshid;carter, paul martin",
+			"sections_dept": "apsc",
+			"sections_year": 2009
+		},
+		{
+			"sections_id": "160",
+			"sections_title": "comp eng design",
+			"sections_instructor": "agharebparast, farshid;carter, paul martin",
+			"sections_dept": "apsc",
+			"sections_year": 2009
+		},
+		{
+			"sections_id": "160",
+			"sections_title": "comp eng design",
+			"sections_instructor": "agharebparast, farshid;carter, paul martin",
+			"sections_dept": "apsc",
+			"sections_year": 2009
+		},
+		{
+			"sections_id": "160",
+			"sections_title": "comp eng design",
+			"sections_instructor": "agharebparast, farshid;carter, paul martin",
+			"sections_dept": "apsc",
+			"sections_year": 2009
+		},
+		{
+			"sections_id": "160",
+			"sections_title": "comp eng design",
+			"sections_instructor": "",
+			"sections_dept": "apsc",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "160",
+			"sections_title": "comp eng design",
+			"sections_instructor": "agharebparast, farshid;carter, paul martin",
+			"sections_dept": "apsc",
+			"sections_year": 2013
+		},
+		{
+			"sections_id": "160",
+			"sections_title": "comp eng design",
+			"sections_instructor": "agharebparast, farshid;carter, paul martin",
+			"sections_dept": "apsc",
+			"sections_year": 2013
+		},
+		{
+			"sections_id": "160",
+			"sections_title": "comp eng design",
+			"sections_instructor": "agharebparast, farshid",
+			"sections_dept": "apsc",
+			"sections_year": 2013
+		},
+		{
+			"sections_id": "160",
+			"sections_title": "comp eng design",
+			"sections_instructor": "agharebparast, farshid;khosravi, hassan",
+			"sections_dept": "apsc",
+			"sections_year": 2013
+		},
+		{
+			"sections_id": "160",
+			"sections_title": "comp eng design",
+			"sections_instructor": "",
+			"sections_dept": "apsc",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "160",
+			"sections_title": "comp eng design",
+			"sections_instructor": "cooper, kendra;davies, paul;khosravi, hassan",
+			"sections_dept": "apsc",
+			"sections_year": 2014
+		},
+		{
+			"sections_id": "160",
+			"sections_title": "comp eng design",
+			"sections_instructor": "cooper, kendra;davies, paul;khosravi, hassan",
+			"sections_dept": "apsc",
+			"sections_year": 2014
+		},
+		{
+			"sections_id": "160",
+			"sections_title": "comp eng design",
+			"sections_instructor": "knorr, edwin max;miller, gregor",
+			"sections_dept": "apsc",
+			"sections_year": 2014
+		},
+		{
+			"sections_id": "160",
+			"sections_title": "comp eng design",
+			"sections_instructor": "cooper, kendra;miller, gregor",
+			"sections_dept": "apsc",
+			"sections_year": 2014
+		},
+		{
+			"sections_id": "160",
+			"sections_title": "comp eng design",
+			"sections_instructor": "",
+			"sections_dept": "apsc",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "160",
+			"sections_title": "comp eng design",
+			"sections_instructor": "agharebparast, farshid",
+			"sections_dept": "apsc",
+			"sections_year": 2014
+		},
+		{
+			"sections_id": "160",
+			"sections_title": "comp eng design",
+			"sections_instructor": "",
+			"sections_dept": "apsc",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "160",
+			"sections_title": "comp eng design",
+			"sections_instructor": "agharebparast, farshid",
+			"sections_dept": "apsc",
+			"sections_year": 2009
+		},
+		{
+			"sections_id": "160",
+			"sections_title": "comp eng design",
+			"sections_instructor": "",
+			"sections_dept": "apsc",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "160",
+			"sections_title": "comp eng design",
+			"sections_instructor": "agharebparast, farshid",
+			"sections_dept": "apsc",
+			"sections_year": 2011
+		},
+		{
+			"sections_id": "160",
+			"sections_title": "comp eng design",
+			"sections_instructor": "",
+			"sections_dept": "apsc",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "160",
+			"sections_title": "comp eng design",
+			"sections_instructor": "",
+			"sections_dept": "apsc",
+			"sections_year": 2008
+		},
+		{
+			"sections_id": "160",
+			"sections_title": "comp eng design",
+			"sections_instructor": "",
+			"sections_dept": "apsc",
+			"sections_year": 2008
+		},
+		{
+			"sections_id": "160",
+			"sections_title": "comp eng design",
+			"sections_instructor": "",
+			"sections_dept": "apsc",
+			"sections_year": 2008
+		},
+		{
+			"sections_id": "160",
+			"sections_title": "comp eng design",
+			"sections_instructor": "",
+			"sections_dept": "apsc",
+			"sections_year": 2008
+		},
+		{
+			"sections_id": "160",
+			"sections_title": "comp eng design",
+			"sections_instructor": "",
+			"sections_dept": "apsc",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "457",
+			"sections_title": "comp env physiol",
+			"sections_instructor": "brauner, colin",
+			"sections_dept": "biol",
+			"sections_year": 2007
+		},
+		{
+			"sections_id": "457",
+			"sections_title": "comp env physiol",
+			"sections_instructor": "",
+			"sections_dept": "biol",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "457",
+			"sections_title": "comp env physiol",
+			"sections_instructor": "brauner, colin",
+			"sections_dept": "biol",
+			"sections_year": 2011
+		},
+		{
+			"sections_id": "457",
+			"sections_title": "comp env physiol",
+			"sections_instructor": "",
+			"sections_dept": "biol",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "457",
+			"sections_title": "comp env physiol",
+			"sections_instructor": "brauner, colin",
+			"sections_dept": "biol",
+			"sections_year": 2012
+		},
+		{
+			"sections_id": "457",
+			"sections_title": "comp env physiol",
+			"sections_instructor": "",
+			"sections_dept": "biol",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "457",
+			"sections_title": "comp env physiol",
+			"sections_instructor": "brauner, colin",
+			"sections_dept": "biol",
+			"sections_year": 2016
+		},
+		{
+			"sections_id": "457",
+			"sections_title": "comp env physiol",
+			"sections_instructor": "",
+			"sections_dept": "biol",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "457",
+			"sections_title": "comp env physiol",
+			"sections_instructor": "",
+			"sections_dept": "biol",
+			"sections_year": 2008
+		},
+		{
+			"sections_id": "457",
+			"sections_title": "comp env physiol",
+			"sections_instructor": "",
+			"sections_dept": "biol",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "457",
+			"sections_title": "comp env physiol",
+			"sections_instructor": "brauner, colin",
+			"sections_dept": "biol",
+			"sections_year": 2014
+		},
+		{
+			"sections_id": "457",
+			"sections_title": "comp env physiol",
+			"sections_instructor": "",
+			"sections_dept": "biol",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "457",
+			"sections_title": "comp env physiol",
+			"sections_instructor": "brauner, colin",
+			"sections_dept": "biol",
+			"sections_year": 2010
+		},
+		{
+			"sections_id": "457",
+			"sections_title": "comp env physiol",
+			"sections_instructor": "",
+			"sections_dept": "biol",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "457",
+			"sections_title": "comp env physiol",
+			"sections_instructor": "brauner, colin",
+			"sections_dept": "biol",
+			"sections_year": 2015
+		},
+		{
+			"sections_id": "457",
+			"sections_title": "comp env physiol",
+			"sections_instructor": "",
+			"sections_dept": "biol",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "457",
+			"sections_title": "comp env physiol",
+			"sections_instructor": "brauner, colin",
+			"sections_dept": "biol",
+			"sections_year": 2013
+		},
+		{
+			"sections_id": "457",
+			"sections_title": "comp env physiol",
+			"sections_instructor": "",
+			"sections_dept": "biol",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "457",
+			"sections_title": "comp env physiol",
+			"sections_instructor": "bystriansky, jason",
+			"sections_dept": "biol",
+			"sections_year": 2009
+		},
+		{
+			"sections_id": "457",
+			"sections_title": "comp env physiol",
+			"sections_instructor": "",
+			"sections_dept": "biol",
+			"sections_year": 1900
+		}
+	]
+}

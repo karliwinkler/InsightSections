@@ -1,0 +1,27 @@
+{
+	"title": "uuid string match",
+	"input": {
+		"WHERE": {
+			"IS": {
+				"sections_uuid": "10000"
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_title",
+				"sections_instructor",
+				"sections_dept",
+				"sections_year"
+			]
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_title": "topcs microecon",
+			"sections_instructor": "graves, jonathan",
+			"sections_dept": "econ",
+			"sections_year": 2016
+		}
+	]
+}

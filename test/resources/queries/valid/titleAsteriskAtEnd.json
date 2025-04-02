@@ -1,0 +1,1786 @@
+{
+	"title": "title asterisk at end",
+	"input": {
+		"WHERE": {
+			"IS": {
+				"sections_title": "phys*"
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_id",
+				"sections_title",
+				"sections_instructor",
+				"sections_dept",
+				"sections_year"
+			]
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_id": "361",
+			"sections_title": "phys sns nrv msc",
+			"sections_instructor": "cooke, james;lacombe, agnes",
+			"sections_dept": "biol",
+			"sections_year": 2014
+		},
+		{
+			"sections_id": "361",
+			"sections_title": "phys sns nrv msc",
+			"sections_instructor": "",
+			"sections_dept": "biol",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "361",
+			"sections_title": "phys sns nrv msc",
+			"sections_instructor": "cooke, james",
+			"sections_dept": "biol",
+			"sections_year": 2014
+		},
+		{
+			"sections_id": "361",
+			"sections_title": "phys sns nrv msc",
+			"sections_instructor": "cooke, james",
+			"sections_dept": "biol",
+			"sections_year": 2014
+		},
+		{
+			"sections_id": "361",
+			"sections_title": "phys sns nrv msc",
+			"sections_instructor": "",
+			"sections_dept": "biol",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "361",
+			"sections_title": "phys sns nrv msc",
+			"sections_instructor": "altshuler, douglas",
+			"sections_dept": "biol",
+			"sections_year": 2015
+		},
+		{
+			"sections_id": "361",
+			"sections_title": "phys sns nrv msc",
+			"sections_instructor": "lacombe, agnes",
+			"sections_dept": "biol",
+			"sections_year": 2015
+		},
+		{
+			"sections_id": "361",
+			"sections_title": "phys sns nrv msc",
+			"sections_instructor": "",
+			"sections_dept": "biol",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "",
+			"sections_dept": "chem",
+			"sections_year": 2008
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "",
+			"sections_dept": "chem",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "monga, vishakha",
+			"sections_dept": "chem",
+			"sections_year": 2009
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "",
+			"sections_dept": "chem",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "crane, angela;lekhi, priya;sammis, glenn;straus, suzana",
+			"sections_dept": "chem",
+			"sections_year": 2013
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "crane, angela;lekhi, priya;schafer, laurel",
+			"sections_dept": "chem",
+			"sections_year": 2013
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "crane, angela;lekhi, priya;ryan, katherine;straus, suzana",
+			"sections_dept": "chem",
+			"sections_year": 2013
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "crane, angela;grant, edward;lekhi, priya;ryan, katherine",
+			"sections_dept": "chem",
+			"sections_year": 2013
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "crane, angela;grant, edward;lekhi, priya;sammis, glenn",
+			"sections_dept": "chem",
+			"sections_year": 2013
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "bates, gordon;crane, angela;lekhi, priya",
+			"sections_dept": "chem",
+			"sections_year": 2013
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "bates, gordon;crane, angela;lekhi, priya;li, hongbin",
+			"sections_dept": "chem",
+			"sections_year": 2013
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "",
+			"sections_dept": "chem",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "lekhi, priya;love, jennifer ann",
+			"sections_dept": "chem",
+			"sections_year": 2010
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "addison, christopher;lekhi, priya;love, jennifer ann;sammis, glenn",
+			"sections_dept": "chem",
+			"sections_year": 2010
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "addison, christopher;lekhi, priya;love, jennifer ann;sammis, glenn",
+			"sections_dept": "chem",
+			"sections_year": 2010
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "grant, edward;lekhi, priya;love, jennifer ann;sherman, john",
+			"sections_dept": "chem",
+			"sections_year": 2010
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "grant, edward;lekhi, priya;love, jennifer ann;sherman, john",
+			"sections_dept": "chem",
+			"sections_year": 2010
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "lekhi, priya;love, jennifer ann;macfarlane, william andrew;rogers, christine",
+			"sections_dept": "chem",
+			"sections_year": 2010
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "lekhi, priya;love, jennifer ann;macfarlane, william andrew;rogers, christine",
+			"sections_dept": "chem",
+			"sections_year": 2010
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "lekhi, priya;love, jennifer ann",
+			"sections_dept": "chem",
+			"sections_year": 2010
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "",
+			"sections_dept": "chem",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "lekhi, priya",
+			"sections_dept": "chem",
+			"sections_year": 2013
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "",
+			"sections_dept": "chem",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "bizzotto, dan;lekhi, priya;sammis, glenn",
+			"sections_dept": "chem",
+			"sections_year": 2011
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "addison, christopher;lekhi, priya;ryan, katherine",
+			"sections_dept": "chem",
+			"sections_year": 2011
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "addison, christopher;lekhi, priya;ryan, katherine",
+			"sections_dept": "chem",
+			"sections_year": 2011
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "grant, edward;kunz, tamara;lekhi, priya",
+			"sections_dept": "chem",
+			"sections_year": 2011
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "grant, edward;lekhi, priya;sammis, glenn",
+			"sections_dept": "chem",
+			"sections_year": 2011
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "bizzotto, dan;kunz, tamara;lekhi, priya",
+			"sections_dept": "chem",
+			"sections_year": 2011
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "lekhi, priya",
+			"sections_dept": "chem",
+			"sections_year": 2011
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "",
+			"sections_dept": "chem",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "lekhi, priya",
+			"sections_dept": "chem",
+			"sections_year": 2011
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "",
+			"sections_dept": "chem",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "bizzotto, dan;lekhi, priya;love, jennifer ann;macfarlane, william andrew",
+			"sections_dept": "chem",
+			"sections_year": 2009
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "lekhi, priya;love, jennifer ann;macfarlane, william andrew;ruddick, john n r",
+			"sections_dept": "chem",
+			"sections_year": 2009
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "lekhi, priya;love, jennifer ann;macfarlane, william andrew;ruddick, john n r",
+			"sections_dept": "chem",
+			"sections_year": 2009
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "lekhi, priya;love, jennifer ann;macfarlane, william andrew;patey, grenfell;sherman, john",
+			"sections_dept": "chem",
+			"sections_year": 2009
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "lekhi, priya;love, jennifer ann;macfarlane, william andrew;patey, grenfell;sherman, john",
+			"sections_dept": "chem",
+			"sections_year": 2009
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "lekhi, priya;love, jennifer ann;macfarlane, william andrew;stewart, jaclyn",
+			"sections_dept": "chem",
+			"sections_year": 2009
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "lekhi, priya;love, jennifer ann;macfarlane, william andrew;stewart, jaclyn",
+			"sections_dept": "chem",
+			"sections_year": 2009
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "lekhi, priya;love, jennifer ann;macfarlane, william andrew;monga, vishakha",
+			"sections_dept": "chem",
+			"sections_year": 2009
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "",
+			"sections_dept": "chem",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "addison, christopher",
+			"sections_dept": "chem",
+			"sections_year": 2012
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "",
+			"sections_dept": "chem",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "lekhi, priya;sammis, glenn;straus, suzana",
+			"sections_dept": "chem",
+			"sections_year": 2012
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "addison, christopher;lekhi, priya;ryan, katherine",
+			"sections_dept": "chem",
+			"sections_year": 2012
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "addison, christopher;lekhi, priya;ryan, katherine",
+			"sections_dept": "chem",
+			"sections_year": 2012
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "grant, edward;kunz, tamara;lekhi, priya",
+			"sections_dept": "chem",
+			"sections_year": 2012
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "grant, edward;lekhi, priya;sammis, glenn",
+			"sections_dept": "chem",
+			"sections_year": 2012
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "kunz, tamara;lekhi, priya;straus, suzana",
+			"sections_dept": "chem",
+			"sections_year": 2012
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "lekhi, priya",
+			"sections_dept": "chem",
+			"sections_year": 2012
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "",
+			"sections_dept": "chem",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "lekhi, priya;monga, vishakha",
+			"sections_dept": "chem",
+			"sections_year": 2010
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "",
+			"sections_dept": "chem",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "crane, angela;wang, yan",
+			"sections_dept": "chem",
+			"sections_year": 2014
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "",
+			"sections_dept": "chem",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "205",
+			"sections_title": "physical chem",
+			"sections_instructor": "patey, grenfell;wang, yan",
+			"sections_dept": "chem",
+			"sections_year": 2013
+		},
+		{
+			"sections_id": "205",
+			"sections_title": "physical chem",
+			"sections_instructor": "bussiere, guillaume;wang, yan",
+			"sections_dept": "chem",
+			"sections_year": 2013
+		},
+		{
+			"sections_id": "205",
+			"sections_title": "physical chem",
+			"sections_instructor": "chen, david;wang, yan",
+			"sections_dept": "chem",
+			"sections_year": 2013
+		},
+		{
+			"sections_id": "205",
+			"sections_title": "physical chem",
+			"sections_instructor": "wang, yan",
+			"sections_dept": "chem",
+			"sections_year": 2013
+		},
+		{
+			"sections_id": "205",
+			"sections_title": "physical chem",
+			"sections_instructor": "wang, yan",
+			"sections_dept": "chem",
+			"sections_year": 2013
+		},
+		{
+			"sections_id": "205",
+			"sections_title": "physical chem",
+			"sections_instructor": "",
+			"sections_dept": "chem",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "205",
+			"sections_title": "physical chem",
+			"sections_instructor": "signorell, ruth",
+			"sections_dept": "chem",
+			"sections_year": 2010
+		},
+		{
+			"sections_id": "205",
+			"sections_title": "physical chem",
+			"sections_instructor": "bussiere, guillaume;li, hongbin",
+			"sections_dept": "chem",
+			"sections_year": 2010
+		},
+		{
+			"sections_id": "205",
+			"sections_title": "physical chem",
+			"sections_instructor": "bussiere, guillaume;li, hongbin",
+			"sections_dept": "chem",
+			"sections_year": 2010
+		},
+		{
+			"sections_id": "205",
+			"sections_title": "physical chem",
+			"sections_instructor": "burnell, e elliott;straus, suzana",
+			"sections_dept": "chem",
+			"sections_year": 2010
+		},
+		{
+			"sections_id": "205",
+			"sections_title": "physical chem",
+			"sections_instructor": "burnell, e elliott;straus, suzana",
+			"sections_dept": "chem",
+			"sections_year": 2010
+		},
+		{
+			"sections_id": "205",
+			"sections_title": "physical chem",
+			"sections_instructor": "",
+			"sections_dept": "chem",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "205",
+			"sections_title": "physical chem",
+			"sections_instructor": "wang, yan",
+			"sections_dept": "chem",
+			"sections_year": 2011
+		},
+		{
+			"sections_id": "205",
+			"sections_title": "physical chem",
+			"sections_instructor": "bussiere, guillaume;chen, david",
+			"sections_dept": "chem",
+			"sections_year": 2011
+		},
+		{
+			"sections_id": "205",
+			"sections_title": "physical chem",
+			"sections_instructor": "bussiere, guillaume;chen, david",
+			"sections_dept": "chem",
+			"sections_year": 2011
+		},
+		{
+			"sections_id": "205",
+			"sections_title": "physical chem",
+			"sections_instructor": "shapiro, moshe",
+			"sections_dept": "chem",
+			"sections_year": 2011
+		},
+		{
+			"sections_id": "205",
+			"sections_title": "physical chem",
+			"sections_instructor": "burnell, e elliott",
+			"sections_dept": "chem",
+			"sections_year": 2011
+		},
+		{
+			"sections_id": "205",
+			"sections_title": "physical chem",
+			"sections_instructor": "",
+			"sections_dept": "chem",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "205",
+			"sections_title": "physical chem",
+			"sections_instructor": "burnell, e elliott;straus, suzana",
+			"sections_dept": "chem",
+			"sections_year": 2009
+		},
+		{
+			"sections_id": "205",
+			"sections_title": "physical chem",
+			"sections_instructor": "burnell, e elliott;straus, suzana",
+			"sections_dept": "chem",
+			"sections_year": 2009
+		},
+		{
+			"sections_id": "205",
+			"sections_title": "physical chem",
+			"sections_instructor": "burnell, e elliott;straus, suzana",
+			"sections_dept": "chem",
+			"sections_year": 2009
+		},
+		{
+			"sections_id": "205",
+			"sections_title": "physical chem",
+			"sections_instructor": "signorell, ruth",
+			"sections_dept": "chem",
+			"sections_year": 2009
+		},
+		{
+			"sections_id": "205",
+			"sections_title": "physical chem",
+			"sections_instructor": "li, hongbin",
+			"sections_dept": "chem",
+			"sections_year": 2009
+		},
+		{
+			"sections_id": "205",
+			"sections_title": "physical chem",
+			"sections_instructor": "",
+			"sections_dept": "chem",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "205",
+			"sections_title": "physical chem",
+			"sections_instructor": "patey, grenfell;wang, yan",
+			"sections_dept": "chem",
+			"sections_year": 2014
+		},
+		{
+			"sections_id": "205",
+			"sections_title": "physical chem",
+			"sections_instructor": "bussiere, guillaume;wang, yan",
+			"sections_dept": "chem",
+			"sections_year": 2014
+		},
+		{
+			"sections_id": "205",
+			"sections_title": "physical chem",
+			"sections_instructor": "burnell, e elliott;wang, yan",
+			"sections_dept": "chem",
+			"sections_year": 2014
+		},
+		{
+			"sections_id": "205",
+			"sections_title": "physical chem",
+			"sections_instructor": "wang, yan",
+			"sections_dept": "chem",
+			"sections_year": 2014
+		},
+		{
+			"sections_id": "205",
+			"sections_title": "physical chem",
+			"sections_instructor": "wang, yan",
+			"sections_dept": "chem",
+			"sections_year": 2014
+		},
+		{
+			"sections_id": "205",
+			"sections_title": "physical chem",
+			"sections_instructor": "",
+			"sections_dept": "chem",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "205",
+			"sections_title": "physical chem",
+			"sections_instructor": "li, hongbin",
+			"sections_dept": "chem",
+			"sections_year": 2012
+		},
+		{
+			"sections_id": "205",
+			"sections_title": "physical chem",
+			"sections_instructor": "bussiere, guillaume;chen, david",
+			"sections_dept": "chem",
+			"sections_year": 2012
+		},
+		{
+			"sections_id": "205",
+			"sections_title": "physical chem",
+			"sections_instructor": "bussiere, guillaume;chen, david",
+			"sections_dept": "chem",
+			"sections_year": 2012
+		},
+		{
+			"sections_id": "205",
+			"sections_title": "physical chem",
+			"sections_instructor": "wang, yan",
+			"sections_dept": "chem",
+			"sections_year": 2012
+		},
+		{
+			"sections_id": "205",
+			"sections_title": "physical chem",
+			"sections_instructor": "wang, yan",
+			"sections_dept": "chem",
+			"sections_year": 2012
+		},
+		{
+			"sections_id": "205",
+			"sections_title": "physical chem",
+			"sections_instructor": "",
+			"sections_dept": "chem",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "205",
+			"sections_title": "physical chem",
+			"sections_instructor": "patey, grenfell",
+			"sections_dept": "chem",
+			"sections_year": 2015
+		},
+		{
+			"sections_id": "205",
+			"sections_title": "physical chem",
+			"sections_instructor": "chen, david",
+			"sections_dept": "chem",
+			"sections_year": 2015
+		},
+		{
+			"sections_id": "205",
+			"sections_title": "physical chem",
+			"sections_instructor": "bussiere, guillaume",
+			"sections_dept": "chem",
+			"sections_year": 2015
+		},
+		{
+			"sections_id": "205",
+			"sections_title": "physical chem",
+			"sections_instructor": "wang, yan",
+			"sections_dept": "chem",
+			"sections_year": 2015
+		},
+		{
+			"sections_id": "205",
+			"sections_title": "physical chem",
+			"sections_instructor": "wang, yan",
+			"sections_dept": "chem",
+			"sections_year": 2015
+		},
+		{
+			"sections_id": "205",
+			"sections_title": "physical chem",
+			"sections_instructor": "",
+			"sections_dept": "chem",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "563",
+			"sections_title": "physical organic",
+			"sections_instructor": "sammis, glenn",
+			"sections_dept": "chem",
+			"sections_year": 2013
+		},
+		{
+			"sections_id": "563",
+			"sections_title": "physical organic",
+			"sections_instructor": "",
+			"sections_dept": "chem",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "563",
+			"sections_title": "physical organic",
+			"sections_instructor": "love, jennifer ann",
+			"sections_dept": "chem",
+			"sections_year": 2010
+		},
+		{
+			"sections_id": "563",
+			"sections_title": "physical organic",
+			"sections_instructor": "",
+			"sections_dept": "chem",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "563",
+			"sections_title": "physical organic",
+			"sections_instructor": "love, jennifer ann",
+			"sections_dept": "chem",
+			"sections_year": 2011
+		},
+		{
+			"sections_id": "563",
+			"sections_title": "physical organic",
+			"sections_instructor": "",
+			"sections_dept": "chem",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "563",
+			"sections_title": "physical organic",
+			"sections_instructor": "love, jennifer ann",
+			"sections_dept": "chem",
+			"sections_year": 2009
+		},
+		{
+			"sections_id": "563",
+			"sections_title": "physical organic",
+			"sections_instructor": "",
+			"sections_dept": "chem",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "563",
+			"sections_title": "physical organic",
+			"sections_instructor": "sammis, glenn",
+			"sections_dept": "chem",
+			"sections_year": 2014
+		},
+		{
+			"sections_id": "563",
+			"sections_title": "physical organic",
+			"sections_instructor": "",
+			"sections_dept": "chem",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "563",
+			"sections_title": "physical organic",
+			"sections_instructor": "love, jennifer ann",
+			"sections_dept": "chem",
+			"sections_year": 2012
+		},
+		{
+			"sections_id": "563",
+			"sections_title": "physical organic",
+			"sections_instructor": "",
+			"sections_dept": "chem",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "563",
+			"sections_title": "physical organic",
+			"sections_instructor": "sammis, glenn",
+			"sections_dept": "chem",
+			"sections_year": 2015
+		},
+		{
+			"sections_id": "563",
+			"sections_title": "physical organic",
+			"sections_instructor": "",
+			"sections_dept": "chem",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "565",
+			"sections_title": "phys-chml trt pr",
+			"sections_instructor": "berube, pierre",
+			"sections_dept": "civl",
+			"sections_year": 2015
+		},
+		{
+			"sections_id": "565",
+			"sections_title": "phys-chml trt pr",
+			"sections_instructor": "",
+			"sections_dept": "civl",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "565",
+			"sections_title": "phys-chml trt pr",
+			"sections_instructor": "hall, eric",
+			"sections_dept": "civl",
+			"sections_year": 2009
+		},
+		{
+			"sections_id": "565",
+			"sections_title": "phys-chml trt pr",
+			"sections_instructor": "",
+			"sections_dept": "civl",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "565",
+			"sections_title": "phys-chml trt pr",
+			"sections_instructor": "",
+			"sections_dept": "civl",
+			"sections_year": 2008
+		},
+		{
+			"sections_id": "565",
+			"sections_title": "phys-chml trt pr",
+			"sections_instructor": "",
+			"sections_dept": "civl",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "565",
+			"sections_title": "phys-chml trt pr",
+			"sections_instructor": "berube, pierre",
+			"sections_dept": "civl",
+			"sections_year": 2013
+		},
+		{
+			"sections_id": "565",
+			"sections_title": "phys-chml trt pr",
+			"sections_instructor": "",
+			"sections_dept": "civl",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "565",
+			"sections_title": "phys-chml trt pr",
+			"sections_instructor": "berube, pierre",
+			"sections_dept": "civl",
+			"sections_year": 2007
+		},
+		{
+			"sections_id": "565",
+			"sections_title": "phys-chml trt pr",
+			"sections_instructor": "",
+			"sections_dept": "civl",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "565",
+			"sections_title": "phys-chml trt pr",
+			"sections_instructor": "berube, pierre",
+			"sections_dept": "civl",
+			"sections_year": 2014
+		},
+		{
+			"sections_id": "565",
+			"sections_title": "phys-chml trt pr",
+			"sections_instructor": "",
+			"sections_dept": "civl",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "565",
+			"sections_title": "phys-chml trt pr",
+			"sections_instructor": "berube, pierre",
+			"sections_dept": "civl",
+			"sections_year": 2010
+		},
+		{
+			"sections_id": "565",
+			"sections_title": "phys-chml trt pr",
+			"sections_instructor": "",
+			"sections_dept": "civl",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "565",
+			"sections_title": "phys-chml trt pr",
+			"sections_instructor": "berube, pierre",
+			"sections_dept": "civl",
+			"sections_year": 2011
+		},
+		{
+			"sections_id": "565",
+			"sections_title": "phys-chml trt pr",
+			"sections_instructor": "",
+			"sections_dept": "civl",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "565",
+			"sections_title": "phys-chml trt pr",
+			"sections_instructor": "berube, pierre",
+			"sections_dept": "civl",
+			"sections_year": 2012
+		},
+		{
+			"sections_id": "565",
+			"sections_title": "phys-chml trt pr",
+			"sections_instructor": "",
+			"sections_dept": "civl",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "352",
+			"sections_title": "physics lab tech",
+			"sections_instructor": "waltham, christopher",
+			"sections_dept": "enph",
+			"sections_year": 2015
+		},
+		{
+			"sections_id": "352",
+			"sections_title": "physics lab tech",
+			"sections_instructor": "",
+			"sections_dept": "enph",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "352",
+			"sections_title": "physics lab tech",
+			"sections_instructor": "jones, david",
+			"sections_dept": "enph",
+			"sections_year": 2013
+		},
+		{
+			"sections_id": "352",
+			"sections_title": "physics lab tech",
+			"sections_instructor": "jones, david;michal, carl",
+			"sections_dept": "enph",
+			"sections_year": 2013
+		},
+		{
+			"sections_id": "352",
+			"sections_title": "physics lab tech",
+			"sections_instructor": "jones, david",
+			"sections_dept": "enph",
+			"sections_year": 2013
+		},
+		{
+			"sections_id": "352",
+			"sections_title": "physics lab tech",
+			"sections_instructor": "jones, david;michal, carl",
+			"sections_dept": "enph",
+			"sections_year": 2013
+		},
+		{
+			"sections_id": "352",
+			"sections_title": "physics lab tech",
+			"sections_instructor": "",
+			"sections_dept": "enph",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "352",
+			"sections_title": "physics lab tech",
+			"sections_instructor": "michal, carl;pennec, yan herve loic",
+			"sections_dept": "enph",
+			"sections_year": 2011
+		},
+		{
+			"sections_id": "352",
+			"sections_title": "physics lab tech",
+			"sections_instructor": "michal, carl",
+			"sections_dept": "enph",
+			"sections_year": 2011
+		},
+		{
+			"sections_id": "352",
+			"sections_title": "physics lab tech",
+			"sections_instructor": "michal, carl;pennec, yan herve loic",
+			"sections_dept": "enph",
+			"sections_year": 2011
+		},
+		{
+			"sections_id": "352",
+			"sections_title": "physics lab tech",
+			"sections_instructor": "michal, carl",
+			"sections_dept": "enph",
+			"sections_year": 2011
+		},
+		{
+			"sections_id": "352",
+			"sections_title": "physics lab tech",
+			"sections_instructor": "",
+			"sections_dept": "enph",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "352",
+			"sections_title": "physics lab tech",
+			"sections_instructor": "waltham, christopher",
+			"sections_dept": "enph",
+			"sections_year": 2014
+		},
+		{
+			"sections_id": "352",
+			"sections_title": "physics lab tech",
+			"sections_instructor": "waltham, christopher",
+			"sections_dept": "enph",
+			"sections_year": 2014
+		},
+		{
+			"sections_id": "352",
+			"sections_title": "physics lab tech",
+			"sections_instructor": "waltham, christopher",
+			"sections_dept": "enph",
+			"sections_year": 2014
+		},
+		{
+			"sections_id": "352",
+			"sections_title": "physics lab tech",
+			"sections_instructor": "michal, carl",
+			"sections_dept": "enph",
+			"sections_year": 2014
+		},
+		{
+			"sections_id": "352",
+			"sections_title": "physics lab tech",
+			"sections_instructor": "",
+			"sections_dept": "enph",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "352",
+			"sections_title": "physics lab tech",
+			"sections_instructor": "jones, david;michal, carl",
+			"sections_dept": "enph",
+			"sections_year": 2012
+		},
+		{
+			"sections_id": "352",
+			"sections_title": "physics lab tech",
+			"sections_instructor": "jones, david",
+			"sections_dept": "enph",
+			"sections_year": 2012
+		},
+		{
+			"sections_id": "352",
+			"sections_title": "physics lab tech",
+			"sections_instructor": "jones, david",
+			"sections_dept": "enph",
+			"sections_year": 2012
+		},
+		{
+			"sections_id": "352",
+			"sections_title": "physics lab tech",
+			"sections_instructor": "jones, david;michal, carl",
+			"sections_dept": "enph",
+			"sections_year": 2012
+		},
+		{
+			"sections_id": "352",
+			"sections_title": "physics lab tech",
+			"sections_instructor": "",
+			"sections_dept": "enph",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "453",
+			"sections_title": "phys earth&plnts",
+			"sections_instructor": "jellinek, andrew",
+			"sections_dept": "eosc",
+			"sections_year": 2013
+		},
+		{
+			"sections_id": "453",
+			"sections_title": "phys earth&plnts",
+			"sections_instructor": "",
+			"sections_dept": "eosc",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "453",
+			"sections_title": "phys earth&plnts",
+			"sections_instructor": "jellinek, andrew",
+			"sections_dept": "eosc",
+			"sections_year": 2011
+		},
+		{
+			"sections_id": "453",
+			"sections_title": "phys earth&plnts",
+			"sections_instructor": "",
+			"sections_dept": "eosc",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "453",
+			"sections_title": "phys earth&plnts",
+			"sections_instructor": "jellinek, andrew",
+			"sections_dept": "eosc",
+			"sections_year": 2010
+		},
+		{
+			"sections_id": "453",
+			"sections_title": "phys earth&plnts",
+			"sections_instructor": "",
+			"sections_dept": "eosc",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "453",
+			"sections_title": "phys earth&plnts",
+			"sections_instructor": "jellinek, andrew",
+			"sections_dept": "eosc",
+			"sections_year": 2014
+		},
+		{
+			"sections_id": "453",
+			"sections_title": "phys earth&plnts",
+			"sections_instructor": "",
+			"sections_dept": "eosc",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "453",
+			"sections_title": "phys earth&plnts",
+			"sections_instructor": "jellinek, andrew",
+			"sections_dept": "eosc",
+			"sections_year": 2015
+		},
+		{
+			"sections_id": "453",
+			"sections_title": "phys earth&plnts",
+			"sections_instructor": "",
+			"sections_dept": "eosc",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "453",
+			"sections_title": "phys earth&plnts",
+			"sections_instructor": "jellinek, andrew",
+			"sections_dept": "eosc",
+			"sections_year": 2007
+		},
+		{
+			"sections_id": "453",
+			"sections_title": "phys earth&plnts",
+			"sections_instructor": "",
+			"sections_dept": "eosc",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "453",
+			"sections_title": "phys earth&plnts",
+			"sections_instructor": "jellinek, andrew",
+			"sections_dept": "eosc",
+			"sections_year": 2016
+		},
+		{
+			"sections_id": "453",
+			"sections_title": "phys earth&plnts",
+			"sections_instructor": "",
+			"sections_dept": "eosc",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "453",
+			"sections_title": "phys earth&plnts",
+			"sections_instructor": "",
+			"sections_dept": "eosc",
+			"sections_year": 2008
+		},
+		{
+			"sections_id": "453",
+			"sections_title": "phys earth&plnts",
+			"sections_instructor": "",
+			"sections_dept": "eosc",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "453",
+			"sections_title": "phys earth&plnts",
+			"sections_instructor": "jellinek, andrew",
+			"sections_dept": "eosc",
+			"sections_year": 2009
+		},
+		{
+			"sections_id": "453",
+			"sections_title": "phys earth&plnts",
+			"sections_instructor": "",
+			"sections_dept": "eosc",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "309",
+			"sections_title": "phys geog field",
+			"sections_instructor": "eaton, brett;koppes, michele;mckendry, ian",
+			"sections_dept": "geob",
+			"sections_year": 2009
+		},
+		{
+			"sections_id": "309",
+			"sections_title": "phys geog field",
+			"sections_instructor": "",
+			"sections_dept": "geob",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "309",
+			"sections_title": "phys geog field",
+			"sections_instructor": "christen, andreas;eaton, brett;henry, gregory h;koppes, michele",
+			"sections_dept": "geob",
+			"sections_year": 2010
+		},
+		{
+			"sections_id": "309",
+			"sections_title": "phys geog field",
+			"sections_instructor": "",
+			"sections_dept": "geob",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "309",
+			"sections_title": "phys geog field",
+			"sections_instructor": "eaton, brett;henry, gregory h",
+			"sections_dept": "geob",
+			"sections_year": 2011
+		},
+		{
+			"sections_id": "309",
+			"sections_title": "phys geog field",
+			"sections_instructor": "",
+			"sections_dept": "geob",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "362",
+			"sections_title": "phys act indv sn",
+			"sections_instructor": "",
+			"sections_dept": "kin",
+			"sections_year": 2015
+		},
+		{
+			"sections_id": "362",
+			"sections_title": "phys act indv sn",
+			"sections_instructor": "",
+			"sections_dept": "kin",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "362",
+			"sections_title": "phys act indv sn",
+			"sections_instructor": "",
+			"sections_dept": "kin",
+			"sections_year": 2014
+		},
+		{
+			"sections_id": "362",
+			"sections_title": "phys act indv sn",
+			"sections_instructor": "",
+			"sections_dept": "kin",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "331",
+			"sections_title": "phys mineral prc",
+			"sections_instructor": "nadolski, stefan",
+			"sections_dept": "mine",
+			"sections_year": 2015
+		},
+		{
+			"sections_id": "331",
+			"sections_title": "phys mineral prc",
+			"sections_instructor": "",
+			"sections_dept": "mine",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "331",
+			"sections_title": "phys mineral prc",
+			"sections_instructor": "nadolski, stefan",
+			"sections_dept": "mine",
+			"sections_year": 2014
+		},
+		{
+			"sections_id": "331",
+			"sections_title": "phys mineral prc",
+			"sections_instructor": "",
+			"sections_dept": "mine",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "331",
+			"sections_title": "phys mineral prc",
+			"sections_instructor": "gunson, aaron james",
+			"sections_dept": "mine",
+			"sections_year": 2011
+		},
+		{
+			"sections_id": "331",
+			"sections_title": "phys mineral prc",
+			"sections_instructor": "",
+			"sections_dept": "mine",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "331",
+			"sections_title": "phys mineral prc",
+			"sections_instructor": "gunson, aaron james",
+			"sections_dept": "mine",
+			"sections_year": 2007
+		},
+		{
+			"sections_id": "331",
+			"sections_title": "phys mineral prc",
+			"sections_instructor": "",
+			"sections_dept": "mine",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "331",
+			"sections_title": "phys mineral prc",
+			"sections_instructor": "gunson, aaron james",
+			"sections_dept": "mine",
+			"sections_year": 2010
+		},
+		{
+			"sections_id": "331",
+			"sections_title": "phys mineral prc",
+			"sections_instructor": "",
+			"sections_dept": "mine",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "331",
+			"sections_title": "phys mineral prc",
+			"sections_instructor": "drozdiak, jeffrey",
+			"sections_dept": "mine",
+			"sections_year": 2012
+		},
+		{
+			"sections_id": "331",
+			"sections_title": "phys mineral prc",
+			"sections_instructor": "",
+			"sections_dept": "mine",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "331",
+			"sections_title": "phys mineral prc",
+			"sections_instructor": "gunson, aaron james",
+			"sections_dept": "mine",
+			"sections_year": 2009
+		},
+		{
+			"sections_id": "331",
+			"sections_title": "phys mineral prc",
+			"sections_instructor": "",
+			"sections_dept": "mine",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "331",
+			"sections_title": "phys mineral prc",
+			"sections_instructor": "drozdiak, jeffrey",
+			"sections_dept": "mine",
+			"sections_year": 2013
+		},
+		{
+			"sections_id": "331",
+			"sections_title": "phys mineral prc",
+			"sections_instructor": "",
+			"sections_dept": "mine",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "579",
+			"sections_title": "phys micrfabrctn",
+			"sections_instructor": "xia, guangrui",
+			"sections_dept": "mtrl",
+			"sections_year": 2015
+		},
+		{
+			"sections_id": "579",
+			"sections_title": "phys micrfabrctn",
+			"sections_instructor": "",
+			"sections_dept": "mtrl",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "579",
+			"sections_title": "phys micrfabrctn",
+			"sections_instructor": "xia, guangrui",
+			"sections_dept": "mtrl",
+			"sections_year": 2013
+		},
+		{
+			"sections_id": "579",
+			"sections_title": "phys micrfabrctn",
+			"sections_instructor": "",
+			"sections_dept": "mtrl",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "579",
+			"sections_title": "phys micrfabrctn",
+			"sections_instructor": "xia, guangrui",
+			"sections_dept": "mtrl",
+			"sections_year": 2014
+		},
+		{
+			"sections_id": "579",
+			"sections_title": "phys micrfabrctn",
+			"sections_instructor": "",
+			"sections_dept": "mtrl",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "502",
+			"sections_title": "physlgy m/f/nbrn",
+			"sections_instructor": "rurak, danny",
+			"sections_dept": "obst",
+			"sections_year": 2013
+		},
+		{
+			"sections_id": "502",
+			"sections_title": "physlgy m/f/nbrn",
+			"sections_instructor": "",
+			"sections_dept": "obst",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "502",
+			"sections_title": "physlgy m/f/nbrn",
+			"sections_instructor": "rurak, danny",
+			"sections_dept": "obst",
+			"sections_year": 2010
+		},
+		{
+			"sections_id": "502",
+			"sections_title": "physlgy m/f/nbrn",
+			"sections_instructor": "",
+			"sections_dept": "obst",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "502",
+			"sections_title": "physlgy m/f/nbrn",
+			"sections_instructor": "rurak, danny",
+			"sections_dept": "obst",
+			"sections_year": 2015
+		},
+		{
+			"sections_id": "502",
+			"sections_title": "physlgy m/f/nbrn",
+			"sections_instructor": "",
+			"sections_dept": "obst",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "502",
+			"sections_title": "physlgy m/f/nbrn",
+			"sections_instructor": "rurak, danny",
+			"sections_dept": "obst",
+			"sections_year": 2011
+		},
+		{
+			"sections_id": "502",
+			"sections_title": "physlgy m/f/nbrn",
+			"sections_instructor": "",
+			"sections_dept": "obst",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "502",
+			"sections_title": "physlgy m/f/nbrn",
+			"sections_instructor": "rurak, danny",
+			"sections_dept": "obst",
+			"sections_year": 2009
+		},
+		{
+			"sections_id": "502",
+			"sections_title": "physlgy m/f/nbrn",
+			"sections_instructor": "",
+			"sections_dept": "obst",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "502",
+			"sections_title": "physlgy m/f/nbrn",
+			"sections_instructor": "rurak, danny",
+			"sections_dept": "obst",
+			"sections_year": 2007
+		},
+		{
+			"sections_id": "502",
+			"sections_title": "physlgy m/f/nbrn",
+			"sections_instructor": "",
+			"sections_dept": "obst",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "107",
+			"sections_title": "physics1",
+			"sections_instructor": "vogt, erich",
+			"sections_dept": "phys",
+			"sections_year": 2007
+		},
+		{
+			"sections_id": "107",
+			"sections_title": "physics1",
+			"sections_instructor": "",
+			"sections_dept": "phys",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "108",
+			"sections_title": "physics2",
+			"sections_instructor": "zhitnitsky, ariel",
+			"sections_dept": "phys",
+			"sections_year": 2007
+		},
+		{
+			"sections_id": "108",
+			"sections_title": "physics2",
+			"sections_instructor": "",
+			"sections_dept": "phys",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "341",
+			"sections_title": "physics of musc",
+			"sections_instructor": "unruh, william",
+			"sections_dept": "phys",
+			"sections_year": 2015
+		},
+		{
+			"sections_id": "341",
+			"sections_title": "physics of musc",
+			"sections_instructor": "",
+			"sections_dept": "phys",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "341",
+			"sections_title": "physics of musc",
+			"sections_instructor": "unruh, william",
+			"sections_dept": "phys",
+			"sections_year": 2013
+		},
+		{
+			"sections_id": "341",
+			"sections_title": "physics of musc",
+			"sections_instructor": "",
+			"sections_dept": "phys",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "341",
+			"sections_title": "physics of musc",
+			"sections_instructor": "halpern, mark",
+			"sections_dept": "phys",
+			"sections_year": 2010
+		},
+		{
+			"sections_id": "341",
+			"sections_title": "physics of musc",
+			"sections_instructor": "",
+			"sections_dept": "phys",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "341",
+			"sections_title": "physics of musc",
+			"sections_instructor": "halpern, mark",
+			"sections_dept": "phys",
+			"sections_year": 2007
+		},
+		{
+			"sections_id": "341",
+			"sections_title": "physics of musc",
+			"sections_instructor": "",
+			"sections_dept": "phys",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "341",
+			"sections_title": "physics of musc",
+			"sections_instructor": "unruh, william",
+			"sections_dept": "phys",
+			"sections_year": 2009
+		},
+		{
+			"sections_id": "341",
+			"sections_title": "physics of musc",
+			"sections_instructor": "",
+			"sections_dept": "phys",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "341",
+			"sections_title": "physics of musc",
+			"sections_instructor": "unruh, william",
+			"sections_dept": "phys",
+			"sections_year": 2012
+		},
+		{
+			"sections_id": "341",
+			"sections_title": "physics of musc",
+			"sections_instructor": "",
+			"sections_dept": "phys",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "341",
+			"sections_title": "physics of musc",
+			"sections_instructor": "unruh, william",
+			"sections_dept": "phys",
+			"sections_year": 2011
+		},
+		{
+			"sections_id": "341",
+			"sections_title": "physics of musc",
+			"sections_instructor": "",
+			"sections_dept": "phys",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "341",
+			"sections_title": "physics of musc",
+			"sections_instructor": "unruh, william",
+			"sections_dept": "phys",
+			"sections_year": 2014
+		},
+		{
+			"sections_id": "341",
+			"sections_title": "physics of musc",
+			"sections_instructor": "",
+			"sections_dept": "phys",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "571",
+			"sections_title": "physcal cosmolgy",
+			"sections_instructor": "hinshaw, gary",
+			"sections_dept": "phys",
+			"sections_year": 2015
+		},
+		{
+			"sections_id": "571",
+			"sections_title": "physcal cosmolgy",
+			"sections_instructor": "",
+			"sections_dept": "phys",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "571",
+			"sections_title": "physcal cosmolgy",
+			"sections_instructor": "sigurdson, kris",
+			"sections_dept": "phys",
+			"sections_year": 2013
+		},
+		{
+			"sections_id": "571",
+			"sections_title": "physcal cosmolgy",
+			"sections_instructor": "",
+			"sections_dept": "phys",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "571",
+			"sections_title": "physcal cosmolgy",
+			"sections_instructor": "van waerbeke, ludovic",
+			"sections_dept": "phys",
+			"sections_year": 2007
+		},
+		{
+			"sections_id": "571",
+			"sections_title": "physcal cosmolgy",
+			"sections_instructor": "",
+			"sections_dept": "phys",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "571",
+			"sections_title": "physcal cosmolgy",
+			"sections_instructor": "halpern, mark",
+			"sections_dept": "phys",
+			"sections_year": 2009
+		},
+		{
+			"sections_id": "571",
+			"sections_title": "physcal cosmolgy",
+			"sections_instructor": "",
+			"sections_dept": "phys",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "571",
+			"sections_title": "physcal cosmolgy",
+			"sections_instructor": "halpern, mark",
+			"sections_dept": "phys",
+			"sections_year": 2011
+		},
+		{
+			"sections_id": "571",
+			"sections_title": "physcal cosmolgy",
+			"sections_instructor": "",
+			"sections_dept": "phys",
+			"sections_year": 1900
+		}
+	]
+}

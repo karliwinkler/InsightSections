@@ -1,0 +1,114 @@
+{
+	"title": "Pass vs fail pie chart",
+	"input": {
+		"WHERE": {
+			"AND": [
+				{
+					"IS": {
+						"sections_dept": "math"
+					}
+				},
+				{
+					"IS": {
+						"sections_id": "221"
+					}
+				}
+			]
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_year",
+				"sections_title",
+				"passingCount",
+				"failingCount"
+			],
+			"ORDER": {
+				"dir": "UP",
+				"keys": [
+					"sections_year"
+				]
+			}
+		},
+		"TRANSFORMATIONS": {
+			"GROUP": [
+				"sections_year",
+				"sections_title"
+			],
+			"APPLY": [
+				{
+					"passingCount": {
+						"SUM": "sections_pass"
+					}
+				},
+				{
+					"failingCount": {
+						"SUM": "sections_fail"
+					}
+				}
+			]
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_year": 1900,
+			"sections_title": "matrix algebra",
+			"passingCount": 6353,
+			"failingCount": 662
+		},
+		{
+			"sections_year": 2007,
+			"sections_title": "matrix algebra",
+			"passingCount": 445,
+			"failingCount": 49
+		},
+		{
+			"sections_year": 2008,
+			"sections_title": "matrix algebra",
+			"passingCount": 572,
+			"failingCount": 38
+		},
+		{
+			"sections_year": 2009,
+			"sections_title": "matrix algebra",
+			"passingCount": 657,
+			"failingCount": 70
+		},
+		{
+			"sections_year": 2010,
+			"sections_title": "matrix algebra",
+			"passingCount": 728,
+			"failingCount": 80
+		},
+		{
+			"sections_year": 2011,
+			"sections_title": "matrix algebra",
+			"passingCount": 659,
+			"failingCount": 83
+		},
+		{
+			"sections_year": 2012,
+			"sections_title": "matrix algebra",
+			"passingCount": 780,
+			"failingCount": 69
+		},
+		{
+			"sections_year": 2013,
+			"sections_title": "matrix algebra",
+			"passingCount": 789,
+			"failingCount": 89
+		},
+		{
+			"sections_year": 2014,
+			"sections_title": "matrix algebra",
+			"passingCount": 888,
+			"failingCount": 99
+		},
+		{
+			"sections_year": 2015,
+			"sections_title": "matrix algebra",
+			"passingCount": 835,
+			"failingCount": 85
+		}
+	]
+}

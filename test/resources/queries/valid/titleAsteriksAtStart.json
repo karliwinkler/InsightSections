@@ -1,0 +1,2650 @@
+{
+	"title": "title asteriks at start",
+	"input": {
+		"WHERE": {
+			"IS": {
+				"sections_title": "*al"
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_title",
+				"sections_instructor",
+				"sections_dept",
+				"sections_year"
+			],
+			"ORDER": "sections_year"
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_title": "outcome eval",
+			"sections_instructor": "",
+			"sections_dept": "spph",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "economic eval",
+			"sections_instructor": "",
+			"sections_dept": "spph",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "economic eval",
+			"sections_instructor": "",
+			"sections_dept": "spph",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "economic eval",
+			"sections_instructor": "",
+			"sections_dept": "spph",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "prog pln & eval",
+			"sections_instructor": "",
+			"sections_dept": "spph",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "prog pln & eval",
+			"sections_instructor": "",
+			"sections_dept": "spph",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "prog pln & eval",
+			"sections_instructor": "",
+			"sections_dept": "spph",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "prog pln & eval",
+			"sections_instructor": "",
+			"sections_dept": "spph",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "dsgn clin trial",
+			"sections_instructor": "",
+			"sections_dept": "spph",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "dsgn clin trial",
+			"sections_instructor": "",
+			"sections_dept": "spph",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "dsgn clin trial",
+			"sections_instructor": "",
+			"sections_dept": "spph",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "dsgn clin trial",
+			"sections_instructor": "",
+			"sections_dept": "spph",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "dsgn clin trial",
+			"sections_instructor": "",
+			"sections_dept": "spph",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "dsgn clin trial",
+			"sections_instructor": "",
+			"sections_dept": "spph",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "dsgn clin trial",
+			"sections_instructor": "",
+			"sections_dept": "spph",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "dsgn clin trial",
+			"sections_instructor": "",
+			"sections_dept": "spph",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "prog plan & eval",
+			"sections_instructor": "",
+			"sections_dept": "spha",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "prog plan & eval",
+			"sections_instructor": "",
+			"sections_dept": "spha",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "prog plan & eval",
+			"sections_instructor": "",
+			"sections_dept": "spha",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "prog plan & eval",
+			"sections_instructor": "",
+			"sections_dept": "spha",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "prog plan & eval",
+			"sections_instructor": "",
+			"sections_dept": "spha",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "prog plan & eval",
+			"sections_instructor": "",
+			"sections_dept": "spha",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "prog plan & eval",
+			"sections_instructor": "",
+			"sections_dept": "spha",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "prog plan & eval",
+			"sections_instructor": "",
+			"sections_dept": "spha",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "rs dsg&tec: qual",
+			"sections_instructor": "",
+			"sections_dept": "soci",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "rs dsg&tec: qual",
+			"sections_instructor": "",
+			"sections_dept": "soci",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "rs dsg&tec: qual",
+			"sections_instructor": "",
+			"sections_dept": "soci",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "rs dsg&tec: qual",
+			"sections_instructor": "",
+			"sections_dept": "soci",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "rs dsg&tec: qual",
+			"sections_instructor": "",
+			"sections_dept": "soci",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "rs dsg&tec: qual",
+			"sections_instructor": "",
+			"sections_dept": "soci",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "rs dsg&tec: qual",
+			"sections_instructor": "",
+			"sections_dept": "soci",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "rs dsg&tec: qual",
+			"sections_instructor": "",
+			"sections_dept": "soci",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "assess plan eval",
+			"sections_instructor": "",
+			"sections_dept": "rhsc",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "assess plan eval",
+			"sections_instructor": "",
+			"sections_dept": "rhsc",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "assess plan eval",
+			"sections_instructor": "",
+			"sections_dept": "rhsc",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "assess plan eval",
+			"sections_instructor": "",
+			"sections_dept": "rhsc",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "nondestrctv eval",
+			"sections_instructor": "",
+			"sections_dept": "mtrl",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "nondestrctv eval",
+			"sections_instructor": "",
+			"sections_dept": "mtrl",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "nondestrctv eval",
+			"sections_instructor": "",
+			"sections_dept": "mtrl",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "nondestrctv eval",
+			"sections_instructor": "",
+			"sections_dept": "mtrl",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "nondestrctv eval",
+			"sections_instructor": "",
+			"sections_dept": "mtrl",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "nondestrctv eval",
+			"sections_instructor": "",
+			"sections_dept": "mtrl",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "nondestrctv eval",
+			"sections_instructor": "",
+			"sections_dept": "mtrl",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "nondestrctv eval",
+			"sections_instructor": "",
+			"sections_dept": "mtrl",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "nondestrctv eval",
+			"sections_instructor": "",
+			"sections_dept": "mtrl",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "mech material",
+			"sections_instructor": "",
+			"sections_dept": "mech",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "mech material",
+			"sections_instructor": "",
+			"sections_dept": "mech",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "mech material",
+			"sections_instructor": "",
+			"sections_dept": "mech",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "mech of material",
+			"sections_instructor": "",
+			"sections_dept": "mech",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "mech of material",
+			"sections_instructor": "",
+			"sections_dept": "mech",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "mech of material",
+			"sections_instructor": "",
+			"sections_dept": "mech",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "mech of material",
+			"sections_instructor": "",
+			"sections_dept": "mech",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "mech of material",
+			"sections_instructor": "",
+			"sections_dept": "mech",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "mech of material",
+			"sections_instructor": "",
+			"sections_dept": "mech",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "mech of material",
+			"sections_instructor": "",
+			"sections_dept": "mech",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "mech of material",
+			"sections_instructor": "",
+			"sections_dept": "mech",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "mech of material",
+			"sections_instructor": "",
+			"sections_dept": "mech",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "mthds asymp anal",
+			"sections_instructor": "",
+			"sections_dept": "math",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "mthds asymp anal",
+			"sections_instructor": "",
+			"sections_dept": "math",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "mthds asymp anal",
+			"sections_instructor": "",
+			"sections_dept": "math",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "mthds asymp anal",
+			"sections_instructor": "",
+			"sections_dept": "math",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "mthds asymp anal",
+			"sections_instructor": "",
+			"sections_dept": "math",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "mthds asymp anal",
+			"sections_instructor": "",
+			"sections_dept": "math",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "mthds asymp anal",
+			"sections_instructor": "",
+			"sections_dept": "math",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "mthds asymp anal",
+			"sections_instructor": "",
+			"sections_dept": "math",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "mthds asymp anal",
+			"sections_instructor": "",
+			"sections_dept": "math",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "mthds asymp anal",
+			"sections_instructor": "",
+			"sections_dept": "math",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "transnational",
+			"sections_instructor": "",
+			"sections_dept": "law",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "transnational",
+			"sections_instructor": "",
+			"sections_dept": "law",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "cinema: neoreal",
+			"sections_instructor": "",
+			"sections_dept": "itst",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "cinema: neoreal",
+			"sections_instructor": "",
+			"sections_dept": "itst",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "cinema: neoreal",
+			"sections_instructor": "",
+			"sections_dept": "itst",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "cinema: neoreal",
+			"sections_instructor": "",
+			"sections_dept": "itst",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "cinema: neoreal",
+			"sections_instructor": "",
+			"sections_dept": "itst",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "cinema: neoreal",
+			"sections_instructor": "",
+			"sections_dept": "itst",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "medieval legal",
+			"sections_instructor": "",
+			"sections_dept": "hist",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "medieval legal",
+			"sections_instructor": "",
+			"sections_dept": "hist",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "medieval legal",
+			"sections_instructor": "",
+			"sections_dept": "hist",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "medieval legal",
+			"sections_instructor": "",
+			"sections_dept": "hist",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "medieval legal",
+			"sections_instructor": "",
+			"sections_dept": "hist",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "amer colonial",
+			"sections_instructor": "",
+			"sections_dept": "hist",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "amer colonial",
+			"sections_instructor": "",
+			"sections_dept": "hist",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "amer colonial",
+			"sections_instructor": "",
+			"sections_dept": "hist",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "amer colonial",
+			"sections_instructor": "",
+			"sections_dept": "hist",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "amer colonial",
+			"sections_instructor": "",
+			"sections_dept": "hist",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "amer colonial",
+			"sections_instructor": "",
+			"sections_dept": "hist",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "amer colonial",
+			"sections_instructor": "",
+			"sections_dept": "hist",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "plcy analys eval",
+			"sections_instructor": "",
+			"sections_dept": "gpp",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "env chg and qual",
+			"sections_instructor": "",
+			"sections_dept": "geog",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "env chg and qual",
+			"sections_instructor": "",
+			"sections_dept": "geog",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "env chg and qual",
+			"sections_instructor": "",
+			"sections_dept": "geog",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "biogeog global",
+			"sections_instructor": "",
+			"sections_dept": "geob",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "biogeog global",
+			"sections_instructor": "",
+			"sections_dept": "geob",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "biogeog global",
+			"sections_instructor": "",
+			"sections_dept": "geob",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "biogeog global",
+			"sections_instructor": "",
+			"sections_dept": "geob",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "biogeog global",
+			"sections_instructor": "",
+			"sections_dept": "geob",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "biogeog global",
+			"sections_instructor": "",
+			"sections_dept": "geob",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "biogeog global",
+			"sections_instructor": "",
+			"sections_dept": "geob",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "cons, govr, eval",
+			"sections_instructor": "",
+			"sections_dept": "fish",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "cons, govr, eval",
+			"sections_instructor": "",
+			"sections_dept": "fish",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "cons, govr, eval",
+			"sections_instructor": "",
+			"sections_dept": "fish",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "cons, govr, eval",
+			"sections_instructor": "",
+			"sections_dept": "fish",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "cons, govr, eval",
+			"sections_instructor": "",
+			"sections_dept": "fish",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "busn fundamental",
+			"sections_instructor": "",
+			"sections_dept": "comm",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "busn fundamental",
+			"sections_instructor": "",
+			"sections_dept": "comm",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "busn fundamental",
+			"sections_instructor": "",
+			"sections_dept": "comm",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "busn fundamental",
+			"sections_instructor": "",
+			"sections_dept": "comm",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "busn fundamental",
+			"sections_instructor": "",
+			"sections_dept": "comm",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "busn fundamental",
+			"sections_instructor": "",
+			"sections_dept": "comm",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "open chnl hydral",
+			"sections_instructor": "",
+			"sections_dept": "civl",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "open chnl hydral",
+			"sections_instructor": "",
+			"sections_dept": "civl",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "open chnl hydral",
+			"sections_instructor": "",
+			"sections_dept": "civl",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "open chnl hydral",
+			"sections_instructor": "",
+			"sections_dept": "civl",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "open chnl hydral",
+			"sections_instructor": "",
+			"sections_dept": "civl",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "open chnl hydral",
+			"sections_instructor": "",
+			"sections_dept": "civl",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "open chnl hydral",
+			"sections_instructor": "",
+			"sections_dept": "civl",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "open chnl hydral",
+			"sections_instructor": "",
+			"sections_dept": "civl",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "open chnl hydral",
+			"sections_instructor": "",
+			"sections_dept": "civl",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "thesis proposal",
+			"sections_instructor": "",
+			"sections_dept": "chbe",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "thesis proposal",
+			"sections_instructor": "",
+			"sections_dept": "chbe",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "thesis proposal",
+			"sections_instructor": "",
+			"sections_dept": "chbe",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "com prop anal",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "com prop anal",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "com prop anal",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "com prop anal",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "com prop anal",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "com prop anal",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "com prop anal",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "com prop anal",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "com prop anal",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "com prop anal",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "com prop anal",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "com prop anal",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "com prop anal",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "com prop anal",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "com prop anal",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "com prop anal",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "res prop anal",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "res prop anal",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "res prop anal",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "res prop anal",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "res prop anal",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "res prop anal",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "res prop anal",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "res prop anal",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "res prop anal",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "res prop anal",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "res prop anal",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "res prop anal",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "res prop anal",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "res prop anal",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "res prop anal",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "res prop anal",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "stat&comp ap val",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "stat&comp ap val",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "stat&comp ap val",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "stat&comp ap val",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "stat&comp ap val",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "stat&comp ap val",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "stat&comp ap val",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "stat&comp ap val",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "stat&comp ap val",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "stat&comp ap val",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "stat&comp ap val",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "stat&comp ap val",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "stat&comp ap val",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "stat&comp ap val",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "stat&comp ap val",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "stat&comp ap val",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "acct perf eval",
+			"sections_instructor": "",
+			"sections_dept": "baac",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "acct perf eval",
+			"sections_instructor": "",
+			"sections_dept": "baac",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "acct perf eval",
+			"sections_instructor": "",
+			"sections_dept": "baac",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "acct perf eval",
+			"sections_instructor": "",
+			"sections_dept": "baac",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "acct perf eval",
+			"sections_instructor": "",
+			"sections_dept": "baac",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "acct perf eval",
+			"sections_instructor": "",
+			"sections_dept": "baac",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "acct perf eval",
+			"sections_instructor": "",
+			"sections_dept": "baac",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "intgr pd global",
+			"sections_instructor": "",
+			"sections_dept": "ba",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "intgr pd global",
+			"sections_instructor": "",
+			"sections_dept": "ba",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "intgr pd global",
+			"sections_instructor": "",
+			"sections_dept": "ba",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "intro: classical",
+			"sections_instructor": "",
+			"sections_dept": "arbc",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "intro: classical",
+			"sections_instructor": "",
+			"sections_dept": "arbc",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "nondestrctv eval",
+			"sections_instructor": "akhtar, ainul",
+			"sections_dept": "mtrl",
+			"sections_year": 2007
+		},
+		{
+			"sections_title": "mech material",
+			"sections_instructor": "cripton, peter",
+			"sections_dept": "mech",
+			"sections_year": 2007
+		},
+		{
+			"sections_title": "mech of material",
+			"sections_instructor": "mikkelsen, jon",
+			"sections_dept": "mech",
+			"sections_year": 2007
+		},
+		{
+			"sections_title": "mthds asymp anal",
+			"sections_instructor": "balmforth, neil",
+			"sections_dept": "math",
+			"sections_year": 2007
+		},
+		{
+			"sections_title": "medieval legal",
+			"sections_instructor": "sindelar, arlene marie",
+			"sections_dept": "hist",
+			"sections_year": 2007
+		},
+		{
+			"sections_title": "amer colonial",
+			"sections_instructor": "nellis, eric guest",
+			"sections_dept": "hist",
+			"sections_year": 2007
+		},
+		{
+			"sections_title": "env chg and qual",
+			"sections_instructor": "hassan, marwan",
+			"sections_dept": "geog",
+			"sections_year": 2007
+		},
+		{
+			"sections_title": "open chnl hydral",
+			"sections_instructor": "martin, violeta;millar, robert",
+			"sections_dept": "civl",
+			"sections_year": 2007
+		},
+		{
+			"sections_title": "com prop anal",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 2007
+		},
+		{
+			"sections_title": "com prop anal",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 2007
+		},
+		{
+			"sections_title": "res prop anal",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 2007
+		},
+		{
+			"sections_title": "res prop anal",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 2007
+		},
+		{
+			"sections_title": "stat&comp ap val",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 2007
+		},
+		{
+			"sections_title": "stat&comp ap val",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 2007
+		},
+		{
+			"sections_title": "acct perf eval",
+			"sections_instructor": "kroeker, jeff",
+			"sections_dept": "baac",
+			"sections_year": 2007
+		},
+		{
+			"sections_title": "dsgn clin trial",
+			"sections_instructor": "",
+			"sections_dept": "spph",
+			"sections_year": 2008
+		},
+		{
+			"sections_title": "prog plan & eval",
+			"sections_instructor": "",
+			"sections_dept": "spha",
+			"sections_year": 2008
+		},
+		{
+			"sections_title": "rs dsg&tec: qual",
+			"sections_instructor": "",
+			"sections_dept": "soci",
+			"sections_year": 2008
+		},
+		{
+			"sections_title": "nondestrctv eval",
+			"sections_instructor": "",
+			"sections_dept": "mtrl",
+			"sections_year": 2008
+		},
+		{
+			"sections_title": "mech of material",
+			"sections_instructor": "",
+			"sections_dept": "mech",
+			"sections_year": 2008
+		},
+		{
+			"sections_title": "mech of material",
+			"sections_instructor": "",
+			"sections_dept": "mech",
+			"sections_year": 2008
+		},
+		{
+			"sections_title": "mthds asymp anal",
+			"sections_instructor": "",
+			"sections_dept": "math",
+			"sections_year": 2008
+		},
+		{
+			"sections_title": "medieval legal",
+			"sections_instructor": "",
+			"sections_dept": "hist",
+			"sections_year": 2008
+		},
+		{
+			"sections_title": "amer colonial",
+			"sections_instructor": "",
+			"sections_dept": "hist",
+			"sections_year": 2008
+		},
+		{
+			"sections_title": "open chnl hydral",
+			"sections_instructor": "",
+			"sections_dept": "civl",
+			"sections_year": 2008
+		},
+		{
+			"sections_title": "com prop anal",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 2008
+		},
+		{
+			"sections_title": "com prop anal",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 2008
+		},
+		{
+			"sections_title": "com prop anal",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 2008
+		},
+		{
+			"sections_title": "res prop anal",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 2008
+		},
+		{
+			"sections_title": "res prop anal",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 2008
+		},
+		{
+			"sections_title": "res prop anal",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 2008
+		},
+		{
+			"sections_title": "stat&comp ap val",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 2008
+		},
+		{
+			"sections_title": "stat&comp ap val",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 2008
+		},
+		{
+			"sections_title": "stat&comp ap val",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 2008
+		},
+		{
+			"sections_title": "acct perf eval",
+			"sections_instructor": "",
+			"sections_dept": "baac",
+			"sections_year": 2008
+		},
+		{
+			"sections_title": "dsgn clin trial",
+			"sections_instructor": "singer, joel",
+			"sections_dept": "spph",
+			"sections_year": 2009
+		},
+		{
+			"sections_title": "prog plan & eval",
+			"sections_instructor": "henrich, natalie",
+			"sections_dept": "spha",
+			"sections_year": 2009
+		},
+		{
+			"sections_title": "rs dsg&tec: qual",
+			"sections_instructor": "roth, wendy",
+			"sections_dept": "soci",
+			"sections_year": 2009
+		},
+		{
+			"sections_title": "nondestrctv eval",
+			"sections_instructor": "akhtar, ainul",
+			"sections_dept": "mtrl",
+			"sections_year": 2009
+		},
+		{
+			"sections_title": "mech of material",
+			"sections_instructor": "sassani, farrokh",
+			"sections_dept": "mech",
+			"sections_year": 2009
+		},
+		{
+			"sections_title": "mech of material",
+			"sections_instructor": "saunders, james edward",
+			"sections_dept": "mech",
+			"sections_year": 2009
+		},
+		{
+			"sections_title": "mthds asymp anal",
+			"sections_instructor": "balmforth, neil",
+			"sections_dept": "math",
+			"sections_year": 2009
+		},
+		{
+			"sections_title": "medieval legal",
+			"sections_instructor": "sindelar, arlene marie",
+			"sections_dept": "hist",
+			"sections_year": 2009
+		},
+		{
+			"sections_title": "amer colonial",
+			"sections_instructor": "nellis, eric guest",
+			"sections_dept": "hist",
+			"sections_year": 2009
+		},
+		{
+			"sections_title": "env chg and qual",
+			"sections_instructor": "thistle, john",
+			"sections_dept": "geog",
+			"sections_year": 2009
+		},
+		{
+			"sections_title": "biogeog global",
+			"sections_instructor": "henry, gregory h",
+			"sections_dept": "geob",
+			"sections_year": 2009
+		},
+		{
+			"sections_title": "open chnl hydral",
+			"sections_instructor": "yonemitsu, noboru",
+			"sections_dept": "civl",
+			"sections_year": 2009
+		},
+		{
+			"sections_title": "thesis proposal",
+			"sections_instructor": "kwok, k ezra",
+			"sections_dept": "chbe",
+			"sections_year": 2009
+		},
+		{
+			"sections_title": "com prop anal",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 2009
+		},
+		{
+			"sections_title": "com prop anal",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 2009
+		},
+		{
+			"sections_title": "com prop anal",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 2009
+		},
+		{
+			"sections_title": "res prop anal",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 2009
+		},
+		{
+			"sections_title": "res prop anal",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 2009
+		},
+		{
+			"sections_title": "res prop anal",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 2009
+		},
+		{
+			"sections_title": "stat&comp ap val",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 2009
+		},
+		{
+			"sections_title": "stat&comp ap val",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 2009
+		},
+		{
+			"sections_title": "stat&comp ap val",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 2009
+		},
+		{
+			"sections_title": "acct perf eval",
+			"sections_instructor": "kroeker, jeff",
+			"sections_dept": "baac",
+			"sections_year": 2009
+		},
+		{
+			"sections_title": "dsgn clin trial",
+			"sections_instructor": "singer, joel",
+			"sections_dept": "spph",
+			"sections_year": 2010
+		},
+		{
+			"sections_title": "prog plan & eval",
+			"sections_instructor": "henrich, natalie",
+			"sections_dept": "spha",
+			"sections_year": 2010
+		},
+		{
+			"sections_title": "rs dsg&tec: qual",
+			"sections_instructor": "currie, dawn heather",
+			"sections_dept": "soci",
+			"sections_year": 2010
+		},
+		{
+			"sections_title": "nondestrctv eval",
+			"sections_instructor": "akhtar, ainul",
+			"sections_dept": "mtrl",
+			"sections_year": 2010
+		},
+		{
+			"sections_title": "mech of material",
+			"sections_instructor": "de silva, clarence wilfred",
+			"sections_dept": "mech",
+			"sections_year": 2010
+		},
+		{
+			"sections_title": "mech of material",
+			"sections_instructor": "sassani, farrokh",
+			"sections_dept": "mech",
+			"sections_year": 2010
+		},
+		{
+			"sections_title": "mthds asymp anal",
+			"sections_instructor": "balmforth, neil",
+			"sections_dept": "math",
+			"sections_year": 2010
+		},
+		{
+			"sections_title": "cinema: neoreal",
+			"sections_instructor": "testa, carlo",
+			"sections_dept": "itst",
+			"sections_year": 2010
+		},
+		{
+			"sections_title": "medieval legal",
+			"sections_instructor": "sindelar, arlene marie",
+			"sections_dept": "hist",
+			"sections_year": 2010
+		},
+		{
+			"sections_title": "amer colonial",
+			"sections_instructor": "thrush, coll",
+			"sections_dept": "hist",
+			"sections_year": 2010
+		},
+		{
+			"sections_title": "env chg and qual",
+			"sections_instructor": "collard, rosemary-claire;dempsey, jessica",
+			"sections_dept": "geog",
+			"sections_year": 2010
+		},
+		{
+			"sections_title": "biogeog global",
+			"sections_instructor": "henry, gregory h",
+			"sections_dept": "geob",
+			"sections_year": 2010
+		},
+		{
+			"sections_title": "busn fundamental",
+			"sections_instructor": "cubbon, paul;kroeker, jeff",
+			"sections_dept": "comm",
+			"sections_year": 2010
+		},
+		{
+			"sections_title": "busn fundamental",
+			"sections_instructor": "cubbon, paul;kroeker, jeff",
+			"sections_dept": "comm",
+			"sections_year": 2010
+		},
+		{
+			"sections_title": "busn fundamental",
+			"sections_instructor": "cubbon, paul;jackes, robert;williamson, elaine",
+			"sections_dept": "comm",
+			"sections_year": 2010
+		},
+		{
+			"sections_title": "busn fundamental",
+			"sections_instructor": "cubbon, paul;jackes, robert;williamson, elaine",
+			"sections_dept": "comm",
+			"sections_year": 2010
+		},
+		{
+			"sections_title": "open chnl hydral",
+			"sections_instructor": "millar, robert",
+			"sections_dept": "civl",
+			"sections_year": 2010
+		},
+		{
+			"sections_title": "com prop anal",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 2010
+		},
+		{
+			"sections_title": "com prop anal",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 2010
+		},
+		{
+			"sections_title": "com prop anal",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 2010
+		},
+		{
+			"sections_title": "res prop anal",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 2010
+		},
+		{
+			"sections_title": "res prop anal",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 2010
+		},
+		{
+			"sections_title": "res prop anal",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 2010
+		},
+		{
+			"sections_title": "stat&comp ap val",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 2010
+		},
+		{
+			"sections_title": "stat&comp ap val",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 2010
+		},
+		{
+			"sections_title": "stat&comp ap val",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 2010
+		},
+		{
+			"sections_title": "outcome eval",
+			"sections_instructor": "kazanjian, arminee",
+			"sections_dept": "spph",
+			"sections_year": 2011
+		},
+		{
+			"sections_title": "dsgn clin trial",
+			"sections_instructor": "singer, joel",
+			"sections_dept": "spph",
+			"sections_year": 2011
+		},
+		{
+			"sections_title": "prog plan & eval",
+			"sections_instructor": "henrich, natalie",
+			"sections_dept": "spha",
+			"sections_year": 2011
+		},
+		{
+			"sections_title": "rs dsg&tec: qual",
+			"sections_instructor": "currie, dawn heather",
+			"sections_dept": "soci",
+			"sections_year": 2011
+		},
+		{
+			"sections_title": "nondestrctv eval",
+			"sections_instructor": "akhtar, ainul",
+			"sections_dept": "mtrl",
+			"sections_year": 2011
+		},
+		{
+			"sections_title": "mech of material",
+			"sections_instructor": "sassani, farrokh",
+			"sections_dept": "mech",
+			"sections_year": 2011
+		},
+		{
+			"sections_title": "mech of material",
+			"sections_instructor": "de silva, clarence wilfred",
+			"sections_dept": "mech",
+			"sections_year": 2011
+		},
+		{
+			"sections_title": "mthds asymp anal",
+			"sections_instructor": "balmforth, neil",
+			"sections_dept": "math",
+			"sections_year": 2011
+		},
+		{
+			"sections_title": "cinema: neoreal",
+			"sections_instructor": "testa, carlo",
+			"sections_dept": "itst",
+			"sections_year": 2011
+		},
+		{
+			"sections_title": "medieval legal",
+			"sections_instructor": "sindelar, arlene marie",
+			"sections_dept": "hist",
+			"sections_year": 2011
+		},
+		{
+			"sections_title": "amer colonial",
+			"sections_instructor": "thrush, coll",
+			"sections_dept": "hist",
+			"sections_year": 2011
+		},
+		{
+			"sections_title": "biogeog global",
+			"sections_instructor": "henry, gregory h",
+			"sections_dept": "geob",
+			"sections_year": 2011
+		},
+		{
+			"sections_title": "cons, govr, eval",
+			"sections_instructor": "",
+			"sections_dept": "fish",
+			"sections_year": 2011
+		},
+		{
+			"sections_title": "busn fundamental",
+			"sections_instructor": "cubbon, paul;kroeker, jeff",
+			"sections_dept": "comm",
+			"sections_year": 2011
+		},
+		{
+			"sections_title": "busn fundamental",
+			"sections_instructor": "cubbon, paul;kroeker, jeff",
+			"sections_dept": "comm",
+			"sections_year": 2011
+		},
+		{
+			"sections_title": "busn fundamental",
+			"sections_instructor": "cubbon, paul;kroeker, jeff",
+			"sections_dept": "comm",
+			"sections_year": 2011
+		},
+		{
+			"sections_title": "busn fundamental",
+			"sections_instructor": "cubbon, paul;jackes, robert;williamson, elaine",
+			"sections_dept": "comm",
+			"sections_year": 2011
+		},
+		{
+			"sections_title": "busn fundamental",
+			"sections_instructor": "cubbon, paul;jackes, robert;williamson, elaine",
+			"sections_dept": "comm",
+			"sections_year": 2011
+		},
+		{
+			"sections_title": "open chnl hydral",
+			"sections_instructor": "yonemitsu, noboru",
+			"sections_dept": "civl",
+			"sections_year": 2011
+		},
+		{
+			"sections_title": "thesis proposal",
+			"sections_instructor": "ellis, naoko",
+			"sections_dept": "chbe",
+			"sections_year": 2011
+		},
+		{
+			"sections_title": "com prop anal",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 2011
+		},
+		{
+			"sections_title": "com prop anal",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 2011
+		},
+		{
+			"sections_title": "com prop anal",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 2011
+		},
+		{
+			"sections_title": "res prop anal",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 2011
+		},
+		{
+			"sections_title": "res prop anal",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 2011
+		},
+		{
+			"sections_title": "res prop anal",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 2011
+		},
+		{
+			"sections_title": "stat&comp ap val",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 2011
+		},
+		{
+			"sections_title": "stat&comp ap val",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 2011
+		},
+		{
+			"sections_title": "stat&comp ap val",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 2011
+		},
+		{
+			"sections_title": "acct perf eval",
+			"sections_instructor": "kroeker, jeff",
+			"sections_dept": "baac",
+			"sections_year": 2011
+		},
+		{
+			"sections_title": "prog pln & eval",
+			"sections_instructor": "kishchenko, svetlana;lovato, chris",
+			"sections_dept": "spph",
+			"sections_year": 2012
+		},
+		{
+			"sections_title": "prog pln & eval",
+			"sections_instructor": "lovato, chris",
+			"sections_dept": "spph",
+			"sections_year": 2012
+		},
+		{
+			"sections_title": "dsgn clin trial",
+			"sections_instructor": "singer, joel",
+			"sections_dept": "spph",
+			"sections_year": 2012
+		},
+		{
+			"sections_title": "prog plan & eval",
+			"sections_instructor": "henrich, natalie",
+			"sections_dept": "spha",
+			"sections_year": 2012
+		},
+		{
+			"sections_title": "rs dsg&tec: qual",
+			"sections_instructor": "roth, wendy",
+			"sections_dept": "soci",
+			"sections_year": 2012
+		},
+		{
+			"sections_title": "assess plan eval",
+			"sections_instructor": "tba",
+			"sections_dept": "rhsc",
+			"sections_year": 2012
+		},
+		{
+			"sections_title": "nondestrctv eval",
+			"sections_instructor": "akhtar, ainul",
+			"sections_dept": "mtrl",
+			"sections_year": 2012
+		},
+		{
+			"sections_title": "mech material",
+			"sections_instructor": "romilly, douglas",
+			"sections_dept": "mech",
+			"sections_year": 2012
+		},
+		{
+			"sections_title": "mech of material",
+			"sections_instructor": "sassani, farrokh",
+			"sections_dept": "mech",
+			"sections_year": 2012
+		},
+		{
+			"sections_title": "mech of material",
+			"sections_instructor": "de silva, clarence wilfred",
+			"sections_dept": "mech",
+			"sections_year": 2012
+		},
+		{
+			"sections_title": "mthds asymp anal",
+			"sections_instructor": "balmforth, neil",
+			"sections_dept": "math",
+			"sections_year": 2012
+		},
+		{
+			"sections_title": "cinema: neoreal",
+			"sections_instructor": "testa, carlo",
+			"sections_dept": "itst",
+			"sections_year": 2012
+		},
+		{
+			"sections_title": "amer colonial",
+			"sections_instructor": "thrush, coll",
+			"sections_dept": "hist",
+			"sections_year": 2012
+		},
+		{
+			"sections_title": "biogeog global",
+			"sections_instructor": "henry, gregory h",
+			"sections_dept": "geob",
+			"sections_year": 2012
+		},
+		{
+			"sections_title": "cons, govr, eval",
+			"sections_instructor": "cheung, wai lung;christensen, villy;close, david;pauly, daniel;pitcher, tony;sumaila, ussif rashid;trites, andrew;vincent, amanda;walters, carl john",
+			"sections_dept": "fish",
+			"sections_year": 2012
+		},
+		{
+			"sections_title": "busn fundamental",
+			"sections_instructor": "jackes, robert;kroeker, jeff;milne, tamar",
+			"sections_dept": "comm",
+			"sections_year": 2012
+		},
+		{
+			"sections_title": "busn fundamental",
+			"sections_instructor": "jackes, robert;kroeker, jeff;milne, tamar",
+			"sections_dept": "comm",
+			"sections_year": 2012
+		},
+		{
+			"sections_title": "busn fundamental",
+			"sections_instructor": "cubbon, paul;kroeker, jeff",
+			"sections_dept": "comm",
+			"sections_year": 2012
+		},
+		{
+			"sections_title": "busn fundamental",
+			"sections_instructor": "cubbon, paul;kroeker, jeff",
+			"sections_dept": "comm",
+			"sections_year": 2012
+		},
+		{
+			"sections_title": "busn fundamental",
+			"sections_instructor": "cubbon, paul;kroeker, jeff",
+			"sections_dept": "comm",
+			"sections_year": 2012
+		},
+		{
+			"sections_title": "open chnl hydral",
+			"sections_instructor": "millar, robert",
+			"sections_dept": "civl",
+			"sections_year": 2012
+		},
+		{
+			"sections_title": "com prop anal",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 2012
+		},
+		{
+			"sections_title": "com prop anal",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 2012
+		},
+		{
+			"sections_title": "com prop anal",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 2012
+		},
+		{
+			"sections_title": "res prop anal",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 2012
+		},
+		{
+			"sections_title": "res prop anal",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 2012
+		},
+		{
+			"sections_title": "res prop anal",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 2012
+		},
+		{
+			"sections_title": "stat&comp ap val",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 2012
+		},
+		{
+			"sections_title": "stat&comp ap val",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 2012
+		},
+		{
+			"sections_title": "stat&comp ap val",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 2012
+		},
+		{
+			"sections_title": "acct perf eval",
+			"sections_instructor": "chamberlain, sandra",
+			"sections_dept": "baac",
+			"sections_year": 2012
+		},
+		{
+			"sections_title": "economic eval",
+			"sections_instructor": "anis, aslam",
+			"sections_dept": "spph",
+			"sections_year": 2013
+		},
+		{
+			"sections_title": "prog pln & eval",
+			"sections_instructor": "kishchenko, svetlana",
+			"sections_dept": "spph",
+			"sections_year": 2013
+		},
+		{
+			"sections_title": "prog pln & eval",
+			"sections_instructor": "lovato, chris",
+			"sections_dept": "spph",
+			"sections_year": 2013
+		},
+		{
+			"sections_title": "dsgn clin trial",
+			"sections_instructor": "singer, joel",
+			"sections_dept": "spph",
+			"sections_year": 2013
+		},
+		{
+			"sections_title": "prog plan & eval",
+			"sections_instructor": "henrich, natalie",
+			"sections_dept": "spha",
+			"sections_year": 2013
+		},
+		{
+			"sections_title": "rs dsg&tec: qual",
+			"sections_instructor": "roth, wendy",
+			"sections_dept": "soci",
+			"sections_year": 2013
+		},
+		{
+			"sections_title": "assess plan eval",
+			"sections_instructor": "tba",
+			"sections_dept": "rhsc",
+			"sections_year": 2013
+		},
+		{
+			"sections_title": "nondestrctv eval",
+			"sections_instructor": "akhtar, ainul",
+			"sections_dept": "mtrl",
+			"sections_year": 2013
+		},
+		{
+			"sections_title": "mech of material",
+			"sections_instructor": "gadala, mohamed",
+			"sections_dept": "mech",
+			"sections_year": 2013
+		},
+		{
+			"sections_title": "mech of material",
+			"sections_instructor": "ribarits, stephen",
+			"sections_dept": "mech",
+			"sections_year": 2013
+		},
+		{
+			"sections_title": "mthds asymp anal",
+			"sections_instructor": "ward, michael jeffrey",
+			"sections_dept": "math",
+			"sections_year": 2013
+		},
+		{
+			"sections_title": "amer colonial",
+			"sections_instructor": "vickers, daniel",
+			"sections_dept": "hist",
+			"sections_year": 2013
+		},
+		{
+			"sections_title": "biogeog global",
+			"sections_instructor": "henry, gregory h",
+			"sections_dept": "geob",
+			"sections_year": 2013
+		},
+		{
+			"sections_title": "cons, govr, eval",
+			"sections_instructor": "cheung, wai lung;christensen, villy;close, david;mcallister, murdoch;pauly, daniel;pitcher, tony;sumaila, ussif rashid;trites, andrew;vincent, amanda;walters, carl john",
+			"sections_dept": "fish",
+			"sections_year": 2013
+		},
+		{
+			"sections_title": "busn fundamental",
+			"sections_instructor": "milne, tamar;sinclair, scott",
+			"sections_dept": "comm",
+			"sections_year": 2013
+		},
+		{
+			"sections_title": "busn fundamental",
+			"sections_instructor": "jackes, robert;milne, tamar",
+			"sections_dept": "comm",
+			"sections_year": 2013
+		},
+		{
+			"sections_title": "busn fundamental",
+			"sections_instructor": "jackes, robert;milne, tamar",
+			"sections_dept": "comm",
+			"sections_year": 2013
+		},
+		{
+			"sections_title": "busn fundamental",
+			"sections_instructor": "cubbon, paul;kroeker, jeff",
+			"sections_dept": "comm",
+			"sections_year": 2013
+		},
+		{
+			"sections_title": "busn fundamental",
+			"sections_instructor": "cubbon, paul;kroeker, jeff",
+			"sections_dept": "comm",
+			"sections_year": 2013
+		},
+		{
+			"sections_title": "busn fundamental",
+			"sections_instructor": "cubbon, paul;kroeker, jeff",
+			"sections_dept": "comm",
+			"sections_year": 2013
+		},
+		{
+			"sections_title": "open chnl hydral",
+			"sections_instructor": "millar, robert",
+			"sections_dept": "civl",
+			"sections_year": 2013
+		},
+		{
+			"sections_title": "com prop anal",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 2013
+		},
+		{
+			"sections_title": "com prop anal",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 2013
+		},
+		{
+			"sections_title": "com prop anal",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 2013
+		},
+		{
+			"sections_title": "res prop anal",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 2013
+		},
+		{
+			"sections_title": "res prop anal",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 2013
+		},
+		{
+			"sections_title": "res prop anal",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 2013
+		},
+		{
+			"sections_title": "stat&comp ap val",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 2013
+		},
+		{
+			"sections_title": "stat&comp ap val",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 2013
+		},
+		{
+			"sections_title": "stat&comp ap val",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 2013
+		},
+		{
+			"sections_title": "acct perf eval",
+			"sections_instructor": "chamberlain, sandra",
+			"sections_dept": "baac",
+			"sections_year": 2013
+		},
+		{
+			"sections_title": "intgr pd global",
+			"sections_instructor": "",
+			"sections_dept": "ba",
+			"sections_year": 2013
+		},
+		{
+			"sections_title": "intgr pd global",
+			"sections_instructor": "",
+			"sections_dept": "ba",
+			"sections_year": 2013
+		},
+		{
+			"sections_title": "economic eval",
+			"sections_instructor": "zhang, wei",
+			"sections_dept": "spph",
+			"sections_year": 2014
+		},
+		{
+			"sections_title": "prog pln & eval",
+			"sections_instructor": "kishchenko, svetlana;lovato, chris",
+			"sections_dept": "spph",
+			"sections_year": 2014
+		},
+		{
+			"sections_title": "prog pln & eval",
+			"sections_instructor": "lovato, chris",
+			"sections_dept": "spph",
+			"sections_year": 2014
+		},
+		{
+			"sections_title": "dsgn clin trial",
+			"sections_instructor": "singer, joel",
+			"sections_dept": "spph",
+			"sections_year": 2014
+		},
+		{
+			"sections_title": "prog plan & eval",
+			"sections_instructor": "henrich, natalie",
+			"sections_dept": "spha",
+			"sections_year": 2014
+		},
+		{
+			"sections_title": "rs dsg&tec: qual",
+			"sections_instructor": "roth, wendy",
+			"sections_dept": "soci",
+			"sections_year": 2014
+		},
+		{
+			"sections_title": "assess plan eval",
+			"sections_instructor": "barbic, skye",
+			"sections_dept": "rhsc",
+			"sections_year": 2014
+		},
+		{
+			"sections_title": "assess plan eval",
+			"sections_instructor": "duran, leslie",
+			"sections_dept": "rhsc",
+			"sections_year": 2014
+		},
+		{
+			"sections_title": "nondestrctv eval",
+			"sections_instructor": "akhtar, ainul",
+			"sections_dept": "mtrl",
+			"sections_year": 2014
+		},
+		{
+			"sections_title": "mech of material",
+			"sections_instructor": "de silva, clarence wilfred",
+			"sections_dept": "mech",
+			"sections_year": 2014
+		},
+		{
+			"sections_title": "mech of material",
+			"sections_instructor": "mallakzadeh, mohammadreza",
+			"sections_dept": "mech",
+			"sections_year": 2014
+		},
+		{
+			"sections_title": "mthds asymp anal",
+			"sections_instructor": "balmforth, neil",
+			"sections_dept": "math",
+			"sections_year": 2014
+		},
+		{
+			"sections_title": "transnational",
+			"sections_instructor": "",
+			"sections_dept": "law",
+			"sections_year": 2014
+		},
+		{
+			"sections_title": "transnational",
+			"sections_instructor": "",
+			"sections_dept": "law",
+			"sections_year": 2014
+		},
+		{
+			"sections_title": "transnational",
+			"sections_instructor": "",
+			"sections_dept": "law",
+			"sections_year": 2014
+		},
+		{
+			"sections_title": "transnational",
+			"sections_instructor": "",
+			"sections_dept": "law",
+			"sections_year": 2014
+		},
+		{
+			"sections_title": "cinema: neoreal",
+			"sections_instructor": "testa, carlo",
+			"sections_dept": "itst",
+			"sections_year": 2014
+		},
+		{
+			"sections_title": "biogeog global",
+			"sections_instructor": "henry, gregory h",
+			"sections_dept": "geob",
+			"sections_year": 2014
+		},
+		{
+			"sections_title": "cons, govr, eval",
+			"sections_instructor": "cheung, wai lung;christensen, villy;close, david;mcallister, murdoch;pauly, daniel;pitcher, tony;sumaila, ussif rashid;trites, andrew;vincent, amanda",
+			"sections_dept": "fish",
+			"sections_year": 2014
+		},
+		{
+			"sections_title": "busn fundamental",
+			"sections_instructor": "cubbon, paul;kroeker, jeff",
+			"sections_dept": "comm",
+			"sections_year": 2014
+		},
+		{
+			"sections_title": "busn fundamental",
+			"sections_instructor": "milne, tamar;sinclair, scott",
+			"sections_dept": "comm",
+			"sections_year": 2014
+		},
+		{
+			"sections_title": "busn fundamental",
+			"sections_instructor": "jackes, robert;milne, tamar",
+			"sections_dept": "comm",
+			"sections_year": 2014
+		},
+		{
+			"sections_title": "busn fundamental",
+			"sections_instructor": "jackes, robert;milne, tamar",
+			"sections_dept": "comm",
+			"sections_year": 2014
+		},
+		{
+			"sections_title": "busn fundamental",
+			"sections_instructor": "cubbon, paul;kroeker, jeff",
+			"sections_dept": "comm",
+			"sections_year": 2014
+		},
+		{
+			"sections_title": "busn fundamental",
+			"sections_instructor": "cubbon, paul;kroeker, jeff",
+			"sections_dept": "comm",
+			"sections_year": 2014
+		},
+		{
+			"sections_title": "busn fundamental",
+			"sections_instructor": "cubbon, paul;kroeker, jeff",
+			"sections_dept": "comm",
+			"sections_year": 2014
+		},
+		{
+			"sections_title": "open chnl hydral",
+			"sections_instructor": "millar, robert",
+			"sections_dept": "civl",
+			"sections_year": 2014
+		},
+		{
+			"sections_title": "thesis proposal",
+			"sections_instructor": "mohseni, madjid",
+			"sections_dept": "chbe",
+			"sections_year": 2014
+		},
+		{
+			"sections_title": "com prop anal",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 2014
+		},
+		{
+			"sections_title": "com prop anal",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 2014
+		},
+		{
+			"sections_title": "com prop anal",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 2014
+		},
+		{
+			"sections_title": "res prop anal",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 2014
+		},
+		{
+			"sections_title": "res prop anal",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 2014
+		},
+		{
+			"sections_title": "res prop anal",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 2014
+		},
+		{
+			"sections_title": "stat&comp ap val",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 2014
+		},
+		{
+			"sections_title": "stat&comp ap val",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 2014
+		},
+		{
+			"sections_title": "stat&comp ap val",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 2014
+		},
+		{
+			"sections_title": "acct perf eval",
+			"sections_instructor": "nice, robert",
+			"sections_dept": "baac",
+			"sections_year": 2014
+		},
+		{
+			"sections_title": "intgr pd global",
+			"sections_instructor": "",
+			"sections_dept": "ba",
+			"sections_year": 2014
+		},
+		{
+			"sections_title": "intro: classical",
+			"sections_instructor": "ghazi, bushra seemi yasmin",
+			"sections_dept": "arbc",
+			"sections_year": 2014
+		},
+		{
+			"sections_title": "economic eval",
+			"sections_instructor": "anis, aslam",
+			"sections_dept": "spph",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "prog pln & eval",
+			"sections_instructor": "lovato, chris",
+			"sections_dept": "spph",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "prog pln & eval",
+			"sections_instructor": "lovato, chris",
+			"sections_dept": "spph",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "prog pln & eval",
+			"sections_instructor": "lovato, chris",
+			"sections_dept": "spph",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "dsgn clin trial",
+			"sections_instructor": "singer, joel",
+			"sections_dept": "spph",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "prog plan & eval",
+			"sections_instructor": "lovato, chris",
+			"sections_dept": "spha",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "rs dsg&tec: qual",
+			"sections_instructor": "hanser, amy",
+			"sections_dept": "soci",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "assess plan eval",
+			"sections_instructor": "beach, cheryl;duran, leslie",
+			"sections_dept": "rhsc",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "assess plan eval",
+			"sections_instructor": "barbic, skye",
+			"sections_dept": "rhsc",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "nondestrctv eval",
+			"sections_instructor": "akhtar, ainul",
+			"sections_dept": "mtrl",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "mech material",
+			"sections_instructor": "gadala, mohamed",
+			"sections_dept": "mech",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "mech of material",
+			"sections_instructor": "de silva, clarence wilfred",
+			"sections_dept": "mech",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "mech of material",
+			"sections_instructor": "mikkelsen, jon",
+			"sections_dept": "mech",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "mthds asymp anal",
+			"sections_instructor": "balmforth, neil",
+			"sections_dept": "math",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "transnational",
+			"sections_instructor": "",
+			"sections_dept": "law",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "transnational",
+			"sections_instructor": "",
+			"sections_dept": "law",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "transnational",
+			"sections_instructor": "",
+			"sections_dept": "law",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "transnational",
+			"sections_instructor": "",
+			"sections_dept": "law",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "cinema: neoreal",
+			"sections_instructor": "testa, carlo",
+			"sections_dept": "itst",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "plcy analys eval",
+			"sections_instructor": "",
+			"sections_dept": "gpp",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "biogeog global",
+			"sections_instructor": "frei, esther",
+			"sections_dept": "geob",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "cons, govr, eval",
+			"sections_instructor": "cheung, wai lung;christensen, villy;close, david;mcallister, murdoch;pauly, daniel;pitcher, tony;sumaila, ussif rashid;trites, andrew;vincent, amanda",
+			"sections_dept": "fish",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "busn fundamental",
+			"sections_instructor": "salzberg, elicia;stone, ann",
+			"sections_dept": "comm",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "busn fundamental",
+			"sections_instructor": "salzberg, elicia;stone, ann",
+			"sections_dept": "comm",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "busn fundamental",
+			"sections_instructor": "salzberg, elicia;stone, ann",
+			"sections_dept": "comm",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "busn fundamental",
+			"sections_instructor": "cubbon, paul;kroeker, jeff",
+			"sections_dept": "comm",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "busn fundamental",
+			"sections_instructor": "cubbon, paul;kroeker, jeff",
+			"sections_dept": "comm",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "busn fundamental",
+			"sections_instructor": "cubbon, paul;kroeker, jeff",
+			"sections_dept": "comm",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "open chnl hydral",
+			"sections_instructor": "millar, robert",
+			"sections_dept": "civl",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "com prop anal",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "com prop anal",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "res prop anal",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "res prop anal",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "stat&comp ap val",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "stat&comp ap val",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "intgr pd global",
+			"sections_instructor": "",
+			"sections_dept": "ba",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "intro: classical",
+			"sections_instructor": "ghazi, bushra seemi yasmin",
+			"sections_dept": "arbc",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "mthds asymp anal",
+			"sections_instructor": "balmforth, neil",
+			"sections_dept": "math",
+			"sections_year": 2016
+		},
+		{
+			"sections_title": "cinema: neoreal",
+			"sections_instructor": "testa, carlo",
+			"sections_dept": "itst",
+			"sections_year": 2016
+		}
+	]
+}

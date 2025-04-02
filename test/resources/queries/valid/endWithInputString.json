@@ -1,0 +1,574 @@
+{
+	"title": "endWithInputString",
+	"input": {
+		"WHERE": {
+			"AND": [
+				{
+					"GT": {
+						"sections_avg": 80
+					}
+				},
+				{
+					"LT": {
+						"sections_avg": 85
+					}
+				},
+				{
+					"IS": {
+						"sections_dept": "*ne"
+					}
+				}
+			]
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_dept",
+				"sections_avg"
+			],
+			"ORDER": "sections_dept"
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_dept": "mine",
+			"sections_avg": 84
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 80.64
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 84.33
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 84.5
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 83.8
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 81.83
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 84.59
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 84.08
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 84.82
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 83.89
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 83
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 80.67
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 80.67
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 83
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 83
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 84.08
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 84.08
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 80.6
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 80.6
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 84.83
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 84.83
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 81.5
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 81.5
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 84.16
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 84.16
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 80.88
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 80.88
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 83.5
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 83.5
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 83.5
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 80.45
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 80.45
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 83.04
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 83.04
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 81.32
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 81.32
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 82.76
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 82.76
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 84.83
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 84.83
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 81.82
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 81.82
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 80.3
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 80.3
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 83.87
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 83.87
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 80.71
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 80.71
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 82.45
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 82.45
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 80.01
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 80.01
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 80.15
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 80.15
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 81.56
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 81.56
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 80.47
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 80.47
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 83.85
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 83.85
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 83.38
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 83.38
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 81.94
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 81.94
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 80.95
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 80.95
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 80.85
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 80.85
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 83.55
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 83.55
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 80.49
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 80.49
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 80.19
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 80.19
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 82.27
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 82.27
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 82
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 82
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 82.09
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 82.09
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 84.33
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 84.33
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 84.56
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 84.56
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 82.26
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 82.26
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 84.63
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 84.63
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 82.36
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 82.36
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 80.7
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 80.7
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 84.45
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 84.45
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 80.87
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 80.87
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 83.12
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 83.12
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 84.05
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 84.05
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 82.89
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 82.89
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 81.92
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 81.87
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 80.83
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 80.21
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 80.21
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 82.97
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 82.97
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 81.47
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 81.47
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 82.71
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 82.71
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 80.13
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 80.13
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 82.61
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 82.61
+		},
+		{
+			"sections_dept": "mrne",
+			"sections_avg": 81.86
+		},
+		{
+			"sections_dept": "mrne",
+			"sections_avg": 81.86
+		},
+		{
+			"sections_dept": "mrne",
+			"sections_avg": 82.14
+		},
+		{
+			"sections_dept": "mrne",
+			"sections_avg": 82.14
+		},
+		{
+			"sections_dept": "mrne",
+			"sections_avg": 80.5
+		},
+		{
+			"sections_dept": "mrne",
+			"sections_avg": 80.5
+		},
+		{
+			"sections_dept": "mrne",
+			"sections_avg": 82.8
+		},
+		{
+			"sections_dept": "mrne",
+			"sections_avg": 82.8
+		},
+		{
+			"sections_dept": "mrne",
+			"sections_avg": 83.57
+		},
+		{
+			"sections_dept": "mrne",
+			"sections_avg": 83.57
+		},
+		{
+			"sections_dept": "mrne",
+			"sections_avg": 84.2
+		},
+		{
+			"sections_dept": "mrne",
+			"sections_avg": 84.2
+		},
+		{
+			"sections_dept": "mrne",
+			"sections_avg": 82.83
+		},
+		{
+			"sections_dept": "mrne",
+			"sections_avg": 82.83
+		},
+		{
+			"sections_dept": "mrne",
+			"sections_avg": 83.86
+		},
+		{
+			"sections_dept": "mrne",
+			"sections_avg": 83.86
+		},
+		{
+			"sections_dept": "mrne",
+			"sections_avg": 83.5
+		},
+		{
+			"sections_dept": "mrne",
+			"sections_avg": 83.5
+		}
+	]
+}

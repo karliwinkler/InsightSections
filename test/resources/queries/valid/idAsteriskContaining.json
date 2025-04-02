@@ -1,0 +1,967 @@
+{
+	"title": "id asterisk containing",
+	"input": {
+		"WHERE": {
+			"IS": {
+				"sections_id": "*123*"
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_id",
+				"sections_title",
+				"sections_instructor",
+				"sections_dept",
+				"sections_year"
+			]
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "",
+			"sections_dept": "chem",
+			"sections_year": 2008
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "",
+			"sections_dept": "chem",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "monga, vishakha",
+			"sections_dept": "chem",
+			"sections_year": 2009
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "",
+			"sections_dept": "chem",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "crane, angela;lekhi, priya;sammis, glenn;straus, suzana",
+			"sections_dept": "chem",
+			"sections_year": 2013
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "crane, angela;lekhi, priya;schafer, laurel",
+			"sections_dept": "chem",
+			"sections_year": 2013
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "crane, angela;lekhi, priya;ryan, katherine;straus, suzana",
+			"sections_dept": "chem",
+			"sections_year": 2013
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "crane, angela;grant, edward;lekhi, priya;ryan, katherine",
+			"sections_dept": "chem",
+			"sections_year": 2013
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "crane, angela;grant, edward;lekhi, priya;sammis, glenn",
+			"sections_dept": "chem",
+			"sections_year": 2013
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "bates, gordon;crane, angela;lekhi, priya",
+			"sections_dept": "chem",
+			"sections_year": 2013
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "bates, gordon;crane, angela;lekhi, priya;li, hongbin",
+			"sections_dept": "chem",
+			"sections_year": 2013
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "",
+			"sections_dept": "chem",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "lekhi, priya;love, jennifer ann",
+			"sections_dept": "chem",
+			"sections_year": 2010
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "addison, christopher;lekhi, priya;love, jennifer ann;sammis, glenn",
+			"sections_dept": "chem",
+			"sections_year": 2010
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "addison, christopher;lekhi, priya;love, jennifer ann;sammis, glenn",
+			"sections_dept": "chem",
+			"sections_year": 2010
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "grant, edward;lekhi, priya;love, jennifer ann;sherman, john",
+			"sections_dept": "chem",
+			"sections_year": 2010
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "grant, edward;lekhi, priya;love, jennifer ann;sherman, john",
+			"sections_dept": "chem",
+			"sections_year": 2010
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "lekhi, priya;love, jennifer ann;macfarlane, william andrew;rogers, christine",
+			"sections_dept": "chem",
+			"sections_year": 2010
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "lekhi, priya;love, jennifer ann;macfarlane, william andrew;rogers, christine",
+			"sections_dept": "chem",
+			"sections_year": 2010
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "lekhi, priya;love, jennifer ann",
+			"sections_dept": "chem",
+			"sections_year": 2010
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "",
+			"sections_dept": "chem",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "lekhi, priya",
+			"sections_dept": "chem",
+			"sections_year": 2013
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "",
+			"sections_dept": "chem",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "bizzotto, dan;lekhi, priya;sammis, glenn",
+			"sections_dept": "chem",
+			"sections_year": 2011
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "addison, christopher;lekhi, priya;ryan, katherine",
+			"sections_dept": "chem",
+			"sections_year": 2011
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "addison, christopher;lekhi, priya;ryan, katherine",
+			"sections_dept": "chem",
+			"sections_year": 2011
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "grant, edward;kunz, tamara;lekhi, priya",
+			"sections_dept": "chem",
+			"sections_year": 2011
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "grant, edward;lekhi, priya;sammis, glenn",
+			"sections_dept": "chem",
+			"sections_year": 2011
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "bizzotto, dan;kunz, tamara;lekhi, priya",
+			"sections_dept": "chem",
+			"sections_year": 2011
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "lekhi, priya",
+			"sections_dept": "chem",
+			"sections_year": 2011
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "",
+			"sections_dept": "chem",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "lekhi, priya",
+			"sections_dept": "chem",
+			"sections_year": 2011
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "",
+			"sections_dept": "chem",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "bizzotto, dan;lekhi, priya;love, jennifer ann;macfarlane, william andrew",
+			"sections_dept": "chem",
+			"sections_year": 2009
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "lekhi, priya;love, jennifer ann;macfarlane, william andrew;ruddick, john n r",
+			"sections_dept": "chem",
+			"sections_year": 2009
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "lekhi, priya;love, jennifer ann;macfarlane, william andrew;ruddick, john n r",
+			"sections_dept": "chem",
+			"sections_year": 2009
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "lekhi, priya;love, jennifer ann;macfarlane, william andrew;patey, grenfell;sherman, john",
+			"sections_dept": "chem",
+			"sections_year": 2009
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "lekhi, priya;love, jennifer ann;macfarlane, william andrew;patey, grenfell;sherman, john",
+			"sections_dept": "chem",
+			"sections_year": 2009
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "lekhi, priya;love, jennifer ann;macfarlane, william andrew;stewart, jaclyn",
+			"sections_dept": "chem",
+			"sections_year": 2009
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "lekhi, priya;love, jennifer ann;macfarlane, william andrew;stewart, jaclyn",
+			"sections_dept": "chem",
+			"sections_year": 2009
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "lekhi, priya;love, jennifer ann;macfarlane, william andrew;monga, vishakha",
+			"sections_dept": "chem",
+			"sections_year": 2009
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "",
+			"sections_dept": "chem",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "addison, christopher",
+			"sections_dept": "chem",
+			"sections_year": 2012
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "",
+			"sections_dept": "chem",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "thm kin org chem",
+			"sections_instructor": "dake, gregory;li, hongbin",
+			"sections_dept": "chem",
+			"sections_year": 2014
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "thm kin org chem",
+			"sections_instructor": "schafer, laurel",
+			"sections_dept": "chem",
+			"sections_year": 2014
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "thm kin org chem",
+			"sections_instructor": "johnson, kayli",
+			"sections_dept": "chem",
+			"sections_year": 2014
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "thm kin org chem",
+			"sections_instructor": "ryan, katherine",
+			"sections_dept": "chem",
+			"sections_year": 2014
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "thm kin org chem",
+			"sections_instructor": "sammis, glenn",
+			"sections_dept": "chem",
+			"sections_year": 2014
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "thm kin org chem",
+			"sections_instructor": "bates, gordon;lekhi, priya",
+			"sections_dept": "chem",
+			"sections_year": 2014
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "thm kin org chem",
+			"sections_instructor": "bates, gordon;lekhi, priya",
+			"sections_dept": "chem",
+			"sections_year": 2014
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "thm kin org chem",
+			"sections_instructor": "",
+			"sections_dept": "chem",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "lekhi, priya;sammis, glenn;straus, suzana",
+			"sections_dept": "chem",
+			"sections_year": 2012
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "addison, christopher;lekhi, priya;ryan, katherine",
+			"sections_dept": "chem",
+			"sections_year": 2012
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "addison, christopher;lekhi, priya;ryan, katherine",
+			"sections_dept": "chem",
+			"sections_year": 2012
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "grant, edward;kunz, tamara;lekhi, priya",
+			"sections_dept": "chem",
+			"sections_year": 2012
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "grant, edward;lekhi, priya;sammis, glenn",
+			"sections_dept": "chem",
+			"sections_year": 2012
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "kunz, tamara;lekhi, priya;straus, suzana",
+			"sections_dept": "chem",
+			"sections_year": 2012
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "lekhi, priya",
+			"sections_dept": "chem",
+			"sections_year": 2012
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "",
+			"sections_dept": "chem",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "lekhi, priya;monga, vishakha",
+			"sections_dept": "chem",
+			"sections_year": 2010
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "",
+			"sections_dept": "chem",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "thm kin org chem",
+			"sections_instructor": "johnson, kayli;lindenberg, erin",
+			"sections_dept": "chem",
+			"sections_year": 2015
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "thm kin org chem",
+			"sections_instructor": "schafer, laurel",
+			"sections_dept": "chem",
+			"sections_year": 2015
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "thm kin org chem",
+			"sections_instructor": "chou, keng chang;hein, jason",
+			"sections_dept": "chem",
+			"sections_year": 2015
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "thm kin org chem",
+			"sections_instructor": "chou, keng chang;hein, jason",
+			"sections_dept": "chem",
+			"sections_year": 2015
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "thm kin org chem",
+			"sections_instructor": "sammis, glenn",
+			"sections_dept": "chem",
+			"sections_year": 2015
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "thm kin org chem",
+			"sections_instructor": "crane, angela;li, hongbin",
+			"sections_dept": "chem",
+			"sections_year": 2015
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "thm kin org chem",
+			"sections_instructor": "lekhi, priya",
+			"sections_dept": "chem",
+			"sections_year": 2015
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "thm kin org chem",
+			"sections_instructor": "crane, angela;li, hongbin",
+			"sections_dept": "chem",
+			"sections_year": 2015
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "thm kin org chem",
+			"sections_instructor": "",
+			"sections_dept": "chem",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "crane, angela;wang, yan",
+			"sections_dept": "chem",
+			"sections_year": 2014
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "phys & org chem",
+			"sections_instructor": "",
+			"sections_dept": "chem",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "fren lang&lit ii",
+			"sections_instructor": "",
+			"sections_dept": "fren",
+			"sections_year": 2008
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "fren lang&lit ii",
+			"sections_instructor": "",
+			"sections_dept": "fren",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "fren lang&lit ii",
+			"sections_instructor": "onyeoziri-miller, gloria",
+			"sections_dept": "fren",
+			"sections_year": 2011
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "fren lang&lit ii",
+			"sections_instructor": "bodolec, jacques",
+			"sections_dept": "fren",
+			"sections_year": 2011
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "fren lang&lit ii",
+			"sections_instructor": "scott, anne",
+			"sections_dept": "fren",
+			"sections_year": 2011
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "fren lang&lit ii",
+			"sections_instructor": "o'hagan, michael",
+			"sections_dept": "fren",
+			"sections_year": 2011
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "fren lang&lit ii",
+			"sections_instructor": "miller, robert",
+			"sections_dept": "fren",
+			"sections_year": 2011
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "fren lang&lit ii",
+			"sections_instructor": "culbert, john",
+			"sections_dept": "fren",
+			"sections_year": 2011
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "fren lang&lit ii",
+			"sections_instructor": "godfrey, sima",
+			"sections_dept": "fren",
+			"sections_year": 2011
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "fren lang&lit ii",
+			"sections_instructor": "rocheleau, alain-michel",
+			"sections_dept": "fren",
+			"sections_year": 2011
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "fren lang&lit ii",
+			"sections_instructor": "",
+			"sections_dept": "fren",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "fren lang&lit ii",
+			"sections_instructor": "",
+			"sections_dept": "fren",
+			"sections_year": 2015
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "fren lang&lit ii",
+			"sections_instructor": "rocheleau, alain-michel",
+			"sections_dept": "fren",
+			"sections_year": 2015
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "fren lang&lit ii",
+			"sections_instructor": "scott, anne",
+			"sections_dept": "fren",
+			"sections_year": 2015
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "fren lang&lit ii",
+			"sections_instructor": "miller, robert",
+			"sections_dept": "fren",
+			"sections_year": 2015
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "fren lang&lit ii",
+			"sections_instructor": "miller, robert",
+			"sections_dept": "fren",
+			"sections_year": 2015
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "fren lang&lit ii",
+			"sections_instructor": "",
+			"sections_dept": "fren",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "fren lang&lit ii",
+			"sections_instructor": "shilliday, molleen",
+			"sections_dept": "fren",
+			"sections_year": 2009
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "fren lang&lit ii",
+			"sections_instructor": "",
+			"sections_dept": "fren",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "fren lang&lit ii",
+			"sections_instructor": "hodgson, richard",
+			"sections_dept": "fren",
+			"sections_year": 2013
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "fren lang&lit ii",
+			"sections_instructor": "simpson, anne",
+			"sections_dept": "fren",
+			"sections_year": 2013
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "fren lang&lit ii",
+			"sections_instructor": "scott, anne",
+			"sections_dept": "fren",
+			"sections_year": 2013
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "fren lang&lit ii",
+			"sections_instructor": "miller, robert",
+			"sections_dept": "fren",
+			"sections_year": 2013
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "fren lang&lit ii",
+			"sections_instructor": "phan, chantal",
+			"sections_dept": "fren",
+			"sections_year": 2013
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "fren lang&lit ii",
+			"sections_instructor": "o'hagan, michael",
+			"sections_dept": "fren",
+			"sections_year": 2013
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "fren lang&lit ii",
+			"sections_instructor": "o'brien, juliet",
+			"sections_dept": "fren",
+			"sections_year": 2013
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "fren lang&lit ii",
+			"sections_instructor": "",
+			"sections_dept": "fren",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "fren lang&lit ii",
+			"sections_instructor": "rocheleau, alain-michel",
+			"sections_dept": "fren",
+			"sections_year": 2012
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "fren lang&lit ii",
+			"sections_instructor": "o'hagan, michael",
+			"sections_dept": "fren",
+			"sections_year": 2012
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "fren lang&lit ii",
+			"sections_instructor": "miller, robert",
+			"sections_dept": "fren",
+			"sections_year": 2012
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "fren lang&lit ii",
+			"sections_instructor": "o'hagan, michael",
+			"sections_dept": "fren",
+			"sections_year": 2012
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "fren lang&lit ii",
+			"sections_instructor": "scott, anne",
+			"sections_dept": "fren",
+			"sections_year": 2012
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "fren lang&lit ii",
+			"sections_instructor": "winder, william",
+			"sections_dept": "fren",
+			"sections_year": 2012
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "fren lang&lit ii",
+			"sections_instructor": "culbert, john",
+			"sections_dept": "fren",
+			"sections_year": 2012
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "fren lang&lit ii",
+			"sections_instructor": "leplat, farah;miller, robert;scott, anne",
+			"sections_dept": "fren",
+			"sections_year": 2012
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "fren lang&lit ii",
+			"sections_instructor": "",
+			"sections_dept": "fren",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "fren lang&lit ii",
+			"sections_instructor": "",
+			"sections_dept": "fren",
+			"sections_year": 2014
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "fren lang&lit ii",
+			"sections_instructor": "laroussi, farid",
+			"sections_dept": "fren",
+			"sections_year": 2014
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "fren lang&lit ii",
+			"sections_instructor": "o'brien, juliet",
+			"sections_dept": "fren",
+			"sections_year": 2014
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "fren lang&lit ii",
+			"sections_instructor": "onyeoziri-miller, gloria",
+			"sections_dept": "fren",
+			"sections_year": 2014
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "fren lang&lit ii",
+			"sections_instructor": "scott, anne",
+			"sections_dept": "fren",
+			"sections_year": 2014
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "fren lang&lit ii",
+			"sections_instructor": "hodgson, richard",
+			"sections_dept": "fren",
+			"sections_year": 2014
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "fren lang&lit ii",
+			"sections_instructor": "",
+			"sections_dept": "fren",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "fren lang&lit ii",
+			"sections_instructor": "duggan, maryse",
+			"sections_dept": "fren",
+			"sections_year": 2010
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "fren lang&lit ii",
+			"sections_instructor": "bodolec, jacques",
+			"sections_dept": "fren",
+			"sections_year": 2010
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "fren lang&lit ii",
+			"sections_instructor": "scott, anne",
+			"sections_dept": "fren",
+			"sections_year": 2010
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "fren lang&lit ii",
+			"sections_instructor": "miller, robert",
+			"sections_dept": "fren",
+			"sections_year": 2010
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "fren lang&lit ii",
+			"sections_instructor": "rocheleau, alain-michel",
+			"sections_dept": "fren",
+			"sections_year": 2010
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "fren lang&lit ii",
+			"sections_instructor": "winder, william",
+			"sections_dept": "fren",
+			"sections_year": 2010
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "fren lang&lit ii",
+			"sections_instructor": "duggan, maryse",
+			"sections_dept": "fren",
+			"sections_year": 2010
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "fren lang&lit ii",
+			"sections_instructor": "godfrey, sima",
+			"sections_dept": "fren",
+			"sections_year": 2010
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "fren lang&lit ii",
+			"sections_instructor": "",
+			"sections_dept": "fren",
+			"sections_year": 1900
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "fren lang&lit ii",
+			"sections_instructor": "bascou vallarino, sylvia",
+			"sections_dept": "fren",
+			"sections_year": 2009
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "fren lang&lit ii",
+			"sections_instructor": "cheinman, ksenia;scott, anne",
+			"sections_dept": "fren",
+			"sections_year": 2009
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "fren lang&lit ii",
+			"sections_instructor": "bascou vallarino, sylvia;miller, robert;scott, anne",
+			"sections_dept": "fren",
+			"sections_year": 2009
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "fren lang&lit ii",
+			"sections_instructor": "hodgson, richard",
+			"sections_dept": "fren",
+			"sections_year": 2009
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "fren lang&lit ii",
+			"sections_instructor": "o'brien, juliet",
+			"sections_dept": "fren",
+			"sections_year": 2009
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "fren lang&lit ii",
+			"sections_instructor": "miller, robert",
+			"sections_dept": "fren",
+			"sections_year": 2009
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "fren lang&lit ii",
+			"sections_instructor": "scott, anne",
+			"sections_dept": "fren",
+			"sections_year": 2009
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "fren lang&lit ii",
+			"sections_instructor": "simpson, anne",
+			"sections_dept": "fren",
+			"sections_year": 2009
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "fren lang&lit ii",
+			"sections_instructor": "winder, william",
+			"sections_dept": "fren",
+			"sections_year": 2009
+		},
+		{
+			"sections_id": "123",
+			"sections_title": "fren lang&lit ii",
+			"sections_instructor": "",
+			"sections_dept": "fren",
+			"sections_year": 1900
+		}
+	]
+}

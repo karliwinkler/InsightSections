@@ -1,0 +1,361 @@
+{
+	"title": "uuid asterisk at end",
+	"input": {
+		"WHERE": {
+			"IS": {
+				"sections_uuid": "200*"
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_uuid",
+				"sections_fail",
+				"sections_pass"
+			],
+			"ORDER": "sections_uuid"
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_uuid": "200",
+			"sections_fail": 1,
+			"sections_pass": 92
+		},
+		{
+			"sections_uuid": "2000",
+			"sections_fail": 7,
+			"sections_pass": 94
+		},
+		{
+			"sections_uuid": "20000",
+			"sections_fail": 0,
+			"sections_pass": 40
+		},
+		{
+			"sections_uuid": "20001",
+			"sections_fail": 0,
+			"sections_pass": 37
+		},
+		{
+			"sections_uuid": "20002",
+			"sections_fail": 0,
+			"sections_pass": 48
+		},
+		{
+			"sections_uuid": "20003",
+			"sections_fail": 0,
+			"sections_pass": 36
+		},
+		{
+			"sections_uuid": "20004",
+			"sections_fail": 0,
+			"sections_pass": 161
+		},
+		{
+			"sections_uuid": "20005",
+			"sections_fail": 0,
+			"sections_pass": 40
+		},
+		{
+			"sections_uuid": "20006",
+			"sections_fail": 0,
+			"sections_pass": 37
+		},
+		{
+			"sections_uuid": "20007",
+			"sections_fail": 0,
+			"sections_pass": 47
+		},
+		{
+			"sections_uuid": "20008",
+			"sections_fail": 0,
+			"sections_pass": 36
+		},
+		{
+			"sections_uuid": "20009",
+			"sections_fail": 0,
+			"sections_pass": 28
+		},
+		{
+			"sections_uuid": "20010",
+			"sections_fail": 0,
+			"sections_pass": 188
+		},
+		{
+			"sections_uuid": "20011",
+			"sections_fail": 0,
+			"sections_pass": 31
+		},
+		{
+			"sections_uuid": "20012",
+			"sections_fail": 0,
+			"sections_pass": 20
+		},
+		{
+			"sections_uuid": "20013",
+			"sections_fail": 0,
+			"sections_pass": 51
+		},
+		{
+			"sections_uuid": "20014",
+			"sections_fail": 0,
+			"sections_pass": 33
+		},
+		{
+			"sections_uuid": "20015",
+			"sections_fail": 0,
+			"sections_pass": 33
+		},
+		{
+			"sections_uuid": "20016",
+			"sections_fail": 0,
+			"sections_pass": 11
+		},
+		{
+			"sections_uuid": "20017",
+			"sections_fail": 0,
+			"sections_pass": 11
+		},
+		{
+			"sections_uuid": "20018",
+			"sections_fail": 0,
+			"sections_pass": 46
+		},
+		{
+			"sections_uuid": "20019",
+			"sections_fail": 0,
+			"sections_pass": 46
+		},
+		{
+			"sections_uuid": "20024",
+			"sections_fail": 1,
+			"sections_pass": 81
+		},
+		{
+			"sections_uuid": "20025",
+			"sections_fail": 1,
+			"sections_pass": 81
+		},
+		{
+			"sections_uuid": "20026",
+			"sections_fail": 1,
+			"sections_pass": 25
+		},
+		{
+			"sections_uuid": "20027",
+			"sections_fail": 1,
+			"sections_pass": 27
+		},
+		{
+			"sections_uuid": "20028",
+			"sections_fail": 1,
+			"sections_pass": 33
+		},
+		{
+			"sections_uuid": "20029",
+			"sections_fail": 5,
+			"sections_pass": 22
+		},
+		{
+			"sections_uuid": "2003",
+			"sections_fail": 2,
+			"sections_pass": 30
+		},
+		{
+			"sections_uuid": "20030",
+			"sections_fail": 0,
+			"sections_pass": 28
+		},
+		{
+			"sections_uuid": "20031",
+			"sections_fail": 8,
+			"sections_pass": 135
+		},
+		{
+			"sections_uuid": "20032",
+			"sections_fail": 0,
+			"sections_pass": 15
+		},
+		{
+			"sections_uuid": "20033",
+			"sections_fail": 1,
+			"sections_pass": 13
+		},
+		{
+			"sections_uuid": "20034",
+			"sections_fail": 2,
+			"sections_pass": 30
+		},
+		{
+			"sections_uuid": "20035",
+			"sections_fail": 3,
+			"sections_pass": 58
+		},
+		{
+			"sections_uuid": "20036",
+			"sections_fail": 0,
+			"sections_pass": 11
+		},
+		{
+			"sections_uuid": "20037",
+			"sections_fail": 0,
+			"sections_pass": 13
+		},
+		{
+			"sections_uuid": "20038",
+			"sections_fail": 0,
+			"sections_pass": 24
+		},
+		{
+			"sections_uuid": "20039",
+			"sections_fail": 1,
+			"sections_pass": 21
+		},
+		{
+			"sections_uuid": "2004",
+			"sections_fail": 2,
+			"sections_pass": 30
+		},
+		{
+			"sections_uuid": "20040",
+			"sections_fail": 1,
+			"sections_pass": 21
+		},
+		{
+			"sections_uuid": "20041",
+			"sections_fail": 0,
+			"sections_pass": 12
+		},
+		{
+			"sections_uuid": "20042",
+			"sections_fail": 0,
+			"sections_pass": 12
+		},
+		{
+			"sections_uuid": "20043",
+			"sections_fail": 0,
+			"sections_pass": 10
+		},
+		{
+			"sections_uuid": "20044",
+			"sections_fail": 0,
+			"sections_pass": 10
+		},
+		{
+			"sections_uuid": "20053",
+			"sections_fail": 2,
+			"sections_pass": 86
+		},
+		{
+			"sections_uuid": "20054",
+			"sections_fail": 2,
+			"sections_pass": 86
+		},
+		{
+			"sections_uuid": "20055",
+			"sections_fail": 4,
+			"sections_pass": 131
+		},
+		{
+			"sections_uuid": "20056",
+			"sections_fail": 4,
+			"sections_pass": 131
+		},
+		{
+			"sections_uuid": "20057",
+			"sections_fail": 0,
+			"sections_pass": 19
+		},
+		{
+			"sections_uuid": "20058",
+			"sections_fail": 0,
+			"sections_pass": 21
+		},
+		{
+			"sections_uuid": "20059",
+			"sections_fail": 0,
+			"sections_pass": 40
+		},
+		{
+			"sections_uuid": "20060",
+			"sections_fail": 1,
+			"sections_pass": 79
+		},
+		{
+			"sections_uuid": "20061",
+			"sections_fail": 1,
+			"sections_pass": 79
+		},
+		{
+			"sections_uuid": "20064",
+			"sections_fail": 0,
+			"sections_pass": 19
+		},
+		{
+			"sections_uuid": "20065",
+			"sections_fail": 0,
+			"sections_pass": 19
+		},
+		{
+			"sections_uuid": "20068",
+			"sections_fail": 0,
+			"sections_pass": 22
+		},
+		{
+			"sections_uuid": "20069",
+			"sections_fail": 0,
+			"sections_pass": 22
+		},
+		{
+			"sections_uuid": "20070",
+			"sections_fail": 0,
+			"sections_pass": 22
+		},
+		{
+			"sections_uuid": "20071",
+			"sections_fail": 0,
+			"sections_pass": 22
+		},
+		{
+			"sections_uuid": "20072",
+			"sections_fail": 0,
+			"sections_pass": 21
+		},
+		{
+			"sections_uuid": "20073",
+			"sections_fail": 0,
+			"sections_pass": 21
+		},
+		{
+			"sections_uuid": "20075",
+			"sections_fail": 0,
+			"sections_pass": 18
+		},
+		{
+			"sections_uuid": "20076",
+			"sections_fail": 0,
+			"sections_pass": 18
+		},
+		{
+			"sections_uuid": "20077",
+			"sections_fail": 0,
+			"sections_pass": 8
+		},
+		{
+			"sections_uuid": "20078",
+			"sections_fail": 0,
+			"sections_pass": 8
+		},
+		{
+			"sections_uuid": "20084",
+			"sections_fail": 0,
+			"sections_pass": 14
+		},
+		{
+			"sections_uuid": "20085",
+			"sections_fail": 0,
+			"sections_pass": 14
+		}
+	]
+}

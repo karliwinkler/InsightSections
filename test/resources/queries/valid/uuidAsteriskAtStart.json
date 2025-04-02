@@ -1,0 +1,51 @@
+{
+	"title": "uuid asterisk at start",
+	"input": {
+		"WHERE": {
+			"IS": {
+				"sections_uuid": "*0000"
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_title",
+				"sections_instructor",
+				"sections_dept",
+				"sections_year"
+			]
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_title": "bus strategy",
+			"sections_instructor": "brown, jennifer",
+			"sections_dept": "basm",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "phy user intfc",
+			"sections_instructor": "",
+			"sections_dept": "cpsc",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "topcs microecon",
+			"sections_instructor": "graves, jonathan",
+			"sections_dept": "econ",
+			"sections_year": 2016
+		},
+		{
+			"sections_title": "int calc ap c&ss",
+			"sections_instructor": "wade, richard",
+			"sections_dept": "math",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "cond matter i",
+			"sections_instructor": "",
+			"sections_dept": "phys",
+			"sections_year": 1900
+		}
+	]
+}

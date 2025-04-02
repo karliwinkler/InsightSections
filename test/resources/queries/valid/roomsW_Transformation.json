@@ -1,0 +1,70 @@
+{
+	"title": "Rooms w/ Transformation",
+	"input": {
+		"WHERE": {
+			"AND": [
+				{
+					"IS": {
+						"rooms_furniture": "*Tables*"
+					}
+				},
+				{
+					"GT": {
+						"rooms_lat": 49.26826
+					}
+				}
+			]
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"rooms_shortname",
+				"maxLat"
+			],
+			"ORDER": {
+				"dir": "DOWN",
+				"keys": [
+					"maxLat"
+				]
+			}
+		},
+		"TRANSFORMATIONS": {
+			"GROUP": [
+				"rooms_shortname"
+			],
+			"APPLY": [
+				{
+					"maxLat": {
+						"MAX": "rooms_lat"
+					}
+				}
+			]
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"rooms_shortname": "IONA",
+			"maxLat": 49.27106
+		},
+		{
+			"rooms_shortname": "ALRD",
+			"maxLat": 49.2699
+		},
+		{
+			"rooms_shortname": "ANSO",
+			"maxLat": 49.26958
+		},
+		{
+			"rooms_shortname": "UCLL",
+			"maxLat": 49.26867
+		},
+		{
+			"rooms_shortname": "BRKX",
+			"maxLat": 49.26862
+		},
+		{
+			"rooms_shortname": "SRC",
+			"maxLat": 49.2683
+		}
+	]
+}

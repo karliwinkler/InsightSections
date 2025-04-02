@@ -1,0 +1,1205 @@
+{
+	"title": "instructor asterisk at start",
+	"input": {
+		"WHERE": {
+			"IS": {
+				"sections_instructor": "*mary"
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_id",
+				"sections_title",
+				"sections_instructor",
+				"sections_dept",
+				"sections_avg"
+			]
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_id": "329",
+			"sections_title": "dev wkshp/sem",
+			"sections_instructor": "wilson, mary",
+			"sections_dept": "adhe",
+			"sections_avg": 82.84
+		},
+		{
+			"sections_id": "329",
+			"sections_title": "dev wkshp/sem",
+			"sections_instructor": "wilson, mary",
+			"sections_dept": "adhe",
+			"sections_avg": 86.19
+		},
+		{
+			"sections_id": "112",
+			"sections_title": "biology of cell",
+			"sections_instructor": "mcginnis, rosemary",
+			"sections_dept": "biol",
+			"sections_avg": 68.28
+		},
+		{
+			"sections_id": "112",
+			"sections_title": "biology of cell",
+			"sections_instructor": "mcginnis, rosemary",
+			"sections_dept": "biol",
+			"sections_avg": 75.06
+		},
+		{
+			"sections_id": "121",
+			"sections_title": "eco gen evol",
+			"sections_instructor": "redfield, rosemary",
+			"sections_dept": "biol",
+			"sections_avg": 61.71
+		},
+		{
+			"sections_id": "121",
+			"sections_title": "eco gen evol",
+			"sections_instructor": "redfield, rosemary",
+			"sections_dept": "biol",
+			"sections_avg": 62.59
+		},
+		{
+			"sections_id": "233",
+			"sections_title": "genetics life",
+			"sections_instructor": "redfield, rosemary",
+			"sections_dept": "biol",
+			"sections_avg": 71.49
+		},
+		{
+			"sections_id": "234",
+			"sections_title": "fund genetics",
+			"sections_instructor": "moerman, donald;redfield, rosemary",
+			"sections_dept": "biol",
+			"sections_avg": 64.96
+		},
+		{
+			"sections_id": "234",
+			"sections_title": "fund genetics",
+			"sections_instructor": "moerman, donald;redfield, rosemary",
+			"sections_dept": "biol",
+			"sections_avg": 67.79
+		},
+		{
+			"sections_id": "234",
+			"sections_title": "fund genetics",
+			"sections_instructor": "berezowsky, craig m s;redfield, rosemary",
+			"sections_dept": "biol",
+			"sections_avg": 73.15
+		},
+		{
+			"sections_id": "234",
+			"sections_title": "fund genetics",
+			"sections_instructor": "berezowsky, craig m s;redfield, rosemary",
+			"sections_dept": "biol",
+			"sections_avg": 76.2
+		},
+		{
+			"sections_id": "306",
+			"sections_title": "advanced ecology",
+			"sections_instructor": "bradfield, gary;goodey, wayne;o'connor, mary",
+			"sections_dept": "biol",
+			"sections_avg": 70.67
+		},
+		{
+			"sections_id": "306",
+			"sections_title": "advanced ecology",
+			"sections_instructor": "bradfield, gary;goodey, wayne;o'connor, mary",
+			"sections_dept": "biol",
+			"sections_avg": 74.83
+		},
+		{
+			"sections_id": "306",
+			"sections_title": "advanced ecology",
+			"sections_instructor": "angert, amy;bradfield, gary;goodey, wayne;o'connor, mary",
+			"sections_dept": "biol",
+			"sections_avg": 71
+		},
+		{
+			"sections_id": "306",
+			"sections_title": "advanced ecology",
+			"sections_instructor": "bradfield, gary;goodey, wayne;o'connor, mary",
+			"sections_dept": "biol",
+			"sections_avg": 70.86
+		},
+		{
+			"sections_id": "306",
+			"sections_title": "advanced ecology",
+			"sections_instructor": "bradfield, gary;goodey, wayne;o'connor, mary",
+			"sections_dept": "biol",
+			"sections_avg": 70.66
+		},
+		{
+			"sections_id": "306",
+			"sections_title": "advanced ecology",
+			"sections_instructor": "bradfield, gary;goodey, wayne;o'connor, mary",
+			"sections_dept": "biol",
+			"sections_avg": 74.44
+		},
+		{
+			"sections_id": "306",
+			"sections_title": "advanced ecology",
+			"sections_instructor": "bradfield, gary;goodey, wayne;o'connor, mary",
+			"sections_dept": "biol",
+			"sections_avg": 73
+		},
+		{
+			"sections_id": "323",
+			"sections_title": "struc&repr fungi",
+			"sections_instructor": "berbee, mary",
+			"sections_dept": "biol",
+			"sections_avg": 75.59
+		},
+		{
+			"sections_id": "323",
+			"sections_title": "struc&repr fungi",
+			"sections_instructor": "berbee, mary",
+			"sections_dept": "biol",
+			"sections_avg": 75.65
+		},
+		{
+			"sections_id": "323",
+			"sections_title": "struc&repr fungi",
+			"sections_instructor": "berbee, mary",
+			"sections_dept": "biol",
+			"sections_avg": 77.3
+		},
+		{
+			"sections_id": "323",
+			"sections_title": "struc&repr fungi",
+			"sections_instructor": "berbee, mary",
+			"sections_dept": "biol",
+			"sections_avg": 72.65
+		},
+		{
+			"sections_id": "323",
+			"sections_title": "struc&repr fungi",
+			"sections_instructor": "berbee, mary",
+			"sections_dept": "biol",
+			"sections_avg": 76.97
+		},
+		{
+			"sections_id": "323",
+			"sections_title": "struc&repr fungi",
+			"sections_instructor": "berbee, mary",
+			"sections_dept": "biol",
+			"sections_avg": 78.29
+		},
+		{
+			"sections_id": "323",
+			"sections_title": "struc&repr fungi",
+			"sections_instructor": "berbee, mary",
+			"sections_dept": "biol",
+			"sections_avg": 76.7
+		},
+		{
+			"sections_id": "323",
+			"sections_title": "struc&repr fungi",
+			"sections_instructor": "berbee, mary",
+			"sections_dept": "biol",
+			"sections_avg": 77.86
+		},
+		{
+			"sections_id": "345",
+			"sections_title": "human ecology",
+			"sections_instructor": "redfield, rosemary",
+			"sections_dept": "biol",
+			"sections_avg": 69.72
+		},
+		{
+			"sections_id": "345",
+			"sections_title": "human ecology",
+			"sections_instructor": "redfield, rosemary",
+			"sections_dept": "biol",
+			"sections_avg": 75.44
+		},
+		{
+			"sections_id": "345",
+			"sections_title": "human ecology",
+			"sections_instructor": "redfield, rosemary",
+			"sections_dept": "biol",
+			"sections_avg": 83.53
+		},
+		{
+			"sections_id": "345",
+			"sections_title": "human ecology",
+			"sections_instructor": "redfield, rosemary",
+			"sections_dept": "biol",
+			"sections_avg": 79.12
+		},
+		{
+			"sections_id": "355",
+			"sections_title": "intr income tax",
+			"sections_instructor": "chong, mary",
+			"sections_dept": "busi",
+			"sections_avg": 72.38
+		},
+		{
+			"sections_id": "355",
+			"sections_title": "intr income tax",
+			"sections_instructor": "chong, mary",
+			"sections_dept": "busi",
+			"sections_avg": 71.36
+		},
+		{
+			"sections_id": "355",
+			"sections_title": "intr income tax",
+			"sections_instructor": "chong, mary",
+			"sections_dept": "busi",
+			"sections_avg": 72.54
+		},
+		{
+			"sections_id": "355",
+			"sections_title": "intr income tax",
+			"sections_instructor": "chong, mary",
+			"sections_dept": "busi",
+			"sections_avg": 72.38
+		},
+		{
+			"sections_id": "355",
+			"sections_title": "intr income tax",
+			"sections_instructor": "chong, mary",
+			"sections_dept": "busi",
+			"sections_avg": 69.75
+		},
+		{
+			"sections_id": "455",
+			"sections_title": "prin audit",
+			"sections_instructor": "chong, mary",
+			"sections_dept": "busi",
+			"sections_avg": 73.53
+		},
+		{
+			"sections_id": "455",
+			"sections_title": "prin audit",
+			"sections_instructor": "chong, mary",
+			"sections_dept": "busi",
+			"sections_avg": 72.48
+		},
+		{
+			"sections_id": "455",
+			"sections_title": "prin audit",
+			"sections_instructor": "chong, mary",
+			"sections_dept": "busi",
+			"sections_avg": 72.98
+		},
+		{
+			"sections_id": "455",
+			"sections_title": "prin audit",
+			"sections_instructor": "chong, mary",
+			"sections_dept": "busi",
+			"sections_avg": 75.89
+		},
+		{
+			"sections_id": "455",
+			"sections_title": "prin audit",
+			"sections_instructor": "chong, mary",
+			"sections_dept": "busi",
+			"sections_avg": 70.57
+		},
+		{
+			"sections_id": "455",
+			"sections_title": "prin audit",
+			"sections_instructor": "chong, mary",
+			"sections_dept": "busi",
+			"sections_avg": 70.38
+		},
+		{
+			"sections_id": "455",
+			"sections_title": "prin audit",
+			"sections_instructor": "chong, mary",
+			"sections_dept": "busi",
+			"sections_avg": 71.52
+		},
+		{
+			"sections_id": "455",
+			"sections_title": "prin audit",
+			"sections_instructor": "chong, mary",
+			"sections_dept": "busi",
+			"sections_avg": 74.03
+		},
+		{
+			"sections_id": "455",
+			"sections_title": "prin audit",
+			"sections_instructor": "chong, mary",
+			"sections_dept": "busi",
+			"sections_avg": 73.43
+		},
+		{
+			"sections_id": "455",
+			"sections_title": "prin audit",
+			"sections_instructor": "chong, mary",
+			"sections_dept": "busi",
+			"sections_avg": 73.09
+		},
+		{
+			"sections_id": "455",
+			"sections_title": "prin audit",
+			"sections_instructor": "chong, mary",
+			"sections_dept": "busi",
+			"sections_avg": 71.8
+		},
+		{
+			"sections_id": "455",
+			"sections_title": "prin audit",
+			"sections_instructor": "chong, mary",
+			"sections_dept": "busi",
+			"sections_avg": 72.77
+		},
+		{
+			"sections_id": "455",
+			"sections_title": "prin audit",
+			"sections_instructor": "chong, mary",
+			"sections_dept": "busi",
+			"sections_avg": 72.1
+		},
+		{
+			"sections_id": "455",
+			"sections_title": "prin audit",
+			"sections_instructor": "chong, mary",
+			"sections_dept": "busi",
+			"sections_avg": 67.69
+		},
+		{
+			"sections_id": "455",
+			"sections_title": "prin audit",
+			"sections_instructor": "chong, mary",
+			"sections_dept": "busi",
+			"sections_avg": 73
+		},
+		{
+			"sections_id": "455",
+			"sections_title": "prin audit",
+			"sections_instructor": "chong, mary",
+			"sections_dept": "busi",
+			"sections_avg": 71.79
+		},
+		{
+			"sections_id": "455",
+			"sections_title": "prin audit",
+			"sections_instructor": "chong, mary",
+			"sections_dept": "busi",
+			"sections_avg": 72.31
+		},
+		{
+			"sections_id": "455",
+			"sections_title": "prin audit",
+			"sections_instructor": "chong, mary",
+			"sections_dept": "busi",
+			"sections_avg": 73.8
+		},
+		{
+			"sections_id": "455",
+			"sections_title": "prin audit",
+			"sections_instructor": "chong, mary",
+			"sections_dept": "busi",
+			"sections_avg": 73.4
+		},
+		{
+			"sections_id": "455",
+			"sections_title": "prin audit",
+			"sections_instructor": "chong, mary",
+			"sections_dept": "busi",
+			"sections_avg": 73.91
+		},
+		{
+			"sections_id": "455",
+			"sections_title": "prin audit",
+			"sections_instructor": "chong, mary",
+			"sections_dept": "busi",
+			"sections_avg": 71.24
+		},
+		{
+			"sections_id": "455",
+			"sections_title": "prin audit",
+			"sections_instructor": "chong, mary",
+			"sections_dept": "busi",
+			"sections_avg": 74.26
+		},
+		{
+			"sections_id": "455",
+			"sections_title": "prin audit",
+			"sections_instructor": "chong, mary",
+			"sections_dept": "busi",
+			"sections_avg": 72.61
+		},
+		{
+			"sections_id": "455",
+			"sections_title": "prin audit",
+			"sections_instructor": "chong, mary",
+			"sections_dept": "busi",
+			"sections_avg": 74.34
+		},
+		{
+			"sections_id": "455",
+			"sections_title": "prin audit",
+			"sections_instructor": "chong, mary",
+			"sections_dept": "busi",
+			"sections_avg": 71.94
+		},
+		{
+			"sections_id": "455",
+			"sections_title": "prin audit",
+			"sections_instructor": "chong, mary",
+			"sections_dept": "busi",
+			"sections_avg": 70.26
+		},
+		{
+			"sections_id": "455",
+			"sections_title": "prin audit",
+			"sections_instructor": "chong, mary",
+			"sections_dept": "busi",
+			"sections_avg": 73.24
+		},
+		{
+			"sections_id": "296",
+			"sections_title": "intro marketing",
+			"sections_instructor": "swaffield, mary",
+			"sections_dept": "comm",
+			"sections_avg": 77.85
+		},
+		{
+			"sections_id": "296",
+			"sections_title": "intro marketing",
+			"sections_instructor": "swaffield, mary",
+			"sections_dept": "comm",
+			"sections_avg": 75.79
+		},
+		{
+			"sections_id": "296",
+			"sections_title": "intro marketing",
+			"sections_instructor": "swaffield, mary",
+			"sections_dept": "comm",
+			"sections_avg": 77.19
+		},
+		{
+			"sections_id": "296",
+			"sections_title": "intro marketing",
+			"sections_instructor": "swaffield, mary",
+			"sections_dept": "comm",
+			"sections_avg": 76.21
+		},
+		{
+			"sections_id": "296",
+			"sections_title": "intro marketing",
+			"sections_instructor": "swaffield, mary",
+			"sections_dept": "comm",
+			"sections_avg": 75.93
+		},
+		{
+			"sections_id": "355",
+			"sections_title": "income tax",
+			"sections_instructor": "chong, mary",
+			"sections_dept": "comm",
+			"sections_avg": 72.84
+		},
+		{
+			"sections_id": "355",
+			"sections_title": "income tax",
+			"sections_instructor": "chong, mary",
+			"sections_dept": "comm",
+			"sections_avg": 74.69
+		},
+		{
+			"sections_id": "455",
+			"sections_title": "prncpls of audit",
+			"sections_instructor": "chong, mary",
+			"sections_dept": "comm",
+			"sections_avg": 80.4
+		},
+		{
+			"sections_id": "455",
+			"sections_title": "prncpls of audit",
+			"sections_instructor": "chong, mary",
+			"sections_dept": "comm",
+			"sections_avg": 74.8
+		},
+		{
+			"sections_id": "455",
+			"sections_title": "prncpls of audit",
+			"sections_instructor": "chong, mary",
+			"sections_dept": "comm",
+			"sections_avg": 71.29
+		},
+		{
+			"sections_id": "455",
+			"sections_title": "prncpls of audit",
+			"sections_instructor": "chong, mary",
+			"sections_dept": "comm",
+			"sections_avg": 76.49
+		},
+		{
+			"sections_id": "455",
+			"sections_title": "prncpls of audit",
+			"sections_instructor": "chong, mary",
+			"sections_dept": "comm",
+			"sections_avg": 77.6
+		},
+		{
+			"sections_id": "455",
+			"sections_title": "prncpls of audit",
+			"sections_instructor": "chong, mary",
+			"sections_dept": "comm",
+			"sections_avg": 73.88
+		},
+		{
+			"sections_id": "455",
+			"sections_title": "prncpls of audit",
+			"sections_instructor": "chong, mary",
+			"sections_dept": "comm",
+			"sections_avg": 73.6
+		},
+		{
+			"sections_id": "469",
+			"sections_title": "intl mrkt",
+			"sections_instructor": "swaffield, mary",
+			"sections_dept": "comm",
+			"sections_avg": 77.77
+		},
+		{
+			"sections_id": "469",
+			"sections_title": "intl mrkt",
+			"sections_instructor": "swaffield, mary",
+			"sections_dept": "comm",
+			"sections_avg": 76.6
+		},
+		{
+			"sections_id": "469",
+			"sections_title": "intl mrkt",
+			"sections_instructor": "swaffield, mary",
+			"sections_dept": "comm",
+			"sections_avg": 77.66
+		},
+		{
+			"sections_id": "469",
+			"sections_title": "intl mrkt",
+			"sections_instructor": "swaffield, mary",
+			"sections_dept": "comm",
+			"sections_avg": 76.48
+		},
+		{
+			"sections_id": "469",
+			"sections_title": "intl mrkt",
+			"sections_instructor": "swaffield, mary",
+			"sections_dept": "comm",
+			"sections_avg": 78.14
+		},
+		{
+			"sections_id": "469",
+			"sections_title": "intl mrkt",
+			"sections_instructor": "swaffield, mary",
+			"sections_dept": "comm",
+			"sections_avg": 76.44
+		},
+		{
+			"sections_id": "469",
+			"sections_title": "intl mrkt",
+			"sections_instructor": "swaffield, mary",
+			"sections_dept": "comm",
+			"sections_avg": 76.23
+		},
+		{
+			"sections_id": "469",
+			"sections_title": "intl mrkt",
+			"sections_instructor": "swaffield, mary",
+			"sections_dept": "comm",
+			"sections_avg": 78
+		},
+		{
+			"sections_id": "469",
+			"sections_title": "intl mrkt",
+			"sections_instructor": "swaffield, mary",
+			"sections_dept": "comm",
+			"sections_avg": 78
+		},
+		{
+			"sections_id": "469",
+			"sections_title": "intl mrkt",
+			"sections_instructor": "swaffield, mary",
+			"sections_dept": "comm",
+			"sections_avg": 73.44
+		},
+		{
+			"sections_id": "469",
+			"sections_title": "intl mrkt",
+			"sections_instructor": "swaffield, mary",
+			"sections_dept": "comm",
+			"sections_avg": 78
+		},
+		{
+			"sections_id": "469",
+			"sections_title": "intl mrkt",
+			"sections_instructor": "swaffield, mary",
+			"sections_dept": "comm",
+			"sections_avg": 76.54
+		},
+		{
+			"sections_id": "469",
+			"sections_title": "intl mrkt",
+			"sections_instructor": "swaffield, mary",
+			"sections_dept": "comm",
+			"sections_avg": 75.22
+		},
+		{
+			"sections_id": "469",
+			"sections_title": "intl mrkt",
+			"sections_instructor": "swaffield, mary",
+			"sections_dept": "comm",
+			"sections_avg": 78.26
+		},
+		{
+			"sections_id": "469",
+			"sections_title": "intl mrkt",
+			"sections_instructor": "swaffield, mary",
+			"sections_dept": "comm",
+			"sections_avg": 77.74
+		},
+		{
+			"sections_id": "469",
+			"sections_title": "intl mrkt",
+			"sections_instructor": "swaffield, mary",
+			"sections_dept": "comm",
+			"sections_avg": 74.64
+		},
+		{
+			"sections_id": "469",
+			"sections_title": "intl mrkt",
+			"sections_instructor": "swaffield, mary",
+			"sections_dept": "comm",
+			"sections_avg": 77.37
+		},
+		{
+			"sections_id": "469",
+			"sections_title": "intl mrkt",
+			"sections_instructor": "swaffield, mary",
+			"sections_dept": "comm",
+			"sections_avg": 77
+		},
+		{
+			"sections_id": "469",
+			"sections_title": "intl mrkt",
+			"sections_instructor": "swaffield, mary",
+			"sections_dept": "comm",
+			"sections_avg": 77.31
+		},
+		{
+			"sections_id": "469",
+			"sections_title": "intl mrkt",
+			"sections_instructor": "swaffield, mary",
+			"sections_dept": "comm",
+			"sections_avg": 76.13
+		},
+		{
+			"sections_id": "599",
+			"sections_title": "thesis",
+			"sections_instructor": "schendlinger, mary",
+			"sections_dept": "crwr",
+			"sections_avg": 93.67
+		},
+		{
+			"sections_id": "440",
+			"sections_title": "supp comm sp nds",
+			"sections_instructor": "stewart, mary",
+			"sections_dept": "eced",
+			"sections_avg": 84.34
+		},
+		{
+			"sections_id": "440",
+			"sections_title": "supp comm sp nds",
+			"sections_instructor": "stewart, mary",
+			"sections_dept": "eced",
+			"sections_avg": 87.45
+		},
+		{
+			"sections_id": "440",
+			"sections_title": "supp comm sp nds",
+			"sections_instructor": "stewart, mary",
+			"sections_dept": "eced",
+			"sections_avg": 86.69
+		},
+		{
+			"sections_id": "440",
+			"sections_title": "supp comm sp nds",
+			"sections_instructor": "chapman, marilyn;stewart, mary",
+			"sections_dept": "eced",
+			"sections_avg": 83.77
+		},
+		{
+			"sections_id": "440",
+			"sections_title": "supp comm sp nds",
+			"sections_instructor": "stewart, mary",
+			"sections_dept": "eced",
+			"sections_avg": 80.83
+		},
+		{
+			"sections_id": "440",
+			"sections_title": "supp comm sp nds",
+			"sections_instructor": "stewart, mary",
+			"sections_dept": "eced",
+			"sections_avg": 84.1
+		},
+		{
+			"sections_id": "440",
+			"sections_title": "supp comm sp nds",
+			"sections_instructor": "ford, laurie;stewart, mary",
+			"sections_dept": "eced",
+			"sections_avg": 84.82
+		},
+		{
+			"sections_id": "441",
+			"sections_title": "interv child",
+			"sections_instructor": "stewart, mary",
+			"sections_dept": "eced",
+			"sections_avg": 83.62
+		},
+		{
+			"sections_id": "441",
+			"sections_title": "interv child",
+			"sections_instructor": "stewart, mary",
+			"sections_dept": "eced",
+			"sections_avg": 82.05
+		},
+		{
+			"sections_id": "441",
+			"sections_title": "interv child",
+			"sections_instructor": "stewart, mary",
+			"sections_dept": "eced",
+			"sections_avg": 81.93
+		},
+		{
+			"sections_id": "441",
+			"sections_title": "interv child",
+			"sections_instructor": "stewart, mary",
+			"sections_dept": "eced",
+			"sections_avg": 81.85
+		},
+		{
+			"sections_id": "508",
+			"sections_title": "rev res curr&ped",
+			"sections_instructor": "smith, mary",
+			"sections_dept": "edcp",
+			"sections_avg": 93.56
+		},
+		{
+			"sections_id": "500",
+			"sections_title": "res mthd in educ",
+			"sections_instructor": "smith, mary",
+			"sections_dept": "educ",
+			"sections_avg": 86.27
+		},
+		{
+			"sections_id": "316",
+			"sections_title": "lrn'g disablties",
+			"sections_instructor": "heikkila, mary",
+			"sections_dept": "epse",
+			"sections_avg": 90.2
+		},
+		{
+			"sections_id": "316",
+			"sections_title": "lrn'g disablties",
+			"sections_instructor": "heikkila, mary",
+			"sections_dept": "epse",
+			"sections_avg": 91.29
+		},
+		{
+			"sections_id": "316",
+			"sections_title": "lrn'g disablties",
+			"sections_instructor": "heikkila, mary",
+			"sections_dept": "epse",
+			"sections_avg": 90.58
+		},
+		{
+			"sections_id": "316",
+			"sections_title": "lrn'g disablties",
+			"sections_instructor": "heikkila, mary",
+			"sections_dept": "epse",
+			"sections_avg": 91.48
+		},
+		{
+			"sections_id": "316",
+			"sections_title": "lrn'g disablties",
+			"sections_instructor": "heikkila, mary",
+			"sections_dept": "epse",
+			"sections_avg": 92.19
+		},
+		{
+			"sections_id": "316",
+			"sections_title": "lrn'g disablties",
+			"sections_instructor": "heikkila, mary",
+			"sections_dept": "epse",
+			"sections_avg": 84.96
+		},
+		{
+			"sections_id": "316",
+			"sections_title": "lrn'g disablties",
+			"sections_instructor": "heikkila, mary",
+			"sections_dept": "epse",
+			"sections_avg": 94.24
+		},
+		{
+			"sections_id": "316",
+			"sections_title": "lrn'g disablties",
+			"sections_instructor": "heikkila, mary",
+			"sections_dept": "epse",
+			"sections_avg": 94.48
+		},
+		{
+			"sections_id": "316",
+			"sections_title": "lrn'g disablties",
+			"sections_instructor": "heikkila, mary",
+			"sections_dept": "epse",
+			"sections_avg": 93.88
+		},
+		{
+			"sections_id": "316",
+			"sections_title": "lrn'g disablties",
+			"sections_instructor": "dowler, judith rosemary",
+			"sections_dept": "epse",
+			"sections_avg": 91.63
+		},
+		{
+			"sections_id": "316",
+			"sections_title": "lrn'g disablties",
+			"sections_instructor": "dowler, judith rosemary",
+			"sections_dept": "epse",
+			"sections_avg": 89.35
+		},
+		{
+			"sections_id": "431",
+			"sections_title": "prg child sp lrn",
+			"sections_instructor": "heikkila, mary",
+			"sections_dept": "epse",
+			"sections_avg": 94.86
+		},
+		{
+			"sections_id": "431",
+			"sections_title": "prg child sp lrn",
+			"sections_instructor": "heikkila, mary",
+			"sections_dept": "epse",
+			"sections_avg": 89.68
+		},
+		{
+			"sections_id": "526",
+			"sections_title": "specific lrn dis",
+			"sections_instructor": "heikkila, mary",
+			"sections_dept": "epse",
+			"sections_avg": 91.38
+		},
+		{
+			"sections_id": "526",
+			"sections_title": "specific lrn dis",
+			"sections_instructor": "heikkila, mary",
+			"sections_dept": "epse",
+			"sections_avg": 93.2
+		},
+		{
+			"sections_id": "526",
+			"sections_title": "specific lrn dis",
+			"sections_instructor": "heikkila, mary",
+			"sections_dept": "epse",
+			"sections_avg": 91.5
+		},
+		{
+			"sections_id": "510",
+			"sections_title": "des tech",
+			"sections_instructor": "bryson, mary",
+			"sections_dept": "etec",
+			"sections_avg": 89.95
+		},
+		{
+			"sections_id": "510",
+			"sections_title": "des tech",
+			"sections_instructor": "bryson, mary",
+			"sections_dept": "etec",
+			"sections_avg": 88.45
+		},
+		{
+			"sections_id": "510",
+			"sections_title": "des tech",
+			"sections_instructor": "bryson, mary",
+			"sections_dept": "etec",
+			"sections_avg": 89.05
+		},
+		{
+			"sections_id": "510",
+			"sections_title": "des tech",
+			"sections_instructor": "bryson, mary",
+			"sections_dept": "etec",
+			"sections_avg": 89.22
+		},
+		{
+			"sections_id": "510",
+			"sections_title": "des tech",
+			"sections_instructor": "bryson, mary",
+			"sections_dept": "etec",
+			"sections_avg": 89.5
+		},
+		{
+			"sections_id": "510",
+			"sections_title": "des tech",
+			"sections_instructor": "bryson, mary",
+			"sections_dept": "etec",
+			"sections_avg": 92.45
+		},
+		{
+			"sections_id": "512",
+			"sections_title": "indexing",
+			"sections_instructor": "stephenson, mary",
+			"sections_dept": "libr",
+			"sections_avg": 84.91
+		},
+		{
+			"sections_id": "512",
+			"sections_title": "indexing",
+			"sections_instructor": "stephenson, mary",
+			"sections_dept": "libr",
+			"sections_avg": 84.89
+		},
+		{
+			"sections_id": "512",
+			"sections_title": "indexing",
+			"sections_instructor": "stephenson, mary",
+			"sections_dept": "libr",
+			"sections_avg": 84.38
+		},
+		{
+			"sections_id": "512",
+			"sections_title": "indexing",
+			"sections_instructor": "stephenson, mary",
+			"sections_dept": "libr",
+			"sections_avg": 85.75
+		},
+		{
+			"sections_id": "512",
+			"sections_title": "indexing",
+			"sections_instructor": "stephenson, mary",
+			"sections_dept": "libr",
+			"sections_avg": 85.47
+		},
+		{
+			"sections_id": "512",
+			"sections_title": "indexing",
+			"sections_instructor": "stephenson, mary",
+			"sections_dept": "libr",
+			"sections_avg": 84.19
+		},
+		{
+			"sections_id": "512",
+			"sections_title": "indexing",
+			"sections_instructor": "stephenson, mary",
+			"sections_dept": "libr",
+			"sections_avg": 84.24
+		},
+		{
+			"sections_id": "557",
+			"sections_title": "info retrvl sys",
+			"sections_instructor": "stephenson, mary",
+			"sections_dept": "libr",
+			"sections_avg": 86.41
+		},
+		{
+			"sections_id": "557",
+			"sections_title": "info retrvl sys",
+			"sections_instructor": "stephenson, mary",
+			"sections_dept": "libr",
+			"sections_avg": 86.71
+		},
+		{
+			"sections_id": "557",
+			"sections_title": "info retrvl sys",
+			"sections_instructor": "stephenson, mary",
+			"sections_dept": "libr",
+			"sections_avg": 86.06
+		},
+		{
+			"sections_id": "557",
+			"sections_title": "info retrvl sys",
+			"sections_instructor": "stephenson, mary",
+			"sections_dept": "libr",
+			"sections_avg": 87
+		},
+		{
+			"sections_id": "557",
+			"sections_title": "info retrvl sys",
+			"sections_instructor": "stephenson, mary",
+			"sections_dept": "libr",
+			"sections_avg": 86.27
+		},
+		{
+			"sections_id": "557",
+			"sections_title": "info retrvl sys",
+			"sections_instructor": "stephenson, mary",
+			"sections_dept": "libr",
+			"sections_avg": 85.93
+		},
+		{
+			"sections_id": "557",
+			"sections_title": "info retrvl sys",
+			"sections_instructor": "stephenson, mary",
+			"sections_dept": "libr",
+			"sections_avg": 85.25
+		},
+		{
+			"sections_id": "425",
+			"sections_title": "commnty&pop hlth",
+			"sections_instructor": "mcburney, sheila mary",
+			"sections_dept": "nurs",
+			"sections_avg": 83.56
+		},
+		{
+			"sections_id": "425",
+			"sections_title": "commnty&pop hlth",
+			"sections_instructor": "mcburney, sheila mary",
+			"sections_dept": "nurs",
+			"sections_avg": 83.95
+		},
+		{
+			"sections_id": "425",
+			"sections_title": "commnty&pop hlth",
+			"sections_instructor": "mcburney, sheila mary",
+			"sections_dept": "nurs",
+			"sections_avg": 85.83
+		},
+		{
+			"sections_id": "425",
+			"sections_title": "commnty&pop hlth",
+			"sections_instructor": "mcburney, sheila mary",
+			"sections_dept": "nurs",
+			"sections_avg": 82.39
+		},
+		{
+			"sections_id": "425",
+			"sections_title": "commnty&pop hlth",
+			"sections_instructor": "mcburney, sheila mary",
+			"sections_dept": "nurs",
+			"sections_avg": 84.21
+		},
+		{
+			"sections_id": "323",
+			"sections_title": "biophys pharm ii",
+			"sections_instructor": "burt, helen mary",
+			"sections_dept": "phar",
+			"sections_avg": 73.84
+		},
+		{
+			"sections_id": "323",
+			"sections_title": "biophys pharm ii",
+			"sections_instructor": "burt, helen mary",
+			"sections_dept": "phar",
+			"sections_avg": 71.05
+		},
+		{
+			"sections_id": "408",
+			"sections_title": "clin pharcknetcs",
+			"sections_instructor": "ensom, mary",
+			"sections_dept": "phar",
+			"sections_avg": 90.19
+		},
+		{
+			"sections_id": "408",
+			"sections_title": "clin pharcknetcs",
+			"sections_instructor": "ensom, mary",
+			"sections_dept": "phar",
+			"sections_avg": 85.23
+		},
+		{
+			"sections_id": "408",
+			"sections_title": "clin pharcknetcs",
+			"sections_instructor": "ensom, mary",
+			"sections_dept": "phar",
+			"sections_avg": 91.61
+		},
+		{
+			"sections_id": "408",
+			"sections_title": "clin pharcknetcs",
+			"sections_instructor": "ensom, mary",
+			"sections_dept": "phar",
+			"sections_avg": 88.94
+		},
+		{
+			"sections_id": "408",
+			"sections_title": "clin pharcknetcs",
+			"sections_instructor": "ensom, mary",
+			"sections_dept": "phar",
+			"sections_avg": 91.88
+		},
+		{
+			"sections_id": "408",
+			"sections_title": "clin pharcknetcs",
+			"sections_instructor": "ensom, mary",
+			"sections_dept": "phar",
+			"sections_avg": 89.48
+		},
+		{
+			"sections_id": "408",
+			"sections_title": "clin pharcknetcs",
+			"sections_instructor": "ensom, mary",
+			"sections_dept": "phar",
+			"sections_avg": 88.32
+		},
+		{
+			"sections_id": "508",
+			"sections_title": "adv appl clin ph",
+			"sections_instructor": "ensom, mary",
+			"sections_dept": "phar",
+			"sections_avg": 83.63
+		},
+		{
+			"sections_id": "508",
+			"sections_title": "adv appl clin ph",
+			"sections_instructor": "ensom, mary",
+			"sections_dept": "phar",
+			"sections_avg": 87.38
+		},
+		{
+			"sections_id": "508",
+			"sections_title": "adv appl clin ph",
+			"sections_instructor": "ensom, mary",
+			"sections_dept": "phar",
+			"sections_avg": 84.5
+		},
+		{
+			"sections_id": "508",
+			"sections_title": "adv appl clin ph",
+			"sections_instructor": "ensom, mary",
+			"sections_dept": "phar",
+			"sections_avg": 88.75
+		},
+		{
+			"sections_id": "508",
+			"sections_title": "adv appl clin ph",
+			"sections_instructor": "ensom, mary",
+			"sections_dept": "phar",
+			"sections_avg": 85.5
+		},
+		{
+			"sections_id": "508",
+			"sections_title": "adv appl clin ph",
+			"sections_instructor": "ensom, mary",
+			"sections_dept": "phar",
+			"sections_avg": 88.88
+		},
+		{
+			"sections_id": "508",
+			"sections_title": "adv appl clin ph",
+			"sections_instructor": "ensom, mary",
+			"sections_dept": "phar",
+			"sections_avg": 83.75
+		},
+		{
+			"sections_id": "548",
+			"sections_title": "seminar",
+			"sections_instructor": "burt, helen mary",
+			"sections_dept": "phar",
+			"sections_avg": 90
+		},
+		{
+			"sections_id": "245",
+			"sections_title": "play-intr&prod",
+			"sections_instructor": "vingoe, mary",
+			"sections_dept": "thtr",
+			"sections_avg": 77.73
+		}
+	]
+}

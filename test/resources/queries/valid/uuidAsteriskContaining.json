@@ -1,0 +1,693 @@
+{
+	"title": "uuid asterisk containing",
+	"input": {
+		"WHERE": {
+			"IS": {
+				"sections_uuid": "*000*"
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_title",
+				"sections_instructor",
+				"sections_dept",
+				"sections_year"
+			]
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_title": "med, soci, cultr",
+			"sections_instructor": "mckellin, william",
+			"sections_dept": "anth",
+			"sections_year": 2013
+		},
+		{
+			"sections_title": "med, soci, cultr",
+			"sections_instructor": "",
+			"sections_dept": "anth",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "conserv organic",
+			"sections_instructor": "swierenga, heidi",
+			"sections_dept": "anth",
+			"sections_year": 2013
+		},
+		{
+			"sections_title": "conserv organic",
+			"sections_instructor": "",
+			"sections_dept": "anth",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "arch design ii",
+			"sections_instructor": "",
+			"sections_dept": "arch",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "chinese cinema",
+			"sections_instructor": "wang, rui",
+			"sections_dept": "asia",
+			"sections_year": 2011
+		},
+		{
+			"sections_title": "cog proc & ald",
+			"sections_instructor": "small, jeff alan",
+			"sections_dept": "audi",
+			"sections_year": 2014
+		},
+		{
+			"sections_title": "supply chain mng",
+			"sections_instructor": "krishnan, harish",
+			"sections_dept": "basc",
+			"sections_year": 2011
+		},
+		{
+			"sections_title": "bus strategy",
+			"sections_instructor": "brown, jennifer",
+			"sections_dept": "basm",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "bus strategy",
+			"sections_instructor": "brown, jennifer",
+			"sections_dept": "basm",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "bus strategy",
+			"sections_instructor": "brown, jennifer",
+			"sections_dept": "basm",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "bus strategy",
+			"sections_instructor": "brown, jennifer",
+			"sections_dept": "basm",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "bus strategy",
+			"sections_instructor": "",
+			"sections_dept": "basm",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "corporate strtgy",
+			"sections_instructor": "brown, jennifer",
+			"sections_dept": "basm",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "corporate strtgy",
+			"sections_instructor": "brown, jennifer",
+			"sections_dept": "basm",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "corporate strtgy",
+			"sections_instructor": "brown, jennifer",
+			"sections_dept": "basm",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "corporate strtgy",
+			"sections_instructor": "brown, jennifer",
+			"sections_dept": "basm",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "corporate strtgy",
+			"sections_instructor": "brown, jennifer",
+			"sections_dept": "basm",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "real estate inv",
+			"sections_instructor": "davidoff, thomas",
+			"sections_dept": "baul",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "real estate inv",
+			"sections_instructor": "",
+			"sections_dept": "baul",
+			"sections_year": 2008
+		},
+		{
+			"sections_title": "real estate inv",
+			"sections_instructor": "",
+			"sections_dept": "baul",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "unicellular life",
+			"sections_instructor": "spiegelman, george b",
+			"sections_dept": "biol",
+			"sections_year": 2010
+		},
+		{
+			"sections_title": "bryophyta",
+			"sections_instructor": "ellis, shona margaret",
+			"sections_dept": "biol",
+			"sections_year": 2009
+		},
+		{
+			"sections_title": "bc law & ethics",
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_year": 2013
+		},
+		{
+			"sections_title": "air pol prv&ctrl",
+			"sections_instructor": "lau, anthony k",
+			"sections_dept": "chbe",
+			"sections_year": 2011
+		},
+		{
+			"sections_title": "clas poet tang",
+			"sections_instructor": "liu, xue shun",
+			"sections_dept": "chin",
+			"sections_year": 2016
+		},
+		{
+			"sections_title": "fin acctg-int i",
+			"sections_instructor": "zhang, li",
+			"sections_dept": "comm",
+			"sections_year": 2012
+		},
+		{
+			"sections_title": "business writing",
+			"sections_instructor": "bowker, elizabeth",
+			"sections_dept": "comm",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "income & taxes",
+			"sections_instructor": "chung, tran khue",
+			"sections_dept": "comm",
+			"sections_year": 2011
+		},
+		{
+			"sections_title": "marketing mgmt",
+			"sections_instructor": "stone, ann",
+			"sections_dept": "comm",
+			"sections_year": 2010
+		},
+		{
+			"sections_title": "new product dev",
+			"sections_instructor": "silk, timothy",
+			"sections_dept": "comm",
+			"sections_year": 2013
+		},
+		{
+			"sections_title": "num approx/discr",
+			"sections_instructor": "",
+			"sections_dept": "cpsc",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "phy user intfc",
+			"sections_instructor": "",
+			"sections_dept": "cpsc",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "hmn-cmpt intract",
+			"sections_instructor": "maclean, karon",
+			"sections_dept": "cpsc",
+			"sections_year": 2013
+		},
+		{
+			"sections_title": "hmn-cmpt intract",
+			"sections_instructor": "",
+			"sections_dept": "cpsc",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "m.sc major essay",
+			"sections_instructor": "",
+			"sections_dept": "cpsc",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "stats methods",
+			"sections_instructor": "",
+			"sections_dept": "dent",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "rs mth&sem orbi",
+			"sections_instructor": "",
+			"sections_dept": "dent",
+			"sections_year": 2009
+		},
+		{
+			"sections_title": "econ of envirnmt",
+			"sections_instructor": "copeland, brian",
+			"sections_dept": "econ",
+			"sections_year": 2011
+		},
+		{
+			"sections_title": "topcs microecon",
+			"sections_instructor": "graves, jonathan",
+			"sections_dept": "econ",
+			"sections_year": 2016
+		},
+		{
+			"sections_title": "topcs microecon",
+			"sections_instructor": "",
+			"sections_dept": "econ",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "intr game thr ap",
+			"sections_instructor": "li, wei",
+			"sections_dept": "econ",
+			"sections_year": 2013
+		},
+		{
+			"sections_title": "process econ dev",
+			"sections_instructor": "francois, patrick",
+			"sections_dept": "econ",
+			"sections_year": 2016
+		},
+		{
+			"sections_title": "process econ dev",
+			"sections_instructor": "",
+			"sections_dept": "econ",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "internatl trade",
+			"sections_instructor": "bombardini, matilde",
+			"sections_dept": "econ",
+			"sections_year": 2016
+		},
+		{
+			"sections_title": "internatl trade",
+			"sections_instructor": "",
+			"sections_dept": "econ",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "applied econ",
+			"sections_instructor": "adshade, marina",
+			"sections_dept": "econ",
+			"sections_year": 2016
+		},
+		{
+			"sections_title": "applied econ",
+			"sections_instructor": "kong, wai-ching alfred",
+			"sections_dept": "econ",
+			"sections_year": 2016
+		},
+		{
+			"sections_title": "applied econ",
+			"sections_instructor": "kong, wai-ching alfred",
+			"sections_dept": "econ",
+			"sections_year": 2016
+		},
+		{
+			"sections_title": "applied econ",
+			"sections_instructor": "",
+			"sections_dept": "econ",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "srvy rsrch meth",
+			"sections_instructor": "",
+			"sections_dept": "edst",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "envr des stdio i",
+			"sections_instructor": "roehr, daniel",
+			"sections_dept": "ends",
+			"sections_year": 2014
+		},
+		{
+			"sections_title": "struc geology i",
+			"sections_instructor": "",
+			"sections_dept": "eosc",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "methods in ocgy",
+			"sections_instructor": "",
+			"sections_dept": "eosc",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "stdy genre/perio",
+			"sections_instructor": "harris, mark",
+			"sections_dept": "fist",
+			"sections_year": 2007
+		},
+		{
+			"sections_title": "prnc food eng",
+			"sections_instructor": "",
+			"sections_dept": "fnh",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "food sci lab 1",
+			"sections_instructor": "",
+			"sections_dept": "fnh",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "inter agri dev",
+			"sections_instructor": "",
+			"sections_dept": "fre",
+			"sections_year": 2009
+		},
+		{
+			"sections_title": "intermed fren 2",
+			"sections_instructor": "",
+			"sections_dept": "fren",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "beginnr fren iv",
+			"sections_instructor": "edinger, monika",
+			"sections_dept": "fren",
+			"sections_year": 2009
+		},
+		{
+			"sections_title": "dvl frst institu",
+			"sections_instructor": "el-lakany, hosny",
+			"sections_dept": "frst",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "geog natural haz",
+			"sections_instructor": "",
+			"sections_dept": "geog",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "the arctic",
+			"sections_instructor": "henry, gregory h",
+			"sections_dept": "geog",
+			"sections_year": 2011
+		},
+		{
+			"sections_title": "begin germ i",
+			"sections_instructor": "struch, gela",
+			"sections_dept": "germ",
+			"sections_year": 2014
+		},
+		{
+			"sections_title": "adv german ii",
+			"sections_instructor": "rieger, caroline",
+			"sections_dept": "germ",
+			"sections_year": 2012
+		},
+		{
+			"sections_title": "inventing canada",
+			"sections_instructor": "miller, bradley",
+			"sections_dept": "hist",
+			"sections_year": 2013
+		},
+		{
+			"sections_title": "rsrch devel proj",
+			"sections_instructor": "blok, hendrik;doebeli, michael walter;evans, robert james",
+			"sections_dept": "isci",
+			"sections_year": 2011
+		},
+		{
+			"sections_title": "rsrch devel proj",
+			"sections_instructor": "",
+			"sections_dept": "isci",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "darwin medicine",
+			"sections_instructor": "aviles, leticia",
+			"sections_dept": "isci",
+			"sections_year": 2011
+		},
+		{
+			"sections_title": "darwin medicine",
+			"sections_instructor": "",
+			"sections_dept": "isci",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "intmed japn iib",
+			"sections_instructor": "kim, ihhwa",
+			"sections_dept": "japn",
+			"sections_year": 2007
+		},
+		{
+			"sections_title": "antmy & physi ii",
+			"sections_instructor": "",
+			"sections_dept": "kin",
+			"sections_year": 2012
+		},
+		{
+			"sections_title": "intro corp finan",
+			"sections_instructor": "",
+			"sections_dept": "law",
+			"sections_year": 2009
+		},
+		{
+			"sections_title": "info org mgmt",
+			"sections_instructor": "robertson, guy",
+			"sections_dept": "libr",
+			"sections_year": 2010
+		},
+		{
+			"sections_title": "int calc ap ph s",
+			"sections_instructor": "ye, hexi",
+			"sections_dept": "math",
+			"sections_year": 2014
+		},
+		{
+			"sections_title": "int calc ap c&ss",
+			"sections_instructor": "wade, richard",
+			"sections_dept": "math",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "int calc ap c&ss",
+			"sections_instructor": "",
+			"sections_dept": "math",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "int calc ap c&ss",
+			"sections_instructor": "anstee, richard",
+			"sections_dept": "math",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "int calc ap c&ss",
+			"sections_instructor": "yeager, elyse",
+			"sections_dept": "math",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "int calc ap c&ss",
+			"sections_instructor": "yilmaz, ozgur",
+			"sections_dept": "math",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "int calc ap c&ss",
+			"sections_instructor": "",
+			"sections_dept": "math",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "int calc ap c&ss",
+			"sections_instructor": "liu, keqin",
+			"sections_dept": "math",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "int calc ap c&ss",
+			"sections_instructor": "yeager, elyse",
+			"sections_dept": "math",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "int calc ap c&ss",
+			"sections_instructor": "liu, keqin",
+			"sections_dept": "math",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "int calc ap c&ss",
+			"sections_instructor": "",
+			"sections_dept": "math",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "diff calculus",
+			"sections_instructor": "leung, fok-shuen;sargent, pamela;tba",
+			"sections_dept": "math",
+			"sections_year": 2013
+		},
+		{
+			"sections_title": "elem diff eq i",
+			"sections_instructor": "frigaard, ian",
+			"sections_dept": "math",
+			"sections_year": 2009
+		},
+		{
+			"sections_title": "matrix algebra",
+			"sections_instructor": "jia, johnson",
+			"sections_dept": "math",
+			"sections_year": 2010
+		},
+		{
+			"sections_title": "diff geometry i",
+			"sections_instructor": "",
+			"sections_dept": "math",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "mcht sys instrum",
+			"sections_instructor": "",
+			"sections_dept": "mech",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "indust robotics",
+			"sections_instructor": "",
+			"sections_dept": "mech",
+			"sections_year": 2008
+		},
+		{
+			"sections_title": "humn genom&genet",
+			"sections_instructor": "",
+			"sections_dept": "medg",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "thry var prim cr",
+			"sections_instructor": "lyons, jeanne;simmons, valerie",
+			"sections_dept": "midw",
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "main eng",
+			"sections_instructor": "",
+			"sections_dept": "mine",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "neuroscience i",
+			"sections_instructor": "",
+			"sections_dept": "nrsc",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "mod microscopy",
+			"sections_instructor": "",
+			"sections_dept": "path",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "intr to gen rela",
+			"sections_instructor": "",
+			"sections_dept": "phys",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "cond matter i",
+			"sections_instructor": "",
+			"sections_dept": "phys",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "sp rlvty & elcmg",
+			"sections_instructor": "oser, scott",
+			"sections_dept": "phys",
+			"sections_year": 2016
+		},
+		{
+			"sections_title": "sp rlvty & elcmg",
+			"sections_instructor": "",
+			"sections_dept": "phys",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "stat mechanics",
+			"sections_instructor": "zhou, fei",
+			"sections_dept": "phys",
+			"sections_year": 2016
+		},
+		{
+			"sections_title": "stat mechanics",
+			"sections_instructor": "",
+			"sections_dept": "phys",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "rdiothrpy phy i",
+			"sections_instructor": "baillie, alistair;beckham, wayne;duzenli, cheryl;milette, marie pierre",
+			"sections_dept": "phys",
+			"sections_year": 2016
+		},
+		{
+			"sections_title": "rdiothrpy phy i",
+			"sections_instructor": "",
+			"sections_dept": "phys",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "radioiso sci&med",
+			"sections_instructor": "kruecken, reiner",
+			"sections_dept": "phys",
+			"sections_year": 2016
+		},
+		{
+			"sections_title": "radioiso sci&med",
+			"sections_instructor": "",
+			"sections_dept": "phys",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "government can",
+			"sections_instructor": "kopas, paul",
+			"sections_dept": "poli",
+			"sections_year": 2009
+		},
+		{
+			"sections_title": "brain & behviour",
+			"sections_instructor": "",
+			"sections_dept": "psyc",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "behav assessment",
+			"sections_instructor": "brenner, colleen",
+			"sections_dept": "psyc",
+			"sections_year": 2014
+		},
+		{
+			"sections_title": "can soci plcy",
+			"sections_instructor": "",
+			"sections_dept": "sowk",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "fmly mdt&cnfl rs",
+			"sections_instructor": "",
+			"sections_dept": "sowk",
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "costume dsgn i",
+			"sections_instructor": "matthews, karen",
+			"sections_dept": "thtr",
+			"sections_year": 2010
+		}
+	]
+}

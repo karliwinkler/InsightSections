@@ -1,0 +1,29 @@
+{
+	"title": "Query with 0 results",
+	"input": {
+		"WHERE": {
+			"AND": [
+				{
+					"GT": {
+						"sections_avg": 80
+					}
+				},
+				{
+					"IS": {
+						"sections_dept": "MATH"
+					}
+				}
+			]
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_dept",
+				"sections_avg",
+				"sections_id"
+			],
+			"ORDER": "sections_dept"
+		}
+	},
+	"errorExpected": false,
+	"expected": []
+}

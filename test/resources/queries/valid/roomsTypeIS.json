@@ -1,0 +1,652 @@
+{
+	"title": "Rooms type IS",
+	"input": {
+		"WHERE": {
+			"IS": {
+				"rooms_type": "Small Group"
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"rooms_shortname",
+				"rooms_type"
+			],
+			"ORDER": "rooms_shortname"
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"rooms_shortname": "ANGU",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "ANGU",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "ANGU",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "ANGU",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "ANSO",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "ANSO",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "ANSO",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "AUDX",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "AUDX",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "BIOL",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "BIOL",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "BUCH",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "BUCH",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "BUCH",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "BUCH",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "BUCH",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "BUCH",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "BUCH",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "BUCH",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "BUCH",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "BUCH",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "BUCH",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "BUCH",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "BUCH",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "BUCH",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "BUCH",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "BUCH",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "BUCH",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "BUCH",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "BUCH",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "BUCH",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "BUCH",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "BUCH",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "BUCH",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "BUCH",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "BUCH",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "BUCH",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "BUCH",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "CEME",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "CEME",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "DMP",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "DMP",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "FNH",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "FNH",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "FNH",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "FORW",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "FORW",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "FSC",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "FSC",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "FSC",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "FSC",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "FSC",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "FSC",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "GEOG",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "GEOG",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "HENN",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "HENN",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "HENN",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "IBLC",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "IBLC",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "IBLC",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "IBLC",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "IBLC",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "IBLC",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "IBLC",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "IBLC",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "IBLC",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "IBLC",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "IBLC",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "IBLC",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "IBLC",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "IBLC",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "IBLC",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "LASR",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "LASR",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "MATH",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "MATH",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "MATH",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "MCLD",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "MCML",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "MCML",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "MCML",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "MCML",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "MCML",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "MCML",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "MCML",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "MCML",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "MCML",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "MCML",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "MCML",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "MCML",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "MCML",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "MCML",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "MCML",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "OSBO",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "OSBO",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "PCOH",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "PCOH",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "PCOH",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "PCOH",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "PCOH",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "PHRM",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "PHRM",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "PHRM",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "PHRM",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "PHRM",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "PHRM",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "PHRM",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "PHRM",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "SCRF",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "SCRF",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "SCRF",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "SCRF",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "SCRF",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "SCRF",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "SCRF",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "SCRF",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "SCRF",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "SCRF",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "SCRF",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "SCRF",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "SCRF",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "SCRF",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "SCRF",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "SCRF",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "SCRF",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "SCRF",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "SCRF",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "SCRF",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "SCRF",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "SOWK",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "SOWK",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "SOWK",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "SPPH",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "SPPH",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "SPPH",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "SPPH",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "SPPH",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "SWNG",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "SWNG",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "SWNG",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "SWNG",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "SWNG",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "SWNG",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "SWNG",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "SWNG",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "SWNG",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "UCLL",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "WOOD",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "WOOD",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "WOOD",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "WOOD",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "WOOD",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "WOOD",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "WOOD",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "WOOD",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "WOOD",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_shortname": "WOOD",
+			"rooms_type": "Small Group"
+		}
+	]
+}

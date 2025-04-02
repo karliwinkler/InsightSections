@@ -1,0 +1,276 @@
+{
+	"title": "test AVG rounding",
+	"input": {
+		"WHERE": {
+			"IS": {
+				"rooms_shortname": "BUCH"
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"rooms_number",
+				"exactAvg"
+			],
+			"ORDER": "rooms_number"
+		},
+		"TRANSFORMATIONS": {
+			"GROUP": [
+				"rooms_number"
+			],
+			"APPLY": [
+				{
+					"exactAvg": {
+						"AVG": "rooms_lat"
+					}
+				}
+			]
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"rooms_number": "A101",
+			"exactAvg": 49.27
+		},
+		{
+			"rooms_number": "A102",
+			"exactAvg": 49.27
+		},
+		{
+			"rooms_number": "A103",
+			"exactAvg": 49.27
+		},
+		{
+			"rooms_number": "A104",
+			"exactAvg": 49.27
+		},
+		{
+			"rooms_number": "A201",
+			"exactAvg": 49.27
+		},
+		{
+			"rooms_number": "A202",
+			"exactAvg": 49.27
+		},
+		{
+			"rooms_number": "A203",
+			"exactAvg": 49.27
+		},
+		{
+			"rooms_number": "B141",
+			"exactAvg": 49.27
+		},
+		{
+			"rooms_number": "B142",
+			"exactAvg": 49.27
+		},
+		{
+			"rooms_number": "B208",
+			"exactAvg": 49.27
+		},
+		{
+			"rooms_number": "B209",
+			"exactAvg": 49.27
+		},
+		{
+			"rooms_number": "B210",
+			"exactAvg": 49.27
+		},
+		{
+			"rooms_number": "B211",
+			"exactAvg": 49.27
+		},
+		{
+			"rooms_number": "B213",
+			"exactAvg": 49.27
+		},
+		{
+			"rooms_number": "B215",
+			"exactAvg": 49.27
+		},
+		{
+			"rooms_number": "B216",
+			"exactAvg": 49.27
+		},
+		{
+			"rooms_number": "B218",
+			"exactAvg": 49.27
+		},
+		{
+			"rooms_number": "B219",
+			"exactAvg": 49.27
+		},
+		{
+			"rooms_number": "B302",
+			"exactAvg": 49.27
+		},
+		{
+			"rooms_number": "B303",
+			"exactAvg": 49.27
+		},
+		{
+			"rooms_number": "B304",
+			"exactAvg": 49.27
+		},
+		{
+			"rooms_number": "B306",
+			"exactAvg": 49.27
+		},
+		{
+			"rooms_number": "B307",
+			"exactAvg": 49.27
+		},
+		{
+			"rooms_number": "B308",
+			"exactAvg": 49.27
+		},
+		{
+			"rooms_number": "B309",
+			"exactAvg": 49.27
+		},
+		{
+			"rooms_number": "B310",
+			"exactAvg": 49.27
+		},
+		{
+			"rooms_number": "B312",
+			"exactAvg": 49.27
+		},
+		{
+			"rooms_number": "B313",
+			"exactAvg": 49.27
+		},
+		{
+			"rooms_number": "B315",
+			"exactAvg": 49.27
+		},
+		{
+			"rooms_number": "B316",
+			"exactAvg": 49.27
+		},
+		{
+			"rooms_number": "B318",
+			"exactAvg": 49.27
+		},
+		{
+			"rooms_number": "B319",
+			"exactAvg": 49.27
+		},
+		{
+			"rooms_number": "D201",
+			"exactAvg": 49.27
+		},
+		{
+			"rooms_number": "D204",
+			"exactAvg": 49.27
+		},
+		{
+			"rooms_number": "D205",
+			"exactAvg": 49.27
+		},
+		{
+			"rooms_number": "D207",
+			"exactAvg": 49.27
+		},
+		{
+			"rooms_number": "D209",
+			"exactAvg": 49.27
+		},
+		{
+			"rooms_number": "D213",
+			"exactAvg": 49.27
+		},
+		{
+			"rooms_number": "D214",
+			"exactAvg": 49.27
+		},
+		{
+			"rooms_number": "D216",
+			"exactAvg": 49.27
+		},
+		{
+			"rooms_number": "D217",
+			"exactAvg": 49.27
+		},
+		{
+			"rooms_number": "D218",
+			"exactAvg": 49.27
+		},
+		{
+			"rooms_number": "D219",
+			"exactAvg": 49.27
+		},
+		{
+			"rooms_number": "D221",
+			"exactAvg": 49.27
+		},
+		{
+			"rooms_number": "D222",
+			"exactAvg": 49.27
+		},
+		{
+			"rooms_number": "D228",
+			"exactAvg": 49.27
+		},
+		{
+			"rooms_number": "D229",
+			"exactAvg": 49.27
+		},
+		{
+			"rooms_number": "D301",
+			"exactAvg": 49.27
+		},
+		{
+			"rooms_number": "D304",
+			"exactAvg": 49.27
+		},
+		{
+			"rooms_number": "D306",
+			"exactAvg": 49.27
+		},
+		{
+			"rooms_number": "D307",
+			"exactAvg": 49.27
+		},
+		{
+			"rooms_number": "D312",
+			"exactAvg": 49.27
+		},
+		{
+			"rooms_number": "D313",
+			"exactAvg": 49.27
+		},
+		{
+			"rooms_number": "D314",
+			"exactAvg": 49.27
+		},
+		{
+			"rooms_number": "D315",
+			"exactAvg": 49.27
+		},
+		{
+			"rooms_number": "D316",
+			"exactAvg": 49.27
+		},
+		{
+			"rooms_number": "D317",
+			"exactAvg": 49.27
+		},
+		{
+			"rooms_number": "D319",
+			"exactAvg": 49.27
+		},
+		{
+			"rooms_number": "D322",
+			"exactAvg": 49.27
+		},
+		{
+			"rooms_number": "D323",
+			"exactAvg": 49.27
+		},
+		{
+			"rooms_number": "D325",
+			"exactAvg": 49.27
+		}
+	]
+}

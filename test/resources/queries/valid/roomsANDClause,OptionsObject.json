@@ -1,0 +1,106 @@
+{
+	"title": "Rooms AND clause, options object",
+	"input": {
+		"WHERE": {
+			"AND": [
+				{
+					"IS": {
+						"rooms_furniture": "*Tables*"
+					}
+				},
+				{
+					"GT": {
+						"rooms_lat": 49.26826
+					}
+				}
+			]
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"rooms_shortname",
+				"rooms_lat"
+			],
+			"ORDER": {
+				"dir": "DOWN",
+				"keys": [
+					"rooms_lat"
+				]
+			}
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"rooms_shortname": "IONA",
+			"rooms_lat": 49.27106
+		},
+		{
+			"rooms_shortname": "IONA",
+			"rooms_lat": 49.27106
+		},
+		{
+			"rooms_shortname": "ALRD",
+			"rooms_lat": 49.2699
+		},
+		{
+			"rooms_shortname": "ALRD",
+			"rooms_lat": 49.2699
+		},
+		{
+			"rooms_shortname": "ALRD",
+			"rooms_lat": 49.2699
+		},
+		{
+			"rooms_shortname": "ALRD",
+			"rooms_lat": 49.2699
+		},
+		{
+			"rooms_shortname": "ALRD",
+			"rooms_lat": 49.2699
+		},
+		{
+			"rooms_shortname": "ANSO",
+			"rooms_lat": 49.26958
+		},
+		{
+			"rooms_shortname": "ANSO",
+			"rooms_lat": 49.26958
+		},
+		{
+			"rooms_shortname": "ANSO",
+			"rooms_lat": 49.26958
+		},
+		{
+			"rooms_shortname": "UCLL",
+			"rooms_lat": 49.26867
+		},
+		{
+			"rooms_shortname": "UCLL",
+			"rooms_lat": 49.26867
+		},
+		{
+			"rooms_shortname": "UCLL",
+			"rooms_lat": 49.26867
+		},
+		{
+			"rooms_shortname": "BRKX",
+			"rooms_lat": 49.26862
+		},
+		{
+			"rooms_shortname": "BRKX",
+			"rooms_lat": 49.26862
+		},
+		{
+			"rooms_shortname": "SRC",
+			"rooms_lat": 49.2683
+		},
+		{
+			"rooms_shortname": "SRC",
+			"rooms_lat": 49.2683
+		},
+		{
+			"rooms_shortname": "SRC",
+			"rooms_lat": 49.2683
+		}
+	]
+}

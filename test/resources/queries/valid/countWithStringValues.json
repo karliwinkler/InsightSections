@@ -1,0 +1,209 @@
+{
+	"title": "Count with String values",
+	"input": {
+		"WHERE": {},
+		"OPTIONS": {
+			"COLUMNS": [
+				"rooms_shortname",
+				"furnitureTypes"
+			],
+			"ORDER": {
+				"dir": "DOWN",
+				"keys": [
+					"furnitureTypes"
+				]
+			}
+		},
+		"TRANSFORMATIONS": {
+			"GROUP": [
+				"rooms_shortname"
+			],
+			"APPLY": [
+				{
+					"furnitureTypes": {
+						"COUNT": "rooms_furniture"
+					}
+				}
+			]
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"rooms_shortname": "BUCH",
+			"furnitureTypes": 7
+		},
+		{
+			"rooms_shortname": "IBLC",
+			"furnitureTypes": 5
+		},
+		{
+			"rooms_shortname": "ORCH",
+			"furnitureTypes": 5
+		},
+		{
+			"rooms_shortname": "LASR",
+			"furnitureTypes": 4
+		},
+		{
+			"rooms_shortname": "GEOG",
+			"furnitureTypes": 4
+		},
+		{
+			"rooms_shortname": "MCML",
+			"furnitureTypes": 4
+		},
+		{
+			"rooms_shortname": "WOOD",
+			"furnitureTypes": 4
+		},
+		{
+			"rooms_shortname": "ANSO",
+			"furnitureTypes": 3
+		},
+		{
+			"rooms_shortname": "BIOL",
+			"furnitureTypes": 3
+		},
+		{
+			"rooms_shortname": "CEME",
+			"furnitureTypes": 3
+		},
+		{
+			"rooms_shortname": "ESB",
+			"furnitureTypes": 3
+		},
+		{
+			"rooms_shortname": "FNH",
+			"furnitureTypes": 3
+		},
+		{
+			"rooms_shortname": "FSC",
+			"furnitureTypes": 3
+		},
+		{
+			"rooms_shortname": "MATH",
+			"furnitureTypes": 3
+		},
+		{
+			"rooms_shortname": "SCRF",
+			"furnitureTypes": 3
+		},
+		{
+			"rooms_shortname": "PCOH",
+			"furnitureTypes": 3
+		},
+		{
+			"rooms_shortname": "UCLL",
+			"furnitureTypes": 3
+		},
+		{
+			"rooms_shortname": "SWNG",
+			"furnitureTypes": 3
+		},
+		{
+			"rooms_shortname": "ALRD",
+			"furnitureTypes": 2
+		},
+		{
+			"rooms_shortname": "BRKX",
+			"furnitureTypes": 2
+		},
+		{
+			"rooms_shortname": "CHBE",
+			"furnitureTypes": 2
+		},
+		{
+			"rooms_shortname": "FORW",
+			"furnitureTypes": 2
+		},
+		{
+			"rooms_shortname": "HEBB",
+			"furnitureTypes": 2
+		},
+		{
+			"rooms_shortname": "HENN",
+			"furnitureTypes": 2
+		},
+		{
+			"rooms_shortname": "ANGU",
+			"furnitureTypes": 2
+		},
+		{
+			"rooms_shortname": "DMP",
+			"furnitureTypes": 2
+		},
+		{
+			"rooms_shortname": "IONA",
+			"furnitureTypes": 2
+		},
+		{
+			"rooms_shortname": "SOWK",
+			"furnitureTypes": 2
+		},
+		{
+			"rooms_shortname": "LSK",
+			"furnitureTypes": 2
+		},
+		{
+			"rooms_shortname": "MCLD",
+			"furnitureTypes": 2
+		},
+		{
+			"rooms_shortname": "PHRM",
+			"furnitureTypes": 2
+		},
+		{
+			"rooms_shortname": "OSBO",
+			"furnitureTypes": 2
+		},
+		{
+			"rooms_shortname": "SPPH",
+			"furnitureTypes": 2
+		},
+		{
+			"rooms_shortname": "AERL",
+			"furnitureTypes": 1
+		},
+		{
+			"rooms_shortname": "AUDX",
+			"furnitureTypes": 1
+		},
+		{
+			"rooms_shortname": "CIRS",
+			"furnitureTypes": 1
+		},
+		{
+			"rooms_shortname": "CHEM",
+			"furnitureTypes": 1
+		},
+		{
+			"rooms_shortname": "EOSM",
+			"furnitureTypes": 1
+		},
+		{
+			"rooms_shortname": "FRDM",
+			"furnitureTypes": 1
+		},
+		{
+			"rooms_shortname": "LSC",
+			"furnitureTypes": 1
+		},
+		{
+			"rooms_shortname": "MATX",
+			"furnitureTypes": 1
+		},
+		{
+			"rooms_shortname": "SRC",
+			"furnitureTypes": 1
+		},
+		{
+			"rooms_shortname": "MGYM",
+			"furnitureTypes": 1
+		},
+		{
+			"rooms_shortname": "WESB",
+			"furnitureTypes": 1
+		}
+	]
+}

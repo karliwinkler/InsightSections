@@ -1,0 +1,441 @@
+{
+	"title": "Sections Q tests SUM",
+	"input": {
+		"WHERE": {
+			"GT": {
+				"sections_avg": 90
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_dept",
+				"sumAvg"
+			],
+			"ORDER": {
+				"dir": "DOWN",
+				"keys": [
+					"sumAvg"
+				]
+			}
+		},
+		"TRANSFORMATIONS": {
+			"GROUP": [
+				"sections_dept"
+			],
+			"APPLY": [
+				{
+					"sumAvg": {
+						"SUM": "sections_avg"
+					}
+				}
+			]
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_dept": "epse",
+			"sumAvg": 53939.06
+		},
+		{
+			"sections_dept": "cnps",
+			"sumAvg": 16952.66
+		},
+		{
+			"sections_dept": "etec",
+			"sumAvg": 15354.04
+		},
+		{
+			"sections_dept": "math",
+			"sumAvg": 14915.94
+		},
+		{
+			"sections_dept": "nurs",
+			"sumAvg": 10342.88
+		},
+		{
+			"sections_dept": "audi",
+			"sumAvg": 9571.81
+		},
+		{
+			"sections_dept": "spph",
+			"sumAvg": 8340.17
+		},
+		{
+			"sections_dept": "edcp",
+			"sumAvg": 8161.06
+		},
+		{
+			"sections_dept": "edst",
+			"sumAvg": 6631.07
+		},
+		{
+			"sections_dept": "eece",
+			"sumAvg": 6505.6
+		},
+		{
+			"sections_dept": "kin",
+			"sumAvg": 6362.65
+		},
+		{
+			"sections_dept": "psyc",
+			"sumAvg": 5811.12
+		},
+		{
+			"sections_dept": "phar",
+			"sumAvg": 5565.7
+		},
+		{
+			"sections_dept": "crwr",
+			"sumAvg": 5540.25
+		},
+		{
+			"sections_dept": "econ",
+			"sumAvg": 5408.93
+		},
+		{
+			"sections_dept": "musc",
+			"sumAvg": 4739.33
+		},
+		{
+			"sections_dept": "sowk",
+			"sumAvg": 4318.92
+		},
+		{
+			"sections_dept": "cpsc",
+			"sumAvg": 4047.95
+		},
+		{
+			"sections_dept": "eosc",
+			"sumAvg": 4001.57
+		},
+		{
+			"sections_dept": "phys",
+			"sumAvg": 3946.65
+		},
+		{
+			"sections_dept": "plan",
+			"sumAvg": 3864.02
+		},
+		{
+			"sections_dept": "cell",
+			"sumAvg": 3489.38
+		},
+		{
+			"sections_dept": "civl",
+			"sumAvg": 3375.7
+		},
+		{
+			"sections_dept": "path",
+			"sumAvg": 3284.53
+		},
+		{
+			"sections_dept": "educ",
+			"sumAvg": 3047.67
+		},
+		{
+			"sections_dept": "mech",
+			"sumAvg": 2930.57
+		},
+		{
+			"sections_dept": "chbe",
+			"sumAvg": 2846.35
+		},
+		{
+			"sections_dept": "pcth",
+			"sumAvg": 2649.1
+		},
+		{
+			"sections_dept": "midw",
+			"sumAvg": 2592
+		},
+		{
+			"sections_dept": "thtr",
+			"sumAvg": 2561.92
+		},
+		{
+			"sections_dept": "mine",
+			"sumAvg": 2400.7
+		},
+		{
+			"sections_dept": "biol",
+			"sumAvg": 2375.94
+		},
+		{
+			"sections_dept": "medg",
+			"sumAvg": 2375.74
+		},
+		{
+			"sections_dept": "frst",
+			"sumAvg": 2295.53
+		},
+		{
+			"sections_dept": "dent",
+			"sumAvg": 2283.2
+		},
+		{
+			"sections_dept": "medi",
+			"sumAvg": 2205.58
+		},
+		{
+			"sections_dept": "lled",
+			"sumAvg": 2192.73
+		},
+		{
+			"sections_dept": "apsc",
+			"sumAvg": 2035.17
+		},
+		{
+			"sections_dept": "micb",
+			"sumAvg": 1838.92
+		},
+		{
+			"sections_dept": "rhsc",
+			"sumAvg": 1830.36
+		},
+		{
+			"sections_dept": "hgse",
+			"sumAvg": 1669.58
+		},
+		{
+			"sections_dept": "phth",
+			"sumAvg": 1471.2
+		},
+		{
+			"sections_dept": "fnh",
+			"sumAvg": 1371.53
+		},
+		{
+			"sections_dept": "adhe",
+			"sumAvg": 1370.83
+		},
+		{
+			"sections_dept": "dhyg",
+			"sumAvg": 1280.86
+		},
+		{
+			"sections_dept": "chem",
+			"sumAvg": 1279.48
+		},
+		{
+			"sections_dept": "eced",
+			"sumAvg": 1198.82
+		},
+		{
+			"sections_dept": "arst",
+			"sumAvg": 1117.68
+		},
+		{
+			"sections_dept": "surg",
+			"sumAvg": 1108.7
+		},
+		{
+			"sections_dept": "stat",
+			"sumAvg": 1105.24
+		},
+		{
+			"sections_dept": "libr",
+			"sumAvg": 1105.1
+		},
+		{
+			"sections_dept": "onco",
+			"sumAvg": 1099.2
+		},
+		{
+			"sections_dept": "fish",
+			"sumAvg": 1095.2
+		},
+		{
+			"sections_dept": "mtrl",
+			"sumAvg": 1025.22
+		},
+		{
+			"sections_dept": "zool",
+			"sumAvg": 916.06
+		},
+		{
+			"sections_dept": "bmeg",
+			"sumAvg": 835.1
+		},
+		{
+			"sections_dept": "chil",
+			"sumAvg": 823.17
+		},
+		{
+			"sections_dept": "comm",
+			"sumAvg": 752.52
+		},
+		{
+			"sections_dept": "biof",
+			"sumAvg": 737.9
+		},
+		{
+			"sections_dept": "libe",
+			"sumAvg": 725.99
+		},
+		{
+			"sections_dept": "bioc",
+			"sumAvg": 722.5
+		},
+		{
+			"sections_dept": "ceen",
+			"sumAvg": 644.69
+		},
+		{
+			"sections_dept": "arth",
+			"sumAvg": 640.83
+		},
+		{
+			"sections_dept": "obst",
+			"sumAvg": 552.66
+		},
+		{
+			"sections_dept": "phil",
+			"sumAvg": 550.16
+		},
+		{
+			"sections_dept": "bota",
+			"sumAvg": 547.42
+		},
+		{
+			"sections_dept": "cons",
+			"sumAvg": 541.4
+		},
+		{
+			"sections_dept": "elec",
+			"sumAvg": 465.38
+		},
+		{
+			"sections_dept": "anth",
+			"sumAvg": 458.42
+		},
+		{
+			"sections_dept": "phrm",
+			"sumAvg": 372.58
+		},
+		{
+			"sections_dept": "itst",
+			"sumAvg": 371.5
+		},
+		{
+			"sections_dept": "larc",
+			"sumAvg": 369.74
+		},
+		{
+			"sections_dept": "span",
+			"sumAvg": 369.7
+		},
+		{
+			"sections_dept": "anat",
+			"sumAvg": 367.34
+		},
+		{
+			"sections_dept": "sans",
+			"sumAvg": 365.58
+		},
+		{
+			"sections_dept": "astr",
+			"sumAvg": 365.3
+		},
+		{
+			"sections_dept": "russ",
+			"sumAvg": 365.27
+		},
+		{
+			"sections_dept": "name",
+			"sumAvg": 364.64
+		},
+		{
+			"sections_dept": "soil",
+			"sumAvg": 364.28
+		},
+		{
+			"sections_dept": "rsot",
+			"sumAvg": 364.18
+		},
+		{
+			"sections_dept": "bams",
+			"sumAvg": 363.4
+		},
+		{
+			"sections_dept": "hinu",
+			"sumAvg": 277.44
+		},
+		{
+			"sections_dept": "fopr",
+			"sumAvg": 271.88
+		},
+		{
+			"sections_dept": "fipr",
+			"sumAvg": 192.8
+		},
+		{
+			"sections_dept": "aanb",
+			"sumAvg": 188.88
+		},
+		{
+			"sections_dept": "ccst",
+			"sumAvg": 187.34
+		},
+		{
+			"sections_dept": "gpp",
+			"sumAvg": 186.08
+		},
+		{
+			"sections_dept": "hist",
+			"sumAvg": 186
+		},
+		{
+			"sections_dept": "germ",
+			"sumAvg": 184.5
+		},
+		{
+			"sections_dept": "ling",
+			"sumAvg": 184.5
+		},
+		{
+			"sections_dept": "atsc",
+			"sumAvg": 184
+		},
+		{
+			"sections_dept": "ital",
+			"sumAvg": 183
+		},
+		{
+			"sections_dept": "babs",
+			"sumAvg": 182.76
+		},
+		{
+			"sections_dept": "hunu",
+			"sumAvg": 182.66
+		},
+		{
+			"sections_dept": "lfs",
+			"sumAvg": 181.66
+		},
+		{
+			"sections_dept": "food",
+			"sumAvg": 181.36
+		},
+		{
+			"sections_dept": "nrsc",
+			"sumAvg": 181.34
+		},
+		{
+			"sections_dept": "cohr",
+			"sumAvg": 180.92
+		},
+		{
+			"sections_dept": "isci",
+			"sumAvg": 180.88
+		},
+		{
+			"sections_dept": "gsat",
+			"sumAvg": 180.58
+		},
+		{
+			"sections_dept": "apbi",
+			"sumAvg": 91.86
+		}
+	]
+}
